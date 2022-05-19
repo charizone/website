@@ -30,6 +30,9 @@ class CZBlog(BasePlugin):
                 else:
                     page_name = page_entry
                 for f in files:
+                    if navtype == "articles":
+                        print(os.path.normpath(f.src_path))
+                        print(os.path.normpath(page_name))
                     if os.path.normpath(f.src_path) != os.path.normpath(page_name):
                         continue
                     if not page_title:
