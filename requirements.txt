@@ -4,6 +4,8 @@
 #
 #    pip-compile
 #
+-e file:./cz_blog
+    # via -r requirements.in
 click==8.1.3
     # via mkdocs
 colorama==0.4.4
