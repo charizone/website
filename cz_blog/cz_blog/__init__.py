@@ -47,6 +47,7 @@ class CZBlog(BasePlugin):
             env.globals[navtype] = {
                 title: f.page for title, f in config.get(navtype, {}).items()
             }
+            print(env.globals[navtype])
         if isinstance(config.get("privacy"), File):
             env.globals["privacy"] = config["privacy"].page
         return env
