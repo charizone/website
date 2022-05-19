@@ -1,3 +1,4 @@
+import logging
 import os.path
 
 from mkdocs.plugins import BasePlugin
@@ -6,10 +7,10 @@ from mkdocs.structure.pages import Page
 from mkdocs.structure.files import File
 from mkdocs.structure.nav import _data_to_navigation
 
-NAVTYPES = (
-    # "articles",
-    "footernav",
-)
+NAVTYPES = ("footernav",)
+
+
+log = logging.getLogger("mkdocs")
 
 
 class CZBlog(BasePlugin):
@@ -28,20 +29,30 @@ class CZBlog(BasePlugin):
             self.blog_files["articles"] = []
             for file in files.documentation_pages():
                 if os.path.normpath(file.src_path).startswith(
-                    self.config["articles_folder"] + "\\"
+                    self.config["articles_folder"] + os.path.sep
                 ):
                     self.blog_files["articles"].append(Page(None, file, config))
+            log.info("Found {:,.0f} articles".format(len(self.blog_files["articles"])))
 
         for navtype in NAVTYPES:
             if self.config.get(navtype):
                 self.blog_files[navtype] = _data_to_navigation(
                     self.config[navtype], files, config
                 )
+                log.info(
+                    "Found {:,.0f} items in {} navigation".format(
+                        len(self.blog_files[navtype]), navtype
+                    )
+                )
 
         if isinstance(self.config.get("privacy"), str):
             self.blog_files["privacy"] = _data_to_navigation(
                 self.config["privacy"], files, config
             )
+            if self.blog_files["privacy"]:
+                log.info(
+                    "Found privacy page: {}".format(self.blog_files["privacy"].url)
+                )
 
     def on_env(self, env, config, files):
         env.globals.update(self.blog_files)
