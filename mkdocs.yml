@@ -1,0 +1,24 @@
+site_name: Charizone
+theme:
+  name: null
+  custom_dir: cz_theme
+plugins:
+  - cz_blog
+nav:
+  - Charizone: 'index.md'
+  - About: 'about.md'
+  - Our Methodology: 'our-methodology.md'
+  - Articles and Insights: 'articles.md'
+footernav:
+  - Read our FAQs: 'about.md'
+  - About Charizone: 'about.md'
+  - Our Methodology: 'our-methodology.md'
+articles:
+  - 'articles\2022-05-19-test-blog-post.md'
+watch:
+  - cz_theme
+  - cz_blog
+extra:
+  twitter: https://twitter.com/charizone
+  linkedin: https://linkedin.com/charizone
+privacy: 'privacy.md'

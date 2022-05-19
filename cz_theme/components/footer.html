@@ -1,0 +1,50 @@
+<footer class="">
+    <div class="container grid">
+        <div class="column-span-4">
+            <img src="/static/images/Footer_CharizoneLogo.svg" />
+            <nav class="social">
+                <ul>
+                    {% if config.extra.twitter %}
+                    <li>
+                        <a href="{{ config.extra.twitter }}"><img src="/static/images/Footer_Twitter.svg" /></a>
+                    </li>
+                    {% endif %}
+                    {% if config.extra.linkedin %}
+                    <li>
+                        <a href="{{ config.extra.linkedin }}"><img src="/static/images/Footer_LinkedIn.svg" /></a>
+                    </li>
+                    {% endif %}
+                    {% if config.extra.instagram %}
+                    <li>
+                        <a href="{{ config.extra.instagram }}"><img src="/static/images/Footer_Instagram.svg" /></a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+        <div class="column-span-3">
+            <p>Charizone Ltd.</p>
+            <p>Charity comparison for philanthropists and wealth managers</p>
+            <p class="mt4">&copy; 2022 Charizone ltd.</p>
+            <p>All rights reserved</p>
+            {% if privacy %}
+            <p class="mt4"><a href="{{ privacy.url|url }}">Privacy and cookie policy</a></p>
+            {% endif %}
+        </div>
+        <div class="column-span-4 column-offset-9">
+            <p>Address line 1, address line 2</p>
+            <p>Address line 3, address line 4</p>
+            <p class="mt4">Phone number goes here</p>
+            <p><a href="mailto:hello@charizone.co.uk">hello@charizone.co.uk</a></p>
+        </div>
+        <div class="column-span-8 column-offset-5">
+            <nav>
+                <ul>
+                    {% for nav_title, nav_item in footernav.items() %}
+                    <li><a href="{{ nav_item.url|url }}">{{ nav_title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>

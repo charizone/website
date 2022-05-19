@@ -1,0 +1,30 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<header class="hero {{ page.meta.colour|default('navy') }}">
+    <div class="container grid">
+        <div class="column-span-5 column-offset-2">
+            <h1>
+                <span class="color-light-blue">Our latest</span><br> insights, articles and opinion pieces.
+            </h1>
+        </div>
+    </div>
+</header>
+<section class="container ">
+    <div class="grid">
+        {% for article in articles.values() %}
+        <div class="column-span-4">
+            <div class="insightbox">
+                <a href="{{ article.url|url }}">
+                    <img src="/static/images/Placeholders/pexels-brett-sayles-2526419.jpg" />
+                    <h1>{{ article.title }}</h1>
+                </a>
+                <hr>
+                <p>{{ article.content|striptags|truncate }}</p>
+                <a href="{{ article.url|url }}" class="btn bg-governance color-white">Read</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

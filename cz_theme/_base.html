@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ '/style.css'|url }}" crossorigin="anonymous">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+  </head>
+  <body>
+    {% include 'components/topbar.html' %}
+    {% block content %}
+      {{ page.content }}
+    {% endblock %}
+    {% include 'components/getintouch.html' %}
+    {% include 'components/footer.html' %}
+  </body>
+</html>

@@ -1,0 +1,114 @@
+{% extends "_base.html" %}
+
+{% block content %}
+{% include 'components/hero.html' %}
+<section class="container ">
+    <div class="grid">
+        <div class="column-span-6">
+            <img src="/static/images/Home_CharityGraphic.png" style="margin-left: -70px;" alt="">
+        </div>
+        <div class="column-span-6">
+            <h2>Here's a question for you</h2>
+            <h1>Why do the largest charities, who only make up 10% of all charities, receive 90% of the UK's donations?</h1>
+            <p>
+                Even though 2022 plays host to more charities and non-profits than ever before, the organisations with the largest marketing budget still often end up with the lion’s share of the world’s donations.
+            </p>
+            <p>That’s why we empower our clients to use their wealth for good, by collating insights and analytics on charities from across the globe into easily-digestible reports focused on three core areas: each charity’s true impact on the world, their governance, and their finances.
+            </p>
+            <p>We're here to inspire philanthropists and wealth managers to give with confidence, and do good in the world.
+            </p>
+            <a href="#" class="btn bg-finance color-purple">See why we started Charizone</a>
+        </div>
+    </div>
+</section>
+<section class="bg-purple color-white">
+    <div class="container grid">
+        <figure class="column-span-12 tc">
+            <blockquote class="mb2">"Large marketing campaigns, show-stopping events, and successful fund-raisers don’t make a difference to our reports. Instead, our framework enables philanthropists, wealth managers, and other donors to make informed decisions - and be confident that their donation really is contributing to a better world."</blockquote>
+            <figcaption class="mb2 i">- Sarah Gammah, Charizone Founder</figcaption>
+            <a href="#" class="btn bg-governance color-white">View our methodology</a>
+        </figure>
+    </div>
+</section>
+<section class="container">
+    <div class=" grid">
+        <div class="column-span-12 tc">
+            <h1>How we can help you</h1>
+        </div>
+    </div>
+    <div class="grid">
+        <div class="column-span-4">
+            <div class="box tc">
+                <img src="/static/images/Home_Philanthropists.png" alt="">
+                <h1>Philanthropists and Wealth Managers</h1>
+                <p>Our reports condense a wide array of publicly available information into an easily-digestible format, enabling you to quickly compare different charities against you (or your client's) philanthropic strategy and values. These reports are designed to be used as an aid - to empower you to take your next steps with confidence.</p>
+                <a href="#" class="btn bg-coral color-white">Find out more</a>
+            </div>
+        </div>
+        <div class="column-span-4">
+            <div class="box tc">
+                <img src="/static/images/Home_Donors.png" alt="">
+                <h1>Donors, supporters and volunteers</h1>
+                <p>We offer 'summary' reports for all our charities, enabling you to get a quick overview of how much a charity aligns to your own values. Whether you're choosing to donate time or money, our summary tool will provide you with hand-picked information to help you to make the right decision - for you.</p>
+                <a href="#" class="btn bg-coral color-white">Find out more</a>
+            </div>
+        </div>
+        <div class="column-span-4">
+            <div class="box tc">
+                <img src="/static/images/Home_Charities.png" alt="">
+                <h1>Charities</h1>
+                <p>We use publicly available data for our charity reports, designed to help our clients to make informed decisions about the charities they support - levelling the playing field and giving every charity a fair chance for donations. Have a question about your report? Get in touch below.</p>
+                <a href="#" class="btn bg-coral color-white">Find out more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="big-grid pa0">
+    <div class="column-span-6 bg-finance tc pa5">
+        <h1 class="centre">We love</h1>
+        <img class="tc centre mb1" src="/static/images/Home_TheBigGive.png" alt="">
+            <a href="#" class="btn bg-governance color-white centre mt5">Read about our partnership</a>
+    </div>
+    <div class="column-span-6 bg-purple color-white tc pa5">
+        <h1 class="centre">We love</h1>
+        <img class="tc centre mb1" src="/static/images/Home_ChildhoodTrust.png" alt="">
+            <a href="#" class="btn bg-governance color-white centre mt5">Read about our partnership</a>
+    </div>
+</section>
+<section class="blue-brain bg-light-blue">
+    <div class="container grid">
+        <div class="column-span-8 column-offset-3 tc">
+            <h1 class="centre">We're just getting started</h1>
+            <p>With comprehensive reports on over 200 charities, we're off to a flying start. But our work doesn't stop there. Want to request a report or recommend a charity? <a href="#">Get in touch here</a>.</p>
+            <p class="tc">
+                <a href="#" class="btn bg-coral color-white centre mt5 mr4">Request a Report</a>
+                <a href="#" class="btn bg-purple color-white centre mt5">Get in touch to recommend a charity</a>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class=" grid">
+        <div class="column-span-12 tc">
+            <h1>Read our latest insights</h1>
+        </div>
+    </div>
+    <div class="grid">
+        {% for article in articles.values() %}
+        {% if loop.index <= 3 %}
+        <div class="column-span-4">
+            <div class="insightbox">
+                <a href="{{ article.url|url }}">
+                    <img src="/static/images/Placeholders/pexels-brett-sayles-2526419.jpg" />
+                    <h1>{{ article.title }}</h1>
+                </a>
+                <hr>
+                <p>{{ article.content|striptags|truncate }}</p>
+                <a href="{{ article.url|url }}" class="btn bg-governance color-white">Read</a>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<header class="hero {{ page.meta.colour|default('navy') }}">
+    <div class="container grid">
+        <div class="column-span-5 column-offset-2">
+            <h1>{{ page.title }}</h1>
+            {% if page.meta.author or page.meta.date %}
+            <hr>
+            <p class="author">
+            {% if page.meta.author %}{{ page.meta.author }}{% endif %}
+            {% if page.meta.author or page.meta.date %} &middot; {% endif %}
+            {% if page.meta.date %}
+            <time datetime="{{ page.meta.date }}">{{ "{:%d %b %Y}".format(page.meta.date) }}</time>
+            {% endif %}
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</header>
+<section class="container ">
+    <div class="grid">
+        <div class="column-span-12 prose">
+            {{ page.content }}
+        </div>
+    </div>
+</section>
+{% endblock %}
