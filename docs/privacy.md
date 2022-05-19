@@ -1,1 +1,1 @@
-# About Charizone
+# Privacy policy

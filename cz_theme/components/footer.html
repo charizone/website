@@ -40,8 +40,8 @@
         <div class="column-span-8 column-offset-5">
             <nav>
                 <ul>
-                    {% for nav_title, nav_item in footernav.items() %}
-                    <li><a href="{{ nav_item.url|url }}">{{ nav_title }}</a></li>
+                    {% for nav_item in footernav %}
+                    <li><a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a></li>
                     {% endfor %}
                 </ul>
             </nav>
