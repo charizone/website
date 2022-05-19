@@ -1,3 +1,5 @@
+import os.path
+
 from mkdocs.plugins import BasePlugin
 from mkdocs.config import config_options
 from mkdocs.structure.files import File
@@ -28,7 +30,7 @@ class CZBlog(BasePlugin):
                 else:
                     page_name = page_entry
                 for f in files:
-                    if f.src_path != page_name:
+                    if os.path.normpath(f.src_path) != os.path.normpath(page_name):
                         continue
                     if not page_title:
                         page_title = page_name
@@ -36,9 +38,10 @@ class CZBlog(BasePlugin):
 
             config[navtype] = pages
 
-        if config.get("privacy"):
+        if isinstance(config.get("privacy"), str):
+            privacy_location = config["privacy"]
             for f in files:
-                if f.src_path != config["privacy"]:
+                if os.path.normpath(f.src_path) != os.path.normpath(privacy_location):
                     continue
                 config["privacy"] = f
 
