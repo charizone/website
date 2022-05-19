@@ -18,6 +18,11 @@ class CZBlog(BasePlugin):
         ("privacy", config_options.Type(str, default=None)),
     )
 
+    def _get_file(self, files, filename):
+        for f in files:
+            if f.src_path.replace("/", "\\") == filename.replace("/", "\\"):
+                return f
+
     def on_files(self, files, config):
 
         for navtype in NAVTYPES:
@@ -29,24 +34,15 @@ class CZBlog(BasePlugin):
                     page_title, page_name = list(page_entry.items())[0]
                 else:
                     page_name = page_entry
-                for f in files:
-                    if navtype == "articles":
-                        print(os.path.normpath(f.src_path))
-                        print(os.path.normpath(page_name))
-                    if os.path.normpath(f.src_path) != os.path.normpath(page_name):
-                        continue
-                    if not page_title:
-                        page_title = page_name
-                    pages[page_title] = f
+                if not page_title:
+                    page_title = page_name
+                pages[page_title] = self._get_file(files, page_name)
 
             config[navtype] = pages
 
         if isinstance(config.get("privacy"), str):
             privacy_location = config["privacy"]
-            for f in files:
-                if os.path.normpath(f.src_path) != os.path.normpath(privacy_location):
-                    continue
-                config["privacy"] = f
+            config["privacy"] = self._get_file(files, config["privacy"])
 
     def on_env(self, env, config, files):
         for navtype in NAVTYPES:
