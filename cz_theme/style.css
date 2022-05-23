@@ -302,6 +302,12 @@ ol {
   margin: 0 30px;
 }
 
+@media (min-width: 768px) {
+  .container {
+    margin: 0 30px;
+  }
+}
+
 @media (min-width: 1447px) {
   .container {
     margin: 0 auto;
@@ -312,13 +318,11 @@ ol {
 .grid {
   display: grid;
   align-items: stretch;
-  grid-template-columns: repeat(12, 1fr);
   column-gap: 17px;
 }
 
 .big-grid {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
   column-gap: 0px;
 }
 
@@ -329,100 +333,85 @@ hr {
   border-bottom: none;
 }
 
-.column-span-1 {
-  grid-column-end: span 1;
-}
-
-.column-offset-1 {
-  grid-column-start: 1;
-}
-
-.column-span-2 {
-  grid-column-end: span 2;
-}
-
-.column-offset-2 {
-  grid-column-start: 2;
-}
-
-.column-span-3 {
-  grid-column-end: span 3;
-}
-
-.column-offset-3 {
-  grid-column-start: 3;
-}
-
-.column-span-4 {
-  grid-column-end: span 4;
-}
-
-.column-offset-4 {
-  grid-column-start: 4;
-}
-
-.column-span-5 {
-  grid-column-end: span 5;
-}
-
-.column-offset-5 {
-  grid-column-start: 5;
-}
-
-.column-span-6 {
-  grid-column-end: span 6;
-}
-
-.column-offset-6 {
-  grid-column-start: 6;
-}
-
-.column-span-7 {
-  grid-column-end: span 7;
-}
-
-.column-offset-7 {
-  grid-column-start: 7;
-}
-
-.column-span-8 {
-  grid-column-end: span 8;
-}
-
-.column-offset-8 {
-  grid-column-start: 8;
-}
-
-.column-span-9 {
-  grid-column-end: span 9;
-}
-
-.column-offset-9 {
-  grid-column-start: 9;
-}
-
-.column-span-10 {
-  grid-column-end: span 10;
-}
-
-.column-offset-10 {
-  grid-column-start: 10;
-}
-
-.column-span-11 {
-  grid-column-end: span 11;
-}
-
-.column-offset-11 {
-  grid-column-start: 11;
-}
-
-.column-span-12 {
-  grid-column-end: span 12;
-}
-
-.column-offset-12 {
-  grid-column-start: 12;
+@media screen and (min-width: 1447px) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .big-grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+  .column-span-1 {
+    grid-column-end: span 1;
+  }
+  .column-offset-1 {
+    grid-column-start: 1;
+  }
+  .column-span-2 {
+    grid-column-end: span 2;
+  }
+  .column-offset-2 {
+    grid-column-start: 2;
+  }
+  .column-span-3 {
+    grid-column-end: span 3;
+  }
+  .column-offset-3 {
+    grid-column-start: 3;
+  }
+  .column-span-4 {
+    grid-column-end: span 4;
+  }
+  .column-offset-4 {
+    grid-column-start: 4;
+  }
+  .column-span-5 {
+    grid-column-end: span 5;
+  }
+  .column-offset-5 {
+    grid-column-start: 5;
+  }
+  .column-span-6 {
+    grid-column-end: span 6;
+  }
+  .column-offset-6 {
+    grid-column-start: 6;
+  }
+  .column-span-7 {
+    grid-column-end: span 7;
+  }
+  .column-offset-7 {
+    grid-column-start: 7;
+  }
+  .column-span-8 {
+    grid-column-end: span 8;
+  }
+  .column-offset-8 {
+    grid-column-start: 8;
+  }
+  .column-span-9 {
+    grid-column-end: span 9;
+  }
+  .column-offset-9 {
+    grid-column-start: 9;
+  }
+  .column-span-10 {
+    grid-column-end: span 10;
+  }
+  .column-offset-10 {
+    grid-column-start: 10;
+  }
+  .column-span-11 {
+    grid-column-end: span 11;
+  }
+  .column-offset-11 {
+    grid-column-start: 11;
+  }
+  .column-span-12 {
+    grid-column-end: span 12;
+  }
+  .column-offset-12 {
+    grid-column-start: 12;
+  }
 }
 
 section {
@@ -2206,7 +2195,7 @@ a {
 
 .topbar > nav > ul > li {
   display: inline-block;
-  margin-right: 43px;
+  margin-left: 43px;
 }
 
 .topbar > nav > ul > li.active > a {
@@ -2348,20 +2337,30 @@ a {
 
 .getintouch form {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   column-gap: 17px;
   row-gap: 17px;
 }
 
 .getintouch form textarea {
-  grid-column: span 2;
   height: 227px;
 }
 
 .getintouch form .submit {
-  grid-column: span 2;
   text-align: right;
   padding-top: 17px;
+}
+
+@media screen and (min-width: 768px) {
+  .getintouch form {
+    grid-template-columns: 1fr 1fr;
+  }
+  .getintouch form textarea {
+    grid-column: span 2;
+  }
+  .getintouch form .submit {
+    grid-column: span 2;
+  }
 }
 
 .box {
@@ -2563,3 +2562,8 @@ footer nav ul li a {
 .pagination ul li.active > a {
   text-decoration: underline;
 }
+
+/* Media Queries */
+@custom-media --breakpoint-not-small screen and (min-width: 30em);
+@custom-media --breakpoint-medium screen and (min-width: 30em) and (max-width: 60em);
+@custom-media --breakpoint-large screen and (min-width: 60em);
