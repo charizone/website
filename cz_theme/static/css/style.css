@@ -72,6 +72,7 @@ h6 {
   --negative-color: #e04f70;
   --moderate-color: #ffad42;
   --positive-color: #59d3a0;
+  --light-grey-color: #f7f7f7;
   --grey-color: #f2f2f2;
   --mid-grey-color: #828282;
   --link-blue-color: #6891FF;
@@ -210,6 +211,18 @@ h6 {
 
 .b--positive {
   border-color: var(--positive-color);
+}
+
+.color-light-grey {
+  color: var(--light-grey-color);
+}
+
+.bg-light-grey {
+  background-color: var(--light-grey-color);
+}
+
+.b--light-grey {
+  border-color: var(--light-grey-color);
 }
 
 .color-grey {
@@ -2170,6 +2183,14 @@ a {
   font-style: italic;
 }
 
+.normal {
+  font-weight: 300;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 .btn {
   display: inline-block;
   text-align: center;
@@ -2220,8 +2241,9 @@ a {
 }
 
 .hero {
-  background-image: url(/static/images/brain/Brain_Blue.svg);
-  background-position: left 40px top 50%;
+  background-image: url(/static/images/Banner_BG.png);
+  background-position: left 0px top 50%;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 108px;
   padding-bottom: 96px;
@@ -2232,17 +2254,66 @@ a {
   padding-bottom: 96px;
 }
 
+.hero.coral, .hero.articles {
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
+  background-image: url(/static/images/brain/Brain_Coral.svg), url(/static/images/banners/Coral.jpg);
+  background-color: #F6CDCC;
+  color: #FFFFFF;
+}
+
+.hero.coral hr, .hero.articles hr {
+  border-color: #F6CDCC;
+}
+
+.hero.coral .author, .hero.articles .author {
+  color: #F6CDCC;
+}
+
+.hero.articles {
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
+  background-image: url(/static/images/brain/Brain_Coral.svg), url(/static/images/banners/ArticlesAndInsights.jpg);
+}
+
 .hero.blue {
-  background-image: url(/static/images/brain/Brain_Blue.svg);
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
+  background-image: url(/static/images/brain/Brain_Blue.svg), url(/static/images/banners/Blue.jpg);
+  background-color: #C9E3F9;
+}
+
+.hero.request {
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
+  background-image: url(/static/images/brain/Brain_Blue.svg), url(/static/images/banners/RequestSampleReport.jpg);
   background-color: #C9E3F9;
 }
 
 .hero.yellow {
-  background-image: url(/static/images/brain/Brain_Yellow.svg);
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
+  background-image: url(/static/images/brain/Brain_Yellow.svg), url(/static/images/banners/Yellow.jpg);
+  background-color: #f4e8a0;
+}
+
+.hero.about {
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
+  background-image: url(/static/images/brain/Brain_Yellow.svg), url(/static/images/banners/About.jpg);
   background-color: #f4e8a0;
 }
 
 .hero.navy {
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
   background-image: url(/static/images/brain/Brain_Navy.svg);
   background-color: #121b39;
   color: #FFFFFF;

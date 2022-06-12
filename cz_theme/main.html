@@ -4,7 +4,7 @@
 <header class="hero {{ page.meta.colour|default('navy') }}">
     <div class="container grid">
         <div class="column-span-5 column-offset-2">
-            <h1>{{ page.title }}</h1>
+            <h1>{{ page.meta.title or page.title }}</h1>
             {% if page.meta.author or page.meta.date %}
             <hr>
             <p class="author">
