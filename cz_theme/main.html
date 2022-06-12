@@ -9,7 +9,7 @@
             <hr>
             <p class="author">
             {% if page.meta.author %}{{ page.meta.author }}{% endif %}
-            {% if page.meta.author or page.meta.date %} &middot; {% endif %}
+            {% if page.meta.author and page.meta.date %} &middot; {% endif %}
             {% if page.meta.date %}
             <time datetime="{{ page.meta.date }}">{{ "{:%d %b %Y}".format(page.meta.date) }}</time>
             {% endif %}

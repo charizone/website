@@ -1,0 +1,107 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<header class="hero request">
+    <div class="container grid">
+        <div class="column-span-5 column-offset-2">
+            <h1>Receive an example<br>report, created by<br>our team.</h1>
+        </div>
+    </div>
+</header>
+<section class="container ">
+    <div class="grid">
+        <div class="column-span-5 column-offset-1">
+            <img src="/static/images/Home_CharityGraphic.png" alt="">
+        </div>
+        <div class="column-span-6 column-offset-7">
+            <h2>Why our reports matter</h2>
+            <p>
+              Why is it so difficult to make informed, passionate donations based on knowledge - rather than being swayed by a
+               well-planned fundraiser, a glossy website or a shiny marketing brochure?
+            <p>
+            </p>
+               Our reports provide you with meaningful insights about charities in an easily-digestible format. 
+               Based on the Charizone Framework, we offer a holistic and balanced narrative of performance that is 
+               standard across a broad universe of charities. 
+            <p>
+            </p>
+               Using robust quality-controlled processes, our analysts collate and assess over 80 data points
+                per charity from multiple public sources. Our reports are designed to transparently and 
+                objectively present our findings along with the evidence that justifies our assessments.
+            <p>
+            </p>
+                Charizone does all the hard work for you, so you that can choose which charity to support with confidence.
+                Because that's much more rewarding than just ticking a box.
+            </p>
+        </div>
+    </div>
+</section>
+<section class="bg-purple color-white">
+    <div class="container grid">
+        <figure class="column-span-8 column-offset-3 tc">
+            <blockquote class="mb4">"Our mission is to empower donors and philanthropists to create effective, 
+            long-term and supportive engagement with charities."</blockquote>
+            <figcaption class="mb0 i">- Sarah Gammah, Charizone Founder</figcaption>
+        </figure>
+    </div>
+</section>
+<section class="container ">
+    <div class="grid">
+        <div class="column-span-12 tc">
+            <h2>We focus on three core areas:</h2>
+            <img style="margin-left: auto; margin-right: auto;" src="/static/images/Impact_Governance_Finance_Donut.png" alt="A donut chart showing the three components of the Charizone Framework: Impact, Governance and Finance" />
+        </div>
+    </div>
+    <div class="grid mv5">
+        <div class="column-span-4">
+            <div class="box tc bg-white color-purple">
+                <img src="/static/images/brain_small/Brain_Blue.svg" alt="">
+                <h1>Impact</h1>
+                <p>Impact is the positive change that is created by a charity. </p>
+                <p>Charizone expects all charities, regardless of their size, to regularly 
+                assess their effectiveness in achieving their long-term charitable mission.</p>
+            </div>
+        </div>
+        <div class="column-span-4">
+            <div class="box tc bg-white color-purple">
+                <img src="/static/images/brain_small/Brain_Purple.svg" alt="">
+                <h1>Governance</h1>
+                <p>Good governance is reflected in a charity's compliance with the law and relevant regulations along with adherence to best practice guidance.</p>
+                <p>An effective board of trustees is fundamental for the success of a charity and for promoting a safe, open and transparent environment.</p>
+            </div>
+        </div>
+        <div class="column-span-4">
+            <div class="box tc bg-white color-purple">
+                <img src="/static/images/brain_small/Brain_Yellow.svg" alt="">
+                <h1>Finance</h1>
+                <p>The financial health of a charity is necessary for delivering its charitable objectives.</p>
+                <p>Charizone considers key issues common across all charities to assess the financial management, sustainability of their operations and efficiency of their use of resources.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block prefooter %}
+<section class="getintouch bg-finance" id="requestreport">
+    <div class="container grid">
+        <div class="column-span-4">
+            <h1>Request an example report</h1>
+            <p>
+                Let us know that you'd like to request a report here, and we'll endeavour to get back to you within 48 hours.
+            </p>
+        </div>
+        <div class="column-span-7 column-offset-6">
+            <form name="requestreport" data-netlify=true>
+                <input type="text" name="name" class="w-50 fl" required placeholder="Name" aria-label="Name">
+                <input type="email" name="email" class="w-50 fl" required placeholder="Email" aria-label="Email">
+                <input type="text" name="organisation" class="w-50 fl" placeholder="Organisation" aria-label="Organisation">
+                <input type="text" name="phone" class="w-50 fl" placeholder="Phone number" aria-label="Phone number">
+                <div class="submit">
+                    <button type="submit" class="btn bg-coral color-white">Request an example report</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

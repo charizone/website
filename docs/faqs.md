@@ -1,0 +1,41 @@
+---
+colour: blue
+title: Frequently asked questions about Charizone
+author: Sarah Gammoh
+---
+
+# Charizone FAQs
+
+## Question not here?
+
+We're a new and growing company, so we'll be sure to add to this page as we face new challenges and go on new journeys with our clients. If you're looking for an answer that isn't included here, please feel free to get in touch with the Charizone team.
+
+## Is Charizone a charity?
+
+No, we are not a charity. We are a data and technology platform set up as limited company. We aim to balance our purpose and financial returns. Why? Our goal is to build the infrastructure for a better charity sector, not to be a charity ourselves. We rely on business principles to ensure that we prove our value to the donors and charities that use our platform, and to the sector as a whole. We will achieve this by living out our values every day.
+
+## Does Charizone regulate charities?
+
+Whilst we collect, analyse and assess data, we do not regulate charities. The Charity Commission / Companies House are the bodies for that. Our framework is based on standards and recommendations that already exist in the sector such as The Charities SORP, Charity Governance Code (CGC) and NCVO - which allows us to define what a "good" charity looks like.
+
+The data we use is published by the charities and available in the public domain. We take an "apply or explain" approach when we consider how each charity reports against the framework.
+
+Do bear in mind that our analysis is provided as a guidance only. Ultimately, Charizone does not recommend one charity over another, nor does it provide you with advice on which charities to support. Before acting on any information you should consider its relevance and appropriateness, as all decisions you make when relying on our information is your own responsibility.
+
+## Do charities contribute to their own Charizone reports?
+
+To remain objective, we maintain a level of independence from charities. We put ourselves in the shoes of potential new donors and rely solely on information that is available in the public domain. We recognise that published information may not accurately capture the charity's actual performance hence it is our long-term vision to help improve reporting in the sector. However, we do alert the charity once we've produced their report and allow 14 days for them to offer any comments and feedback.
+
+## Why does Charizone only report on larger charities?
+
+We are currently only working with charities registered with the Charity Commission in England and Wales and with an income of over &pound;500k annually over the last three years. This is because the reporting required by the Charity Commission is a bit more detailed and gives us more data to present to you. The three-year horizon for some of our indicators reflects the medium-term performance of the charity and eliminates most events and seasonal effects. We, therefore, refer to the sector standards related to larger charities (i.e. SORP and CGC for larger charities).
+
+This doesn't mean that our framework is not applicable to smaller charities. In fact, we are committed to using our processes and expertise to support the sector as a whole and are currently considering some applications for smaller charities. If you would like to share any ideas or thoughts, please do get in touch.
+
+## How often does Charizone review charities?
+
+Charities submit their reports/returns to the Charity Commission annually, and therefore we review the charities once a year. There will always be a time lag between submission of information to charity commission and/or publishing data on the website. However, our narrative is not time-sensitive, but considers the charity's overall approach to governing and managing their resources and activities in order to achieve their charitable aims and objectives.
+
+## How much do Charizone reports cost?
+
+We are offering philanthropists an easy, engaging and affordable due-diligence processes. So far, we have only engaged with clients on a bespoke project basis where we've worked with them on a portfolio of charities and various approaches to engagement. We, therefore, would need to understand your needs better to give you an accurate estimate of the cost - so please do get in touch.

@@ -2286,6 +2286,14 @@ a {
   background-color: #C9E3F9;
 }
 
+.hero.methodology {
+  background-size: 55% 150%, contain;
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50px center, 100% 0%;
+  background-image: url(/static/images/brain/Brain_Blue.svg), url(/static/images/banners/Methodology.jpg);
+  background-color: #C9E3F9;
+}
+
 .hero.request {
   background-size: 55% 150%, contain;
   background-repeat: no-repeat, no-repeat;
@@ -2556,6 +2564,13 @@ a {
 
 .prose > ol > li > ol {
   list-style-type: lower-alpha;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
 }
 
 footer {

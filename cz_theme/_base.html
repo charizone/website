@@ -9,7 +9,9 @@
     {% block content %}
       {{ page.content }}
     {% endblock %}
+    {% block prefooter %}
     {% include 'components/getintouch.html' %}
+    {% endblock %}
     {% include 'components/footer.html' %}
     {% include 'components/analytics.html' %}
   </body>

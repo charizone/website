@@ -1,239 +1,76 @@
 ---
-colour: yellow
+colour: methodology
+title: Our methodology:<br>Inspiring informed<br>decision-making
 ---
 
-# Our methodology
+# Introducing the Charizone framework
 
-# h1 Heading 8-)
-## h2 Heading
-### h3 Heading
-#### h4 Heading
-##### h5 Heading
-###### h6 Heading
-
-
-## Horizontal Rules
-
-___
+_- Sarah Gammoh, Charizone Founder_
 
 ---
 
-***
+The Charizone Framework is a tool designed to give philanthropists a comprehensive and consistent set of data to easily compare a broad universe of charities - aimed at informing charitable donations, while promoting long-term engagement with charities. By aligning existing sector codes and best practices with publicly available information, the Charizone Framework offers a holistic, objective and standardised narrative of a charity's performance, by considering the impact, governance and finances of a charity. The Framework consists of 26 key performance indicators (KPIs). Each indicator is then scored: positive, moderate or low.
 
+With guidance from experts in the charity sector, the Charizone Framework defines what a "good" charity looks like. The panel of experts will continue to guide future iterations and the ongoing evolution of our work.
 
-## Typographic replacements
+Our aim is to bring into focus the effectiveness, the outcome and the inspiration every charity delivers regardless of their size. By informing charitable giving, we assist donors to build long-term engagement with charities improving publicly available information and promoting impact and learning.
 
-Enable typographer option to see result.
+![A donut chart showing the three components of the Charizone Framework: Impact, Governance and Finance](/static/images/Impact_Governance_Finance_Donut.png)
 
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
+<div class="grid mv5">
+    <div class="column-span-4">
+        <div class="box tc bg-white color-purple">
+            <img src="/static/images/brain_small/Brain_Blue.svg" alt="">
+            <h1>Impact</h1>
+            <p>Impact is the positive change that is created by a charity. </p>
+            <p>Charizone expects all charities, regardless of their size, to regularly 
+            assess their effectiveness in achieving their long-term charitable mission.</p>
+        </div>
+    </div>
+    <div class="column-span-4">
+        <div class="box tc bg-white color-purple">
+            <img src="/static/images/brain_small/Brain_Purple.svg" alt="">
+            <h1>Governance</h1>
+            <p>Good governance is reflected in a charity's compliance with the law and relevant regulations along with adherence to best practice guidance.</p>
+            <p>An effective board of trustees is fundamental for the success of a charity and for promoting a safe, open and transparent environment.</p>
+        </div>
+    </div>
+    <div class="column-span-4">
+        <div class="box tc bg-white color-purple">
+            <img src="/static/images/brain_small/Brain_Yellow.svg" alt="">
+            <h1>Finance</h1>
+            <p>The financial health of a charity is necessary for delivering its charitable objectives.</p>
+            <p>Charizone considers key issues common across all charities to assess the financial management, sustainability of their operations and efficiency of their use of resources.</p>
+        </div>
+    </div>
+</div>
 
-test.. test... test..... test?..... test!....
+## Key features of the Charizone Framework:
 
-!!!!!! ???? ,,  -- ---
+### Objective & Aligned with Best Practice in the Sector
 
-"Smartypants, double quotes" and 'single quotes'
+- Our Framework is consistent with the sector's statutory requirements along with best practices that we derive from SORP, Charity Governance Code, NCVO, ACEVO, NPC and Social Value UK.
 
+- Our analysts take the perspective of a potential new donor and therefore only uses publicly available data.
 
-## Emphasis
+- We have an "apply or explain" approach to our analysis. Our assessment is transparent by using simple flagged metrics (positive, moderate, low) in our scores.
 
-**This is bold text**
+### Standard and transparent
 
-__This is bold text__
+- Our assessment is based on information available in the public domain. Our analysts collect updated data from the Charity Commission, Charities' websites, annual reports and accounts along with other publications available on the charity's website.
 
-*This is italic text*
+- Our rating is not ranking; we define qualitative metrics and ranges that indicate that a charity sustainable and impactful.
 
-_This is italic text_
+- The data we use is standard across all charities with annual income of over &pound;500k over the last 3 years.
 
-~~Strikethrough~~
+### Detailed methodology
 
+- The data is collected and analysed by our trained research team using a robust data-driven and quality-controlled process.
 
-## Blockquotes
+- Precise rules and clear working instructions are in place to minimise error and subjectivity when assessing charities disclosures.
 
+- We provide the evidence that we have collected from the charity source to justify the score.
 
-> Blockquotes can also be nested...
->> ...by using additional greater-than signs right next to each other...
-> > > ...or with spaces between arrows.
+## The Charizone Framework:
 
-
-## Lists
-
-Unordered
-
-+ Create a list by starting a line with `+`, `-`, or `*`
-+ Sub-lists are made by indenting 2 spaces:
-  - Marker character change forces new list start:
-    * Ac tristique libero volutpat at
-    + Facilisis in pretium nisl aliquet
-    - Nulla volutpat aliquam velit
-+ Very easy!
-
-Ordered
-
-1. Lorem ipsum dolor sit amet
-2. Consectetur adipiscing elit
-3. Integer molestie lorem at massa
-
-
-1. You can use sequential numbers...
-1. ...or keep all the numbers as `1.`
-
-Start numbering with offset:
-
-57. foo
-1. bar
-
-
-## Code
-
-Inline `code`
-
-Indented code
-
-    // Some comments
-    line 1 of code
-    line 2 of code
-    line 3 of code
-
-
-Block code "fences"
-
-```
-Sample text here...
-```
-
-Syntax highlighting
-
-``` js
-var foo = function (bar) {
-  return bar++;
-};
-
-console.log(foo(5));
-```
-
-## Tables
-
-| Option | Description |
-| ------ | ----------- |
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-Right aligned columns
-
-| Option | Description |
-| ------:| -----------:|
-| data   | path to data files to supply the data that will be passed into templates. |
-| engine | engine to be used for processing templates. Handlebars is the default. |
-| ext    | extension to be used for dest files. |
-
-
-## Links
-
-[link text](http://dev.nodeca.com)
-
-[link with title](http://nodeca.github.io/pica/demo/ "title text!")
-
-Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
-
-
-## Images
-
-![Minion](https://octodex.github.com/images/minion.png)
-![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-
-Like links, Images also have a footnote style syntax
-
-![Alt text][id]
-
-With a reference later in the document defining the URL location:
-
-[id]: https://octodex.github.com/images/dojocat.jpg  "The Dojocat"
-
-
-## Plugins
-
-The killer feature of `markdown-it` is very effective support of
-[syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin).
-
-
-### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
-
-> Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
->
-> Shortcuts (emoticons): :-) :-( 8-) ;)
-
-see [how to change output](https://github.com/markdown-it/markdown-it-emoji#change-output) with twemoji.
-
-
-### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
-
-- 19^th^
-- H~2~O
-
-
-### [\<ins>](https://github.com/markdown-it/markdown-it-ins)
-
-++Inserted text++
-
-
-### [\<mark>](https://github.com/markdown-it/markdown-it-mark)
-
-==Marked text==
-
-
-### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
-
-Footnote 1 link[^first].
-
-Footnote 2 link[^second].
-
-Inline footnote^[Text of inline footnote] definition.
-
-Duplicated footnote reference[^second].
-
-[^first]: Footnote **can have markup**
-
-    and multiple paragraphs.
-
-[^second]: Footnote text.
-
-
-### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
-
-Term 1
-
-:   Definition 1
-with lazy continuation.
-
-Term 2 with *inline markup*
-
-:   Definition 2
-
-        { some code, part of Definition 2 }
-
-    Third paragraph of definition 2.
-
-_Compact style:_
-
-Term 1
-  ~ Definition 1
-
-Term 2
-  ~ Definition 2a
-  ~ Definition 2b
-
-
-### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
-
-This is HTML abbreviation example.
-
-It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
-
-*[HTML]: Hyper Text Markup Language
-
-### [Custom containers](https://github.com/markdown-it/markdown-it-container)
-
-::: warning
-*here be dragons*
-:::
+For a full breakdown of the Charizone framework, please contact us.
