@@ -1,4 +1,5 @@
 site_name: Charizone
+site_url: https://charizone.co.uk/
 theme:
   name: null
   custom_dir: cz_theme
