@@ -1,5 +1,5 @@
 site_name: Charizone
-site_url: https://charizone.co.uk
+site_url: !ENV DEPLOY_PRIME_URL
 theme:
   name: null
   custom_dir: cz_theme
