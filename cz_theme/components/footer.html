@@ -24,24 +24,24 @@
         </div>
         <div class="column-span-3">
             <p>Charizone Ltd</a></p>
-            <p>Your due diligence guide for charities</p>
-            <p class="mt4">&copy; 2022 Charizone Ltd</p>
+            <p>Which charity should you donate to? Using data in the charity sector to inspire informed donations.</p>
+            <p class="mt4">&copy; {{ build_date_utc.year }} Charizone Ltd</p>
             <p>All rights reserved</p>
             {% if privacy %}
-            <p class="mt4"><a href="{{ privacy.url|url }}">Privacy and cookie policy</a></p>
+            <p class="mt4"><a href="{{ privacy.url|url }}">Privacy and 'cookie-free' policy</a></p>
             {% endif %}
         </div>
         <div class="column-span-4 column-offset-9">
             <p>
-                Registered in England no.
+                Registered in England number:<br>
                 <a href="https://find-and-update.company-information.service.gov.uk/company/13788801" class="normal">
                    13788801
                 </a>
             </p>
+            <p class="mt4">Registered address:</p>
             <p>128 City Road</p>
             <p>London, EC1V 2NX</p>
-            {# <p>Phone number goes here</p> #}
-            <p class="mt4"><a href="mailto:info@charizone.co.uk">info@charizone.co.uk</a></p>
+            <p><a href="mailto:info@charizone.co.uk">info@charizone.co.uk</a></p>
         </div>
         <div class="column-span-8 column-offset-5">
             <nav>
