@@ -2,3 +2,4 @@ mkdocs
 -e file:./cz_blog
 black
 isort
+mkdocs-gen-files

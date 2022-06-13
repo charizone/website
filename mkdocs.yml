@@ -11,6 +11,9 @@ plugins:
       - Our Methodology: 'our-methodology.md'
     articles_folder: articles
     privacy: 'privacy.md'
+  gen-files:
+    scripts:
+      - add_charities.py
 nav:
   - Charizone: 'index.md'
   - About: 'about.md'
@@ -21,6 +24,7 @@ nav:
 watch:
   - cz_theme
   - cz_blog
+  - add_charities.py
 extra:
   twitter: https://twitter.com/Charizone_UK
   linkedin: https://www.linkedin.com/company/charizone/
