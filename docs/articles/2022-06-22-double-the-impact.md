@@ -2,7 +2,7 @@
 colour: blue
 author: Sarah Gammoh
 date: 2022-06-14
-title: The Champions for Children Campaign: A Case Study
+title: 'The Champions for Children Campaign: A Case Study'
 ---
 
 [The Big Give](https://donate.thebiggive.org.uk/) is an innovative organisation specialising in bringing charities, philanthropists and the public together to multiply their impact. Over the years, The Big Give has raised over &pound;190m for thousands of great causes through the power of match funding by organising various campaigns during the year. Double the donation &mldr; Double the Impact.
