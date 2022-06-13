@@ -3,6 +3,15 @@
   <head>
     <link rel="stylesheet" href="{{ '/static/css/style.css'|url }}" crossorigin="anonymous">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/static/images/favicon/apple-touch-icon.png'|url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/static/images/favicon/favicon-32x32.png'|url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/static/images/favicon/favicon-16x16.png'|url }}">
+    <link rel="manifest" href="{{ '/static/images/favicon/site.webmanifest'|url }}">
+    <meta name="twitter:card" content="summary" />
+    {# <meta name="twitter:site" content="@charizone" /> #}
+    <meta name="twitter:title" content="Charizone" />
+    <meta name="twitter:description" content="We use data to inspire responsible donations" />
+    <meta name="twitter:image" content="{{ '/static/images/CharizoneIcon.png'|url }}" />
   </head>
   <body>
     {% include 'components/topbar.html' %}
