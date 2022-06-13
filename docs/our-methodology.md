@@ -18,7 +18,7 @@ Our aim is to bring into focus the effectiveness, the outcome and the inspiratio
 ![A donut chart showing the three components of the Charizone Framework: Impact, Governance and Finance](/static/images/Impact_Governance_Finance_Donut.png)
 
 <div class="grid mv5">
-    <div class="column-span-4">
+    <div class="column-span-4 mb3">
         <div class="box tc bg-white color-purple">
             <img src="/static/images/brain_small/Brain_Blue.svg" alt="">
             <h1>Impact</h1>
@@ -27,7 +27,7 @@ Our aim is to bring into focus the effectiveness, the outcome and the inspiratio
             assess their effectiveness in achieving their long-term charitable mission.</p>
         </div>
     </div>
-    <div class="column-span-4">
+    <div class="column-span-4 mb3">
         <div class="box tc bg-white color-purple">
             <img src="/static/images/brain_small/Brain_Purple.svg" alt="">
             <h1>Governance</h1>
@@ -35,7 +35,7 @@ Our aim is to bring into focus the effectiveness, the outcome and the inspiratio
             <p>An effective board of trustees is fundamental for the success of a charity and for promoting a safe, open and transparent environment.</p>
         </div>
     </div>
-    <div class="column-span-4">
+    <div class="column-span-4 mb3">
         <div class="box tc bg-white color-purple">
             <img src="/static/images/brain_small/Brain_Yellow.svg" alt="">
             <h1>Finance</h1>

@@ -12,8 +12,8 @@
 {% include 'components/hero.html' %}
 <section class="container ">
     <div class="grid">
-        <div class="column-span-6">
-            <img src="/static/images/Home_CharityGraphic_sm.png" style="margin-left: -70px;" alt="">
+        <div class="column-span-6 hide-mobile">
+            <img src="/static/images/Home_CharityGraphic_sm.png" style="margin-left: -70px;" alt="Three images showing charity activities: medicine, the environment and training.">
         </div>
         <div class="column-span-6">
             <h2>Here's a question for you</h2>
@@ -54,7 +54,7 @@
         </div>
     </div>
     <div class="grid">
-        <div class="column-span-4 column-offset-3">
+        <div class="column-span-4 column-offset-3 mb3">
             <div class="box tc">
                 <img src="/static/images/Home_Philanthropists.png" alt="">
                 <h1>Philanthropists and Wealth Managers</h1>
@@ -63,7 +63,7 @@
                 <a href="{{ 'request-a-report'|url }}" class="btn bg-coral color-white">Get an example report</a>
             </div>
         </div>
-        <div class="column-span-4">
+        <div class="column-span-4 mb3">
             <div class="box tc">
                 <img src="/static/images/Home_Charities.png" alt="">
                 <h1>Charities</h1>
@@ -80,18 +80,18 @@
 <section class="big-grid pa0">
     <div class="column-span-4 bg-finance tc ph5 pv4">
         <h1 class="centre normal mb3">We love</h1>
-        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_TheBigGive.png" alt="">
-            <a href="#" class="btn bg-governance color-white centre mt4">Read about our work</a>
+        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_TheBigGive.png" alt="The Big Give">
+            {# <a href="#" class="btn bg-governance color-white centre mt4">Read more</a> #}
     </div>
     <div class="column-span-4 bg-light-grey tc ph5 pv4">
         <h1 class="centre normal mb3">We love</h1>
-        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/ChampionsForChildren.png" alt="">
-            <a href="#" class="btn bg-governance color-white centre mt4">Read about our work</a>
+        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/ChampionsForChildren.png" alt="Champions for Children">
+            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" class="btn bg-governance color-white centre mt4">Read more</a>
     </div>
     <div class="column-span-4 bg-purple color-white tc ph5 pv4">
         <h1 class="centre normal mb3">We love</h1>
-        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_ChildhoodTrust.png" alt="">
-            <a href="#" class="btn bg-governance color-white centre mt4">Read about our work</a>
+        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_ChildhoodTrust.png" alt="The Childhood Trust">
+            {# <a href="#" class="btn bg-governance color-white centre mt4">Read more</a> #}
     </div>
 </section>
 <section class="blue-brain bg-light-blue">
@@ -119,11 +119,11 @@
         <div class="column-span-4">
             <div class="insightbox">
                 <a href="{{ article.url|url }}">
-                    <img src="{{ images[loop.index0 % images|length] }}" />
-                    <h1>{{ article.title }}</h1>
+                    <img src="{{ images[loop.index0 % images|length] }}" alt="" />
+                    <h1>{{ article.file.page.title }}</h1>
                 </a>
                 <hr>
-                <p>{{ article.content|striptags|truncate }}</p>
+                <p>{{ article.file.page.content|striptags|truncate }}</p>
                 <a href="{{ article.url|url }}" class="btn bg-governance color-white">Read</a>
             </div>
         </div>

@@ -24,11 +24,11 @@
         <div class="column-span-4">
             <div class="insightbox">
                 <a href="{{ article.url|url }}">
-                    <img src="{{ images[loop.index0 % images|length] }}" />
-                    <h1>{{ article.title }}</h1>
+                    <img src="{{ images[loop.index0 % images|length] }}" alt="" />
+                    <h1>{{ article.file.page.title }}</h1>
                 </a>
                 <hr>
-                <p>{{ article.content|striptags|truncate }}</p>
+                <p>{{ article.file.page.content|striptags|truncate }}</p>
                 <a href="{{ article.url|url }}" class="btn bg-governance color-white">Read</a>
             </div>
         </div>

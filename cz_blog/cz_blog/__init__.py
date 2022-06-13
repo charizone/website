@@ -32,6 +32,7 @@ class CZBlog(BasePlugin):
                     self.config["articles_folder"] + os.path.sep
                 ):
                     self.blog_files["articles"].append(Page(None, file, config))
+            self.blog_files["articles"] = self.blog_files["articles"][::-1]
             log.info("Found {:,.0f} articles".format(len(self.blog_files["articles"])))
 
         for navtype in NAVTYPES:

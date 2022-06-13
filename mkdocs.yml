@@ -6,7 +6,7 @@ theme:
 plugins:
   cz_blog:
     footernav:
-      - Read our FAQs: 'faqs.md'
+      - Read our FAQs: 'articles/2022-06-01-faqs.md'
       - About Charizone: 'about.md'
       - Our Methodology: 'our-methodology.md'
     articles_folder: articles
