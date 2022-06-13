@@ -1,5 +1,5 @@
 site_name: Charizone
-site_url: https://charizone.co.uk/
+site_url: https://charizone.co.uk
 theme:
   name: null
   custom_dir: cz_theme
@@ -24,3 +24,4 @@ watch:
 extra:
   twitter: https://twitter.com/charizone
   linkedin: https://linkedin.com/charizone
+  base_url: https://charizone.co.uk
