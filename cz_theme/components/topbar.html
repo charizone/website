@@ -1,10 +1,13 @@
 <header class="container grid topbar">
-    <a class="logo column-span-2" href="/">
-        <img src="/static/images/Menu_CharizoneLogo.svg" alt="Charizone">
-    </a>
-    <nav class="column-span-10">
+    <div class="column-span-2">
+        <button class="hamburger" aria-expanded="false" aria-controls="main-menu"></button>
+        <a class="logo" href="/">
+            <img src="/static/images/Menu_CharizoneLogo.svg" alt="Charizone">
+        </a>
+    </div>
+    <nav class="column-span-10" role="navigation" aria-label="Main menu">
         {% if nav|length>1 %}
-        <ul>
+        <ul id="main-menu">
             {% for nav_item in nav %}
             {% if not nav_item.is_homepage %}
             <li class="{% if nav_item.active%}active{% endif %}">
