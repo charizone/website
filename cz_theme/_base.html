@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
     <link rel="stylesheet" href="{{ '/static/css/style.css'|url }}" crossorigin="anonymous">
     <title>{% if page.title and page.title != config.site_name %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
     <link rel="apple-touch-icon" sizes="180x180" href="{{ '/static/images/favicon/apple-touch-icon.png'|url }}">
@@ -12,7 +14,6 @@
     <meta name="twitter:title" content="{% if page.title and page.title != config.site_name %}{{ page.title }} - {% endif %}{{ config.site_name }}" />
     <meta name="twitter:description" content="We use data to inspire responsible donations" />
     <meta name="twitter:image" content="{{ config.site_url or '/' }}static/images/CharizoneIcon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     {% include 'components/topbar.html' %}
