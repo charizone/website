@@ -5,7 +5,7 @@ date: 2022-06-14
 title: 'Our work for The Champions for Children Campaign'
 ---
 
-We couldn’t think of a better way to tell you more about the mission and the goals we strive towards at Charizone than through the work we have done been for The Champions for Children Campaign. And although our responsibility lies in delivering the accurate charity data in a user-friendly, holistic and objective narrative  - what keeps us motivated is the vision of helping charitable missions come true.
+We couldn’t think of a better way to tell you more about the mission and the goals we strive towards at Charizone than through the work we have done for The Champions for Children Campaign. And although our responsibility lies in delivering accurate charity data in a user-friendly, holistic and objective narrative  - what keeps us motivated is the vision of helping charitable missions come true.
 
 We know it’s a very long road ahead but we are equipped with a fantastic team, great resources, and a dream that will change the world by helping charities achieve more while inspiring donors make informed and responsible decisions through the use of data.
 
@@ -21,11 +21,11 @@ Through the Champions for Children Campaign this year, The Childhood Trust is of
 
 It was a huge privilege for us when we were asked to support the campaign by providing the data and analysis of the charities involved in this event and thus to humbly contribute towards the vision of alleviating poverty for children and young people across London.  
 
-Our charity reports helped The Big Give and The Childhood Trust in their due diligence processes. The reports included the evidence, analysis and assessment of charities according to our framework and data-driven processes aimed at shedding light at the charities work as well as providing a base to promote engagement and constructive dialogues with each charity. 
+Our charity reports helped The Big Give and The Childhood Trust in their due diligence processes. The reports included the evidence, analysis and assessment of charities according to our framework and data-driven processes aimed at shedding light at the charities' work as well as providing a base to promote engagement and constructive dialogues with each charity. 
 
-It is worth noting that our reports did not cover all the charities involved in this campaign as our database focuses on charities with an annual income of over &pound;500k over the last 3 years due to the availability of some of the data points we collect at scale. With being that said, the campaign was open for charities with an annual income of over &pound;25,000 and at least one set of filed accounts on the date of application.
+It is worth noting that our reports did not cover all the charities involved in this campaign, as our database focuses on charities with an annual income of over &pound;500k over the last 3 years due to the availability of some of the data points we collect at scale. With that being said, the campaign was open for charities with an annual income of over &pound;25,000 and at least one set of filed accounts on the date of application.
 
-The Big Give is aware of the success of their platform in multiplying the amount donated to charities every year. With such responsibility, they needed know that the charities they are selecting and promoting are operating in the best possible ways to achieve their charitable mission. With our reports, they were able to verify the information, identify potential issues and areas of improvement and avoid supporting charities that do not align with their values and vision.  
+The Big Give is aware of the success of their platform in multiplying the amount donated to charities every year. With such responsibility, they needed to know that the charities they are selecting and promoting are operating in the best possible ways to achieve their charitable mission. With our reports, they were able to verify the information, identify potential issues and areas of improvement and avoid supporting charities that do not align with their values and vision.  
 
 This is what they had to say about us: 
 
