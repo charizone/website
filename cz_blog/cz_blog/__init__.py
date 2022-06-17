@@ -13,6 +13,16 @@ NAVTYPES = ("footernav",)
 log = logging.getLogger("mkdocs")
 
 
+def sort_articles(articles):
+    """
+    Sort articles by date.
+    """
+    return sorted(
+        articles,
+        key=lambda page: str(page.meta.get("date", page.file.name)),
+    )[::-1]
+
+
 class CZBlog(BasePlugin):
 
     config_scheme = tuple(
@@ -60,9 +70,12 @@ class CZBlog(BasePlugin):
 
     def on_env(self, env, config, files):
         if "articles" in self.blog_files:
-            self.blog_files["articles"] = sorted(
-                self.blog_files["articles"],
-                key=lambda page: str(page.meta.get("date", page.file.name)),
-            )[::-1]
+            featured_articles = sort_articles(
+                [a for a in self.blog_files["articles"] if a.meta.get("featured")]
+            )
+            nonfeatured_articles = sort_articles(
+                [a for a in self.blog_files["articles"] if not a.meta.get("featured")]
+            )
+            self.blog_files["articles"] = featured_articles + nonfeatured_articles
         env.globals.update(self.blog_files)
         return env

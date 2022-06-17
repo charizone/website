@@ -3,6 +3,8 @@ colour: blue
 author: Sarah Gammoh
 date: 2022-06-14
 title: 'Our work for The Champions for Children Campaign'
+featured: true
+featuredimage: '/static/images/ChampionsForChildren.png'
 ---
 
 We couldn’t think of a better way to tell you more about the mission and the goals we strive towards at Charizone than through the work we have done for The Champions for Children Campaign. And although our responsibility lies in delivering accurate charity data in a user-friendly, holistic and objective narrative  - what keeps us motivated is the vision of helping charitable missions come true.
