@@ -32,7 +32,10 @@ class CZBlog(BasePlugin):
                     self.config["articles_folder"] + os.path.sep
                 ):
                     self.blog_files["articles"].append(Page(None, file, config))
-            self.blog_files["articles"] = self.blog_files["articles"][::-1]
+            self.blog_files["articles"] = sorted(
+                self.blog_files["articles"],
+                key=lambda page: page.meta.get("date", page.file.name),
+            )
             log.info("Found {:,.0f} articles".format(len(self.blog_files["articles"])))
 
         for navtype in NAVTYPES:
@@ -56,5 +59,10 @@ class CZBlog(BasePlugin):
                 )
 
     def on_env(self, env, config, files):
+        if "articles" in self.blog_files:
+            self.blog_files["articles"] = sorted(
+                self.blog_files["articles"],
+                key=lambda page: str(page.meta.get("date", page.file.name)),
+            )[::-1]
         env.globals.update(self.blog_files)
         return env
