@@ -10,17 +10,19 @@ The [Charizone Framework](../our-methodology.md) contains 26 key performance ind
 
 ## Trustee Numbers KPI
 
-One indicator we look at is to ask: how many people govern the charity? The [Charity Governance Code](https://www.charitygovernancecode.org/en/5-board-effectiveness) outlines recommended practice for board effectiveness. One recommendation they make is that:
+One indicator we look at is to ask: how many people govern the charity? The [Charity Governance Code](https://www.charitygovernancecode.org/en/5-board-effectiveness) for large and small charities outlines recommended practice for board effectiveness. One recommendation they make is that:
 
 > The board is big enough that the charity’s work can be carried out and changes to the board’s composition can be managed without too much disruption. A board of at least five but no more than twelve trustees is typically considered good practice.
 
 The Charizone framework takes this recommendation as a baseline. We assign a score based on the number of trustees a charity has. A charity with between 5-12 trustees is given a <strong class="color-positive">Positive</strong> score. A charity with 3-4 or 13-15 trustees gets a <strong class="color-moderate">Moderate</strong> score, and where a charity has less than 3 or more than 15 trustees their score is <strong class="color-negative">Low</strong>.
 
+For some of our KPIs we need to manually assess the charities' published documents, such as the annual report or its website. But for others, like this one, we can use data available on the charity sector to automatically generate scores. 
+
+But even for automatically scored KPIs like this one, we still use an "apply or explain" approach. If the charity has a good reason for having a board size outside the recommended bounds, and explains its reasoning in the annual report or website, then we'll adjust the score to reflect this. 
+
 ## What does this look like across the sector?
 
-For some of our KPIs we need to manually assess the charities' published documents, such as the annual report or its website. But for others, like this one, we can use data available on the charity sector to automatically generate scores.
-
-This also means we can use the data to look at how performance on this indicator across the whole sector, not just for those charities we've assessed directly.
+Because this KPI can be scored automatically also means we can use the data to look at how performance on this indicator across the whole sector, not just for those charities we've assessed directly.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/10376970"></div>
 
