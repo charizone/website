@@ -29,6 +29,7 @@
     <script>
     document.querySelector('.hamburger').addEventListener('click', function() {
         document.querySelector('.topbar > nav').classList.toggle('active');
+        this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
     });
     </script>
   </body>

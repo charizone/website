@@ -9,11 +9,9 @@
         {% if nav|length>1 %}
         <ul id="main-menu">
             {% for nav_item in nav %}
-            {% if not nav_item.is_homepage %}
-            <li class="{% if nav_item.active%}active{% endif %}">
+            <li class="{% if nav_item.active%}active{% endif %} {% if nav_item.is_homepage %}hamburger-only{% endif %}">
                 <a href="{{ nav_item.url|url }}" class="{% if loop.last %}btn bg-coral color-white{% endif %}">{{ nav_item.title }}</a>
             </li>
-            {% endif %}
             {% endfor %}
         </ul>
         {% endif %}

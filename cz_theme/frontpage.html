@@ -38,19 +38,19 @@
         </div>
     </div>
 </section>
-<section class="bg-purple color-white">
+<section class="dark-brain bg-purple color-white">
     <div class="container grid">
         <figure class="column-span-8 column-offset-3 tc mv0">
             <blockquote class="mb4">"Large marketing campaigns, show-stopping events, and successful fund-raisers don't make a difference to our reports. Instead, our framework enables philanthropists, wealth managers, and other donors to make informed decisions - and be confident that their donation really is contributing to a better world."</blockquote>
             <figcaption class="mb4 i">- Sarah Gammah, Charizone Founder</figcaption>
-            <a href="{{ 'our-methodology'|url }}" class="btn bg-governance color-white">View our methodology</a>
+            <a href="{{ 'our-methodology'|url }}" class="btn bg-finance color-purple">View our methodology</a>
         </figure>
     </div>
 </section>
 <section class="container">
     <div class=" grid">
         <div class="column-span-12 tc">
-            <h1>How we can help you</h1>
+            <h1 class="normal">How we can help you</h1>
         </div>
     </div>
     <div class="grid">
@@ -60,7 +60,7 @@
                 <h1>Philanthropists and Wealth Managers</h1>
                 <p>Our reports condense a wide array of publicly available information into an easily-digestible format, enabling you to quickly compare different charities against your (or your client's) philanthropic strategy and values.</p>
                 <p>These reports are designed to be used as an aid - to empower you to take your next steps with confidence.</p>
-                <a href="{{ 'request-a-report'|url }}" class="btn bg-coral color-white">Get an example report</a>
+                <a href="{{ 'request-a-report'|url }}" class="btn bg-coral color-white end-btn">Get an example report</a>
             </div>
         </div>
         <div class="column-span-4 mb3">
@@ -72,7 +72,7 @@
                 the data and reporting for all charities- regardless of their size.
                 </p>
                 <p>Want to find out more? Read more about our future plans.</p>
-                <a href="{{ 'articles/2022-06-13-charizone-for-charities'|url }}" class="btn bg-coral color-white">Read about our work</a>
+                <a href="{{ 'articles/2022-06-13-charizone-for-charities'|url }}" class="btn bg-coral color-white end-btn">Read about our work</a>
             </div>
         </div>
     </div>
@@ -81,25 +81,25 @@
     <div class="column-span-4 bg-finance tc ph5 pv4">
         <h1 class="centre normal mb3">We love</h1>
         <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_TheBigGive.png" alt="The Big Give">
-            {# <a href="#" class="btn bg-governance color-white centre mt4">Read more</a> #}
+            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" style="background-color: #C6C6F2;" class="btn bg-governance color-purple centre mt4">Read more about our work</a>
     </div>
     <div class="column-span-4 bg-light-grey tc ph5 pv4">
         <h1 class="centre normal mb3">We love</h1>
         <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/ChampionsForChildren.png" alt="Champions for Children">
-            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" class="btn bg-governance color-white centre mt4">Read more</a>
+            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" style="background-color: #121B39;" class="btn bg-governance color-white centre mt4">Read more about our work</a>
     </div>
     <div class="column-span-4 bg-purple color-white tc ph5 pv4">
         <h1 class="centre normal mb3">We love</h1>
         <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_ChildhoodTrust.png" alt="The Childhood Trust">
-            {# <a href="#" class="btn bg-governance color-white centre mt4">Read more</a> #}
+            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" style="background-color: #C9E3F9;" class="btn bg-governance color-purple centre mt4">Read more about our work</a>
     </div>
 </section>
 <section class="blue-brain bg-light-blue">
     <div class="container grid">
         <div class="column-span-8 column-offset-3 tc">
-            <h1 class="centre">We're just getting started</h1>
+            <h1 class="centre normal">We're just getting started</h1>
             <p>With comprehensive reports on over 200 charities, we're off to a flying start. 
-            But our work doesn't stop there. Want to request a report or recommend a charity?<br><a href="{{ 'contact-us'|url }}">Get in touch to recommend a charity</a>.</p>
+            But our work doesn't stop there. Want to request a report or recommend a charity?<br><a href="{{ 'contact-us'|url }}" class="link color-purple">Get in touch to recommend a charity</a>.</p>
             <p class="tc">
                 <a href="{{ 'request-a-report'|url }}" class="btn bg-coral color-white centre mt5 mr4">Request a Report</a>
                 <a href="{{ 'articles/2022-06-13-charizone-for-charities'|url }}" class="btn bg-purple color-white centre mt5">Read about our work</a>
@@ -110,16 +110,14 @@
 <section class="container">
     <div class=" grid">
         <div class="column-span-12 tc">
-            <h1>Read our latest insights</h1>
+            <h1 class="normal">Read our latest insights</h1>
         </div>
     </div>
-    <div class="grid">
+    <div class="insightboxes">
         {% for article in articles %}
         {% if loop.index <= 3 %}
-        <div class="column-span-4">
             {% set article_index = loop.index0 %}
             {% include 'components/article-stub.html' %}
-        </div>
         {% endif %}
         {% endfor %}
     </div>

@@ -73,4 +73,4 @@ Our aim is to bring into focus the effectiveness, the outcome and the inspiratio
 
 ## The Charizone Framework:
 
-For a full breakdown of the Charizone framework, please contact us.
+For a full breakdown of the Charizone framework, [please contact us](#getintouch).

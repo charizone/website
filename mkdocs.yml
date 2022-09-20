@@ -15,11 +15,11 @@ plugins:
     scripts:
       - add_charities.py
 nav:
-  - Charizone: 'index.md'
+  - Home: 'index.md'
   - About: 'about.md'
   - Our Methodology: 'our-methodology.md'
   - Articles and Insights: 'articles.md'
-  - Get in touch: 'contact-us.md'
+  - Get in touch: '/#getintouch'
   - Request a report: 'request-a-report.md'
 watch:
   - cz_theme
