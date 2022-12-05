@@ -1,5 +1,5 @@
 ---
-Colour: yellow
+Colour: finance
 author: Sarah Gammoh
 date: 2022-11-22
 title: Responsible Giving
