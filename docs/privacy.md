@@ -37,7 +37,7 @@ Under the UK General Data Protection Regulation (UK GDPR), the lawful bases we r
 
 - (a) Your consent. You are able to remove your consent at any time. You can do this by contacting [info@charizone.co.uk](mailto:info@charizone.co.uk)
 - (b) We have a legitimate interest.
-
+ 
 ## How we store your personal information 
 
 Your information is securely stored. 
