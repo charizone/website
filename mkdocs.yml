@@ -11,6 +11,7 @@ plugins:
       - Our Methodology: 'our-methodology.md'
     articles_folder: articles
     privacy: 'privacy.md'
+    terms: 'terms-and-conditions.md'
   gen-files:
     scripts:
       - add_charities.py

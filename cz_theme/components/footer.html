@@ -26,9 +26,16 @@
             <p>Charizone Ltd</a></p>
             <p>Which charity should you donate to? Using data in the charity sector to inspire informed donations.</p>
             <p class="mt4">&copy; {{ build_date_utc.year }} Charizone Ltd</p>
-            <p>All rights reserved</p>
+            <p class="mb2">All rights reserved</p>
             {% if privacy %}
-            <p class="mt4"><a href="{{ privacy.url|url }}">Privacy and 'cookie-free' policy</a></p>
+            <p class="mt0">
+                <a href="{{ privacy.url|url }}">Privacy and 'cookie-free' policy</a>
+            </p>
+            {% endif %}
+            {% if terms %}
+            <p class="mt0">
+                <a href="{{ terms.url|url }}">Terms and Conditions</a>
+            </p>
             {% endif %}
         </div>
         <div class="column-span-4 column-offset-9">

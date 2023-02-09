@@ -1,11 +1,11 @@
 import logging
 import os.path
 
-from mkdocs.plugins import BasePlugin
 from mkdocs.config import config_options
-from mkdocs.structure.pages import Page
+from mkdocs.plugins import BasePlugin
 from mkdocs.structure.files import File
 from mkdocs.structure.nav import _data_to_navigation
+from mkdocs.structure.pages import Page
 
 NAVTYPES = ("footernav",)
 
@@ -29,6 +29,7 @@ class CZBlog(BasePlugin):
         (navtype, config_options.Type(list, default=list())) for navtype in NAVTYPES
     ) + (
         ("privacy", config_options.Type(str, default=None)),
+        ("terms", config_options.Type(str, default=None)),
         ("articles_folder", config_options.Type(str, default="blog")),
     )
 
@@ -67,6 +68,13 @@ class CZBlog(BasePlugin):
                 log.info(
                     "Found privacy page: {}".format(self.blog_files["privacy"].url)
                 )
+
+        if isinstance(self.config.get("terms"), str):
+            self.blog_files["terms"] = _data_to_navigation(
+                self.config["terms"], files, config
+            )
+            if self.blog_files["terms"]:
+                log.info("Found terms page: {}".format(self.blog_files["terms"].url))
 
     def on_env(self, env, config, files):
         if "articles" in self.blog_files:
