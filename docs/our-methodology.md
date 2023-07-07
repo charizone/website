@@ -9,7 +9,7 @@ _- Sarah Gammoh, Charizone Founder_
 
 ---
 
-The Charizone Framework is a tool designed to give philanthropists a comprehensive and consistent set of data to easily compare a broad universe of charities - aimed at informing charitable donations, while promoting long-term engagement with charities. By aligning existing sector codes and best practices with publicly available information, the Charizone Framework offers a holistic, objective and standardised narrative of a charity's performance, by considering the impact, governance and finances of a charity. The Framework consists of 26 key performance indicators (KPIs). Each indicator is then scored: positive, moderate or low.
+The Charizone Framework is a tool designed to give philanthropists a comprehensive and consistent set of data to easily compare a broad universe of charities - aimed at informing charitable donations, while promoting long-term engagement with charities. By aligning existing sector codes and best practices with publicly available information, the Charizone Framework offers a holistic, objective and standardised narrative of a charity's performance, by considering the impact, governance and finances of a charity. The Framework consists of 27 key performance indicators (KPIs). Each indicator is then scored: positive, moderate or low.
 
 With guidance from experts in the charity sector, the Charizone Framework defines what a "good" charity looks like. The panel of experts will continue to guide future iterations and the ongoing evolution of our work.
 
