@@ -1,6 +1,6 @@
 ---
 colour: blue no-brain
-author: Sarah Gammoh
+author: Sarah Barradell
 date: 2023-09-21
 title: Gaining a competitive edge with Opportunity International UK
 Featured: true
