@@ -3,7 +3,6 @@ colour: blue
 author: Sarah Gammoh
 date: 2022-06-14
 title: 'Our work for The Champions for Children Campaign'
-featured: true
 featuredimage: '/static/images/ChampionsForChildren.png'
 ---
 
@@ -50,5 +49,7 @@ The Champions for Children Campaign not only offers you a great opportunity to l
 At Charizone, our vision is for all donations to be informed; whether it&rsquo;s &pound;1 or &pound;3.5m. Whilst we are working hard to make the results of our analysis available to all, you can benefit from the robust and thorough processes that informed The Childhood Trust and The Big Give. By joining The Childhood Campaign, you can have complete confidence in the donation you make and that it will go to the right place. 
 
 
-<a href="https://donate.thebiggive.org.uk/champions-for-children-2022" class="btn bg-purple color-white">Make a donation</a>...... And know that, double the donation, double the impact your money will have on the Children in poverty in London.
+<a href="https://donate.thebiggive.org.uk/champions-for-children-2022" class="btn bg-purple color-white">Make a donation</a>
+
+...... And know that, double the donation, double the impact your money will have on the Children in poverty in London.
 
