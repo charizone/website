@@ -1,0 +1,17 @@
+<svg id="Group_1545" data-name="Group 1545" xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="60.837" height="43.031" viewBox="0 0 60.837 43.031">
+  <g id="Group_1544" data-name="Group 1544" clip-path="url(#clip-path)">
+    <!--path id="Path_2780" data-name="Path 2780"
+      d="M13.354,0A13.37,13.37,0,0,0,0,13.354v7.419H4.451V13.354a8.9,8.9,0,0,1,17.806,0v7.419h4.451V13.354A13.37,13.37,0,0,0,13.354,0"
+      fill="red" /-->
+    <path id="Path_2780" data-name="Path 2780"
+      d="M30.418 0A13.37 13.37 0 0017.064 13.354v7.419H21.515V13.354a8.9 8.9 0 0117.806 0v7.419h4.451V13.354A13.37 13.37 0 0030.418 0"
+      fill="#f7cdcc" transform-origin="21.9">
+      <animateTransform attributeName="transform" attributeType="XML" type="scale" values="1 1;-1 1;-1 1;1 1;1 1"
+        dur="5s" repeatCount="indefinite" />
+    </path>
+    <path id="Path_2781" data-name="Path 2781"
+      d="M24.31,34.035V54.461a1.831,1.831,0,0,0,1.831,1.831h27.5a1.831,1.831,0,0,0,1.831-1.831V34.035ZM42.858,51.841H36.923L38.112,45.3a2.968,2.968,0,1,1,3.557,0Z"
+      transform="translate(-9.472 -13.261)" fill="#f7cdcc" />
+  </g>
+</svg>
