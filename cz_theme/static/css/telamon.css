@@ -9340,13 +9340,24 @@ table.search-results td.stick {
 .sidebar .sidebar-card div.sidebar-card-contents > ul > li {
   display: block;
 }
+.sidebar .sidebar-card details.sidebar-card-contents > ul > li > form > button,
+.sidebar .sidebar-card div.sidebar-card-contents > ul > li > form > button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.sidebar .sidebar-card details.sidebar-card-contents > ul > li > form,
 .sidebar .sidebar-card details.sidebar-card-contents > ul > li > a,
+.sidebar .sidebar-card div.sidebar-card-contents > ul > li > form,
 .sidebar .sidebar-card div.sidebar-card-contents > ul > li > a {
   display: block;
   padding-left: 75px;
   padding-right: 19px;
   padding-top: 13px;
   padding-bottom: 12px;
+  cursor: pointer;
 }
 .sidebar .sidebar-card details.sidebar-card-contents > ul > li.active,
 .sidebar .sidebar-card div.sidebar-card-contents > ul > li.active {
@@ -9442,8 +9453,10 @@ table.search-results td.stick {
   background-color: var(--link-hover-bg);
 }
 .sidebar .sidebar-card.simple div.sidebar-card-contents > ul > li.disabled,
+.sidebar .sidebar-card.simple div.sidebar-card-contents > ul > li > form,
 .sidebar .sidebar-card.simple div.sidebar-card-contents > ul > li > a,
 .sidebar .sidebar-card.simple details.sidebar-card-contents > ul > li.disabled,
+.sidebar .sidebar-card.simple details.sidebar-card-contents > ul > li > form,
 .sidebar .sidebar-card.simple details.sidebar-card-contents > ul > li > a {
   padding-left: 70px;
 }
@@ -9459,9 +9472,11 @@ table.search-results td.stick {
   background-color: inherit;
   font-weight: 600;
 }
+.sidebar .sidebar-card form,
 .sidebar .sidebar-card a {
   text-decoration: none;
 }
+.sidebar .sidebar-card form:hover,
 .sidebar .sidebar-card a:hover {
   color: var(--link-hover-color);
   background-color: var(--link-hover-bg);
