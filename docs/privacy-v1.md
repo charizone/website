@@ -3,18 +3,16 @@ template: main.html
 title: Charizone Privacy policy
 ---
 
-_Effective from 1st April 2024_
+_Effective from 13th June 2022 until 1st April 2024_
 
-[See the previous version of this policy](privacy-v1.md)
+**This policy is no longer active. It was replaced with [an updated policy](privacy.md) from 1st April 2024**
 
 ## Our contact details
 
-**Name**: Charizone Ltd<br>
-**Company number**: [13788801](https://find-and-update.company-information.service.gov.uk/company/13788801)<br>
+**Name**: Charizone Ltd (Company number [13788801](https://find-and-update.company-information.service.gov.uk/company/13788801))<br>
 **Address**: 128 City Road, London, England, EC1V 2NX<br>
 **Website**: [charizone.co.uk](https://charizone.co.uk/)<br>
-**E-mail**: [info@charizone.co.uk](mailto:info@charizone.co.uk)<br>
-**ICO Registration Reference**: [ZB354015](https://ico.org.uk/ESDWebPages/Entry/ZB354015)
+**E-mail**: [info@charizone.co.uk](mailto:info@charizone.co.uk)
 
 ## The type of personal information we collect
 
@@ -44,7 +42,7 @@ Under the UK General Data Protection Regulation (UK GDPR), the lawful bases we r
 
 ## How we store your personal information
 
-Your information is securely stored. Charizone’s servers are based within the UK and in the EU.
+Your information is securely stored.
 
 We keep your contact details for up to two years after your last contact with us. We will then dispose your information by deleting the details from our servers and any third party services. We may need to keep some information for auditing purposes.
 
@@ -52,42 +50,11 @@ We keep your contact details for up to two years after your last contact with us
 
 "Cookies" are pieces of data created by web sites that store information in your web browser.
 
-### Main Charizone Website ([charizone.co.uk](https://charizone.co.uk/))
-
-The only cookies we use on the [charizone.co.uk](https://charizone.co.uk/) site are those that support the essential functions of our site and our tools, such as allowing users to log in.
+The only cookies we use are those that support the essential functions of our site and our tools, such as allowing users to log in.
 
 To get critical information about the behavior of our visitors, we use [Simple Analytics](https://simpleanalytics.com). This analytics software gives us insight about our visitors only in general, but not about individuals per say, as it does not track visitors and does not store any personal identifiable information.
 
 Because Simple Analytics does not use cookies or similar technology to identify or track you, there is no reason to request your consent. [Go to their documentation](https://docs.simpleanalytics.com/what-we-collect) to find out what Simple Analytics collects (and most importantly what they don't).
-
-### Charizone Tools
-
-For users with access to Charizone’s online tools (but not the main charizone website), we use Matomo to collect analytics data about the behaviour of users. We use this data to understand and errors or issues with the tools as well as understand how we can improve the tools.
-
-Matomo uses a cookie to help track sessions around the site. The following data items are collected as users move around Charizone’s tools.
-
-- Cookie used to connect views to a single user
-- Date and time of visits and views
-- Title of the page being viewed
-- URL of the page being viewed
-- URL of the page that was viewed prior to the current page
-- Screen resolution
-- Time in local timezone
-- Files that were clicked and downloaded
-- Link clicks to an outside domain
-- Pages generation time
-- Country, region, city
-- Main Language of the browser
-- User Agent of the browser
-
-This cookie and the data above are kept solely by Charizone and are not passed on or made available to any third party.
-
-Our processing of personal data with Matomo is based on legitimate interest. Without the data, we would not be able to provide you the service we are currently offering to you. Your data will be used only to improve the user experience on our website and help you find the information you are looking for.
-
-You can opt out of data collection, either through the use of a “Do not track” setting in your browser, or by unticking the box shown below.
-
-<div id="matomo-opt-out"></div>
-<script src="https://bramley.charizone.co.uk/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1"></script>
 
 ## Your data protection rights
 
@@ -107,8 +74,6 @@ Please contact us at [info@charizone.co.uk](mailto:info@charizone.co.uk) if you 
 ## How to complain
 
 If you have any concerns about our use of your personal information, you can make a complaint to us at [info@charizone.co.uk](mailto:info@charizone.co.uk).
-
-Charizone is registered with the ICO, reference [ZB354015](https://ico.org.uk/ESDWebPages/Entry/ZB354015).
 
 You can also complain to the ICO if you are unhappy with how we have used your data.
 The ICO's address:

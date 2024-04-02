@@ -18,6 +18,11 @@
     content="{% if page.title and page.title != config.site_name %}{{ page.title }} - {% endif %}{{ config.site_name }}" />
   <meta name="twitter:description" content="We use data to inspire responsible donations" />
   <meta name="twitter:image" content="{{ config.site_url or '/' }}static/images/CharizoneIcon.png" />
+  <style>
+    strong {
+      font-weight: 600;
+    }
+  </style>
 </head>
 
 <body>
