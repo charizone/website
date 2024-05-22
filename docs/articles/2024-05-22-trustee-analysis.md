@@ -12,7 +12,7 @@ The [Charizone Framework](../our-methodology.md) contains 27 key performance ind
 
 One indicator we look at is to ask: how many people govern the charity? The [Charity Governance Code](https://www.charitygovernancecode.org/en/5-board-effectiveness) for large and small charities outlines recommended practice for board effectiveness. One recommendation they make is that:
 
-> The board is big enough that the charity’s work can be carried out and changes to the board’s composition can be managed without too much disruption. A board of at least five but no more than twelve trustees is typically considered good practice.
+> "The board is big enough that the charity’s work can be carried out and changes to the board’s composition can be managed without too much disruption. A board of at least five but no more than twelve trustees is typically considered good practice."
 
 The Charizone framework takes this recommendation as a baseline. We assign a score based on the number of trustees a charity has. A charity with between 5-12 trustees is given a <strong class="color-positive">Positive</strong> score. A charity with 3-4 or 13-15 trustees gets a <strong class="color-moderate">Moderate</strong> score, and where a charity has less than 3 or more than 15 trustees their score is <strong class="color-negative">Low</strong>.
 
