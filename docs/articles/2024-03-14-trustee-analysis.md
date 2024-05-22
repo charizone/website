@@ -1,7 +1,7 @@
 ---
 colour: coral
 author: David Kane
-date: 2024-03-14
+date: 2024-05-22
 title: "Charizone Indicator: How many people govern the charity?"
 featuredimage: "/images/articles/2024-03-14-trustee-analysis.png"
 ---
@@ -40,7 +40,7 @@ Of course the number of trustees doesn't directly measure the "good" a charity d
 
 For example, we can see which charities have submitted their accounts on time, and compare it to the number of trustees they have.
 
-Looking a charities with a <strong class="color-positive">positive</strong> score (between 5-12 trustees), 79% of this group returned their latest accounts on time, compared to 70% of those with a <strong class="color-moderate">moderate</strong> and 63% of <strong class="color-negative">low</strong> scoring charities.
+Looking a charities with a <strong class="color-positive">positive</strong> score (between 5-12 trustees), 80% of this group returned their latest accounts on time, compared to 70% of those with a <strong class="color-moderate">moderate</strong> and 65% of <strong class="color-negative">low</strong> scoring charities.
 
 This correlation doesn't automatically mean that optimum board sizes cause better reporting, though. The relationship is stronger for smaller charities, suggesting that charity size plays a part in both. But a smaller relationship between board size and meeting submission deadlines does exist for larger charities too.
 
