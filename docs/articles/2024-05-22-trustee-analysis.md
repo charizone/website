@@ -6,7 +6,7 @@ title: "Charizone Indicator: How many people govern the charity?"
 featuredimage: "/images/articles/2024-05-22-trustee-analysis.png"
 ---
 
-The [Charizone Framework](../our-methodology.md) contains 26 key performance indicators (KPIs) across our three domains of Impact, Governance and Finance. The indicators are carefully chosen to give an objective assessment of a charities' performance and how well it is set up to achieve its goals.
+The [Charizone Framework](../our-methodology.md) contains 27 key performance indicators (KPIs) across our three domains of Impact, Governance and Finance. The indicators are carefully chosen to give an objective assessment of a charities' performance and how well it is set up to achieve its goals.
 
 ## Trustee Numbers KPI
 
