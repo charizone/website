@@ -1,19 +1,34 @@
-<header class="container grid topbar">
-    <div class="column-span-2">
-        <button class="hamburger" aria-expanded="false" aria-controls="main-menu" aria-label="Expand menu"></button>
-        <a class="logo" href="/">
-            <img src="/static/images/Menu_CharizoneLogo.svg" alt="Charizone">
-        </a>
-    </div>
-    <nav class="column-span-10" role="navigation" aria-label="Main menu">
+<header>
+    <nav class="navbar" role="navigation" aria-label="Main menu">
+        <!--<button class="hamburger" aria-expanded="false" aria-controls="main-menu" aria-label="Expand menu"></button>-->
+        <ul>
+            <li class="logo">
+                <a class="logo" href="/">
+                    <img src="/static/images/Menu_CharizoneLogo.svg" alt="Charizone">
+                </a>
+            </li>
+        </ul>
         {% if nav|length>1 %}
-        <ul id="main-menu">
+        <ul>
             {% for nav_item in nav %}
             <li class="{% if nav_item.active%}active{% endif %} {% if nav_item.is_homepage %}hamburger-only{% endif %}">
-                <a href="{{ nav_item.url|url }}" class="{% if loop.last %}btn bg-coral color-white{% endif %}">{{ nav_item.title }}</a>
+                <a href="{{ nav_item.url|url }}" class="">{{ nav_item.title }}</a>
             </li>
             {% endfor %}
         </ul>
         {% endif %}
+        <ul class="buttons">
+            <li>
+                <a class="btn med bg-navy colour-white" href="https://atlas.charizone.co.uk/">
+                    Login
+                </a>
+            </li>
+            <li>
+                <a class="btn med bg-pink colour-white" href="#">
+                    Book free trial
+                    <span class="icon material-icons circle bg-white colour-pink">arrow_forward</span>
+                </a>
+            </li>
+        </ul>
     </nav>
 </header>

@@ -1,13 +1,26 @@
-<div class="insightbox">
-    <a href="{{ article.url|url }}" class="heading">
+<a href="{{ article.url|url }}" class="box shadow bg-white resource col-span-1">
+    <header>
         {% if article.file.page.meta.featuredimage %}
         <img src="{{ article.file.page.meta.featuredimage }}" alt="" />
         {% else %}
         <img src="{{ images[article_index % images|length] }}" alt="" />
         {% endif %}
-        <h1>{{ article.file.page.title }}</h1>
-    </a>
-    <hr>
-    <p>{{ article.file.page.content|striptags|truncate }}</p>
-    <a href="{{ article.url|url }}" class="btn bg-governance color-white end-btn">Read</a>
-</div>
+    </header>
+    <h3>{{ article.file.page.title }}</h3>
+    <p>{{ article.file.page.content|striptags|truncate(60) }}</p>
+    {% if article.file.page.meta.author or article.file.page.meta.date %}
+    <footer class="pill">
+        <img src="/static/images/logo/charizone-icon.svg" class="">
+        <strong>
+            {% if article.file.page.meta.author %}
+            {{ article.file.page.meta.author }}
+            {% endif %}
+        </strong>
+        {% if article.file.page.meta.date %}
+        <time datetime="{{ article.file.page.meta.date }}">
+            {{ "{:%d %b %Y}".format(article.file.page.meta.date) }}
+        </time>
+        {% endif %}
+    </footer>
+    {% endif %}
+</a>

@@ -3,7 +3,6 @@ import os.path
 
 from mkdocs.config import config_options
 from mkdocs.plugins import BasePlugin
-from mkdocs.structure.files import File
 from mkdocs.structure.nav import _data_to_navigation
 from mkdocs.structure.pages import Page
 
@@ -24,7 +23,6 @@ def sort_articles(articles):
 
 
 class CZBlog(BasePlugin):
-
     config_scheme = tuple(
         (navtype, config_options.Type(list, default=list())) for navtype in NAVTYPES
     ) + (

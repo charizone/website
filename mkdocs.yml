@@ -6,22 +6,20 @@ theme:
 plugins:
   cz_blog:
     footernav:
-      - Read our FAQs: 'articles/2022-06-01-faqs.md'
-      - About Charizone: 'about.md'
-      - Our Methodology: 'our-methodology.md'
+      - Read our FAQs: "articles/2022-06-01-faqs.md"
+      - About: "about.md"
+      - Our Methodology: "our-methodology.md"
     articles_folder: articles
-    privacy: 'privacy.md'
-    terms: 'terms-and-conditions.md'
+    privacy: "privacy.md"
+    terms: "terms-and-conditions.md"
   gen-files:
     scripts:
       - add_charities.py
 nav:
-  - Home: 'index.md'
-  - About: 'about.md'
-  - Our Methodology: 'our-methodology.md'
-  - Articles and Insights: 'articles.md'
-  - Get in touch: '/#getintouch'
-  - Request a report: 'request-a-report.md'
+  - About: "about.md"
+  - Product: "product.md"
+  - Resources: "articles.md"
+  - Contact: "contact.md"
 watch:
   - cz_theme
   - cz_blog

@@ -1,0 +1,13 @@
+<svg width="118" height="118" viewBox="0 0 118 118" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Isolation_Mode" clip-path="url(#clip0_74_302)">
+<rect width="86.0758" height="86.0646" transform="translate(43.0322) rotate(30)" fill="#E4E4ED"/>
+<path id="Vector" d="M117.576 43.0379L43.0322 0L-8.39233e-05 74.5341L74.5437 117.572L117.576 43.0379Z" fill="#E4E4ED"/>
+<path id="Vector_2" d="M74.5438 117.572L5.72205e-06 74.5343C11.8844 53.95 38.2014 46.8983 58.7858 58.7827C79.3701 70.6671 86.4282 96.9879 74.5438 117.572Z" fill="#A4A4C3"/>
+<path id="Vector_3" d="M43.0324 7.97366e-05L117.576 43.038C105.692 63.6223 79.3747 70.6739 58.7904 58.7896C38.2061 46.9052 31.148 20.5844 43.0324 7.97366e-05Z" fill="#7777A5"/>
+</g>
+<defs>
+<clipPath id="clip0_74_302">
+<rect width="86.0758" height="86.0646" fill="white" transform="translate(43.0322) rotate(30)"/>
+</clipPath>
+</defs>
+</svg>

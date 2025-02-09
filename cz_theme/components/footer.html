@@ -1,63 +1,58 @@
-<footer class="">
-    <div class="container grid">
-        <div class="column-span-4">
-            <img src="/static/images/Footer_CharizoneLogo.svg" alt="" />
-            <nav class="social">
-                <ul>
-                    {% if config.extra.twitter %}
-                    <li>
-                        <a href="{{ config.extra.twitter }}" target="_blank"><img src="/static/images/Footer_Twitter.svg" alt="Twitter" /></a>
-                    </li>
-                    {% endif %}
-                    {% if config.extra.linkedin %}
-                    <li>
-                        <a href="{{ config.extra.linkedin }}" target="_blank"><img src="/static/images/Footer_LinkedIn.svg" alt="Linked In" /></a>
-                    </li>
-                    {% endif %}
-                    {% if config.extra.instagram %}
-                    <li>
-                        <a href="{{ config.extra.instagram }}" target="_blank"><img src="/static/images/Footer_Instagram.svg" alt="Instagram" /></a>
-                    </li>
-                    {% endif %}
-                </ul>
-            </nav>
-        </div>
-        <div class="column-span-3">
-            <p>Charizone Ltd</a></p>
-            <p>Which charity should you donate to? Using data in the charity sector to inspire informed donations.</p>
-            <p class="mt4">&copy; {{ build_date_utc.year }} Charizone Ltd</p>
-            <p class="mb2">All rights reserved</p>
-            {% if privacy %}
-            <p class="mt0">
-                <a href="{{ privacy.url|url }}">Privacy and 'cookie-free' policy</a>
-            </p>
-            {% endif %}
-            {% if terms %}
-            <p class="mt0">
-                <a href="{{ terms.url|url }}">Terms and Conditions</a>
-            </p>
-            {% endif %}
-        </div>
-        <div class="column-span-4 column-offset-9">
-            <p>
-                Registered in England number:<br>
-                <a href="https://find-and-update.company-information.service.gov.uk/company/13788801" class="normal">
-                   13788801
-                </a>
-            </p>
-            <p class="mt4">Registered address:</p>
-            <p>128 City Road</p>
-            <p>London, EC1V 2NX</p>
-            <p><a href="mailto:info@charizone.co.uk">info@charizone.co.uk</a></p>
-        </div>
-        <div class="column-span-8 column-offset-5">
-            <nav>
-                <ul>
-                    {% for nav_item in footernav %}
-                    <li><a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a></li>
-                    {% endfor %}
-                </ul>
-            </nav>
-        </div>
+<footer class="bg-grey">
+    <div class="flex-row">
+        {% include 'components/email-signup.html' %}
+    </div>
+    <hr>
+    <div class="flex-row">
+        <a href="/">
+            <img src="/static/images/logo/charizone-icon.svg" class="icon">
+        </a>
+        <nav class="navbar">
+            <ul>
+                {% for nav_item in footernav %}
+                <li><a href="{{ nav_item.url|url }}">{{ nav_item.title }}</a></li>
+                {% endfor %}
+                <li>
+                    <a class="btn med bg-navy colour-complement" href="https://atlas.charizone.co.uk/">
+                        Login
+                    </a>
+                </li>
+                <li>
+                    <a class="btn med bg-pink colour-complement">
+                        Book free trial
+                        <span class="icon material-icons circle bg-white colour-pink">arrow_forward</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="flex-row">
+        <span>
+            &copy; 2020 - {{ build_date_utc.year }} Charizone Ltd. All rights reserved.<br>
+            Registered in England number:
+            <a href="https://find-and-update.company-information.service.gov.uk/company/13788801" class="normal">
+                13788801</a>. 128 City Road, London, EC1V 2NX
+        </span>
+        <nav class="navbar">
+            <ul>
+                {% if privacy %}
+                <li>
+                    <a href="{{ privacy.url|url }}">Privacy and 'cookie-free' policy</a>
+                </li>
+                {% endif %}
+                {% if terms %}
+                <li>
+                    <a href="{{ terms.url|url }}">Terms and Conditions</a>
+                </li>
+                {% endif %}
+                {% if config.extra.linkedin %}
+                <li>
+                    <a href="{{ config.extra.linkedin }}" class="btn med bg-navy colour-complement icon circle"
+                        target="_blank">
+                        <img src="/static/images/social/linkedin-outline.svg" alt="Linked In" /></a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
     </div>
 </footer>

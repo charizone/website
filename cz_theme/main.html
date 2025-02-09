@@ -1,26 +1,43 @@
 {% extends "_base.html" %}
 
+{% set title = page.meta.title or page.title %}
+
 {% block content %}
-<header class="hero articles {{ page.meta.colour|default('navy') }}"
-    style="{% if page.meta.articleimage %}--article-image: url({{ page.meta.articleimage }}){% endif %}">
-    <div class="r-background"></div>
-    <div class="bubble">
-        <h1>{{ page.meta.title or page.title }}</h1>
-        {% if page.meta.author or page.meta.date %}
-        <hr>
-        <p class="author">
-            {% if page.meta.author %}{{ page.meta.author }}{% endif %}
-            {% if page.meta.author and page.meta.date %} &middot; {% endif %}
-            {% if page.meta.date %}
-            <time datetime="{{ page.meta.date }}">{{ "{:%d %b %Y}".format(page.meta.date) }}</time>
+<section class="" style="{% if page.meta.articleimage %}--article-image: url({{ page.meta.articleimage }}){% endif %}">
+    <div class="container article">
+        <header class="flex-column center">
+            <div class="flex-row w-100">
+                <ul class="breadcrumbs tl">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+                    <li>
+                        <a href="/articles/">Resources</a>
+                    </li>
+                    <li title="{{ title|striptags }}">{{ title|striptags|truncate(32) }}</li>
+                </ul>
+                <p class="tr">
+                    {% if page.meta.date %}
+                    <time datetime="{{ page.meta.date }}">{{ "{:%d %b %Y}".format(page.meta.date) }}</time>
+                    {% endif %}
+                    {% if page.meta.author and page.meta.date %} | {% endif %}
+                    {% if page.meta.author %}{{ page.meta.author }}{% endif %}
+                </p>
+            </div>
+            <h2 class="h1 tc measure">{{ title }}</h2>
+            {% if page.meta.lead %}
+            <p class="lead tc measure">
+                Individuals in the UK give more than £10 billion every year and yet there are surprisingly few resources
+                out.
+            </p>
             {% endif %}
-        </p>
-        {% endif %}
-    </div>
-</header>
-<section class="container">
-    <div class="grid">
-        <div class="column-span-10 column-offset-2 prose">
+        </header>
+        <div class="prose">
+            {% if page.meta.articleimage %}
+            <figure>
+                <img src="{{ page.meta.articleimage }}">
+            </figure>
+            {% endif %}
             {{ page.content }}
         </div>
     </div>
