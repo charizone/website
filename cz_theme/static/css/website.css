@@ -6809,8 +6809,10 @@ nav.tabs ul > li > a {
 }
 .accordian > li {
   display: block;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+}
+.accordian details > * {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 .accordian details > summary {
   cursor: pointer;
