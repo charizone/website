@@ -30,6 +30,7 @@
     }
   </style>
   {% block headscripts %}
+  {% include 'components/appointment-booker.html' %}
   {% endblock %}
 </head>
 
@@ -51,6 +52,9 @@
       this.setAttribute('aria-expanded', this.getAttribute('aria-expanded') === 'false' ? 'true' : 'false');
     });
   </script>
+  <div style="visibility: hidden; display: none;" id="appointment-booker-container">
+    <div style="" id="appointment-booker"></div>
+  </div>
 </body>
 
 </html>

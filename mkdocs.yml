@@ -6,9 +6,9 @@ theme:
 plugins:
   cz_blog:
     footernav:
-      - Read our FAQs: "articles/2022-06-01-faqs.md"
       - About: "about.md"
-      - Our Methodology: "our-methodology.md"
+      - Resources: "articles.md"
+      - Contact: "contact.md"
     articles_folder: articles
     privacy: "privacy.md"
     terms: "terms-and-conditions.md"
