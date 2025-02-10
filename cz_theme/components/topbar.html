@@ -11,7 +11,8 @@
         {% if nav|length>1 %}
         <ul>
             {% for nav_item in nav %}
-            <li class="{% if nav_item.active%}active{% endif %} {% if nav_item.is_homepage %}hamburger-only{% endif %}">
+            <li
+                class="{% if nav_item.active%}active b{% endif %} {% if nav_item.is_homepage %}hamburger-only{% endif %}">
                 <a href="{{ nav_item.url|url }}" class="">{{ nav_item.title }}</a>
             </li>
             {% endfor %}
