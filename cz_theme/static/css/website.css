@@ -7453,9 +7453,14 @@ main {
   gap: 1.5rem;
   align-items: center;
 }
-.article .prose p {
+.article .prose > p {
   margin-top: 0;
   margin-bottom: 0;
+}
+.article .prose blockquote {
+  border-left: 4px solid #ccc;
+  padding-left: 1.5em;
+  font-style: italic;
 }
 .article .prose a:not(.btn),
 .article .prose a:not(.btn):visited {
