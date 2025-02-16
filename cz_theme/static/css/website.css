@@ -6873,6 +6873,7 @@ ul.big-numbers > li > div > .number::first-letter {
 ul.box-list {
   list-style-type: none;
   display: flex;
+  flex-direction: row;
   gap: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
@@ -7055,9 +7056,45 @@ ul.box-list > li > img {
   margin-bottom: 3.5rem;
 }
 
+@media (max-width: 768px) {
+  ul.box-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    max-width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  ul.box-list > li {
+    width: 100%;
+  }
+  .box-grid {
+    grid-template-columns: 1fr;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .box-grid.quotes {
+    grid-template-columns: 1fr;
+  }
+  .box.person {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .box.person > img {
+    grid-column: 1/2;
+    grid-row: auto;
+  }
+  .box.person > header {
+    grid-column: 1/2;
+    grid-row: auto;
+  }
+  .box.person > ul.accordian {
+    grid-column: 1/2;
+    grid-row: auto;
+  }
+}
 .figure-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
   width: 100%;
   max-width: 80rem;
   gap: 1rem;
@@ -7431,6 +7468,14 @@ main {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .flex-column-sm {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: space-between;
+  }
+}
 .center,
 .tc {
   text-align: center;
@@ -7502,6 +7547,7 @@ nav.navbar > ul {
   justify-content: center;
   align-items: center;
   gap: 3.4rem;
+  flex-wrap: wrap;
 }
 nav.navbar > ul.buttons {
   gap: 1rem;
@@ -7679,6 +7725,33 @@ nav.navbar > ul > li:hover > ul {
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+  .container > h1 {
+    font-size: 5.5rem;
+  }
+  .container > h2 {
+    font-size: 3.25rem;
+  }
+  .container.grid {
+    grid-template-columns: 1fr;
+  }
+  .container.grid .col-span-3 {
+    grid-column: span 1;
+  }
+  .container.grid .col-span-2 {
+    grid-column: span 1;
+  }
+  .container.grid .col-span-1 {
+    grid-column: span 1;
+  }
+  .container.grid .col-span-half {
+    grid-column: span 1;
+  }
+}
 .steps > .step {
   box-shadow: none;
   border: none;
@@ -7737,4 +7810,10 @@ nav.navbar > ul > li:hover > ul {
 }
 .steps > .step:not(.full):nth-of-type(even) > div {
   grid-column: 1/2;
+}
+
+@media (max-width: 768px) {
+  .steps .step {
+    display: block;
+  }
 }
