@@ -53,17 +53,17 @@
         </p>
         <nav class="tabs center">
             <ul class="bg-purple colour-complement" role="tablist">
-                <li :class="(active === 0) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 0"
-                    aria-controls="step-1">
-                    <a class="" href="#" @click.prevent="active = 0">Initial research</a>
+                <li :class="(active === 0) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 0">
+                    <a href="#" class="" aria-controls="step-1" @click.prevent="active = 0">Initial
+                        research</a>
                 </li>
-                <li :class="(active === 1) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 1"
-                    aria-controls="step-2">
-                    <a class="" href="#" @click.prevent="active = 1">Comprehensive reports</a>
+                <li :class="(active === 1) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 1">
+                    <a href="#" class="" aria-controls="step-2" @click.prevent="active = 1">Comprehensive
+                        reports</a>
                 </li>
-                <li :class="(active === 2) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 2"
-                    aria-controls="step-3">
-                    <a class="" href="#" @click.prevent="active = 2">Ongoing support</a>
+                <li :class="(active === 2) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 2">
+                    <a href="#" class="" aria-controls="step-3" @click.prevent="active = 2">Ongoing
+                        support</a>
                 </li>
             </ul>
         </nav>
@@ -352,7 +352,7 @@
         </a>
     </div>
     <div class="container grid grid-small">
-        <a href="#" class="box ring-mask colour-white col-span-half"
+        <a href="/articles/2025-02-09-our-framework" class="box ring-mask colour-white col-span-half"
             style="background-color: var(--colour-navy-50); --mask-colour: var(--colour-navy);">
             <h4 class="h1 header-font colour-white no-underline">Charizone Framework Reports</h4>
             <p class="underline tr colour-white">Read our methodology</p>
@@ -360,7 +360,7 @@
         <a href="#" class="box brain-mask left colour-white col-span-half"
             style="background-color: var(--colour-jordan-50); --mask-colour: var(--colour-jordan);">
             <h4 class="h1 header-font colour-white no-underline">Atlas: Your data hub</h4>
-            <p class="underline tr colour-white">Read our methodology</p>
+            <p class="underline tr colour-white">Explore Atlas</p>
         </a>
     </div>
 </section>
@@ -471,7 +471,8 @@
     <div class="container hero">
         <h1 class="">Navigate over 177,000 UK charities and scale your impact.</h1>
         <div class="buttons">
-            <a class="btn med bg-pink colour-complement appointment-booker">
+            <a class="btn med bg-pink colour-complement appointment-booker"
+                href="{{ config.extra.appointment_booker }}">
                 Book free trial
                 <span class="icon material-icons">arrow_forward</span>
             </a>

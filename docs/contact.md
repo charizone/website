@@ -24,7 +24,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </strong>
         <p>
             Choose a time in our diary to catch up<br>
-            <a href="#" class="appointment-booker">Book an appointment</a>
+            <a class="appointment-booker" href="{{ config.extra.appointment_booker }}">Book an appointment</a>
         </p>
     </div>
     <div class="col-span-1 box shadow bg-white info">
@@ -34,7 +34,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </strong>
         <p>
             Talk to us to start your free trial.<br>
-            <a href="#" class="appointment-booker">Book an appointment</a>
+            <a class="appointment-booker" href="{{ config.extra.appointment_booker }}">Book an appointment</a>
         </p>
     </div>
 </div>

@@ -25,5 +25,6 @@ watch:
   - cz_blog
   - add_charities.py
 extra:
+  appointment_booker: https://calendar.google.com/calendar/appointments/schedules/AcZssZ2yILjZa_iqAsgy6pgzenBmzjM00WJH7TXXocwCYUkcJS2oEXC_niuZX83GhhTs4PepBOVH6w1E?gv=true
   twitter: https://twitter.com/Charizone_UK
   linkedin: https://www.linkedin.com/company/charizone/
