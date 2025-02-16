@@ -6,7 +6,8 @@
   <meta charset="utf-8">
   <meta name="description" content="We use data to inspire responsible donations" />
   <link rel="stylesheet" href="{{ '/static/css/website.css'|url }}" crossorigin="anonymous">
-  <title>{% if page.title and page.title != config.site_name %}{{ page.title }} - {% endif %}{{ config.site_name }}
+  <title>{% if page.title and page.title != config.site_name %}{{ page.title|striptags }} -
+    {% endif %}{{ config.site_name|striptags }}
   </title>
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/static/images/favicon/apple-touch-icon.png'|url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/static/images/favicon/favicon-32x32.png'|url }}">
@@ -27,6 +28,11 @@
       border-left: 4px solid #ccc;
       padding-left: 1.5em;
       font-style: italic;
+    }
+
+    a:not([href]),
+    a[href="#"] {
+      outline: 10px solid green;
     }
   </style>
   {% block headscripts %}
