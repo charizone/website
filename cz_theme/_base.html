@@ -19,6 +19,11 @@
     content="{% if page.title and page.title != config.site_name %}{{ page.title }} - {% endif %}{{ config.site_name }}" />
   <meta name="twitter:description" content="We use data to inspire responsible donations" />
   <meta name="twitter:image" content="{{ config.site_url or '/' }}static/images/CharizoneIcon.png" />
+  <meta property="og:title"
+    content="{% if page.title and page.title != config.site_name %}{{ page.title }} - {% endif %}{{ config.site_name }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:image" content="{{ config.site_url or '/' }}static/images/CharizoneIcon.png" />
   <style>
     /*
     a:not([href]),
