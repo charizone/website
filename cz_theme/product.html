@@ -44,7 +44,7 @@
         </div>
     </div>
 </section>
-<section>
+<section aria-roledescription="carousel">
     <div class="container " x-data="{ active: 0 }">
         <h2 class="">The journey</h2>
         <p>
@@ -52,20 +52,23 @@
             research, to due diligence, to ongoing support and relationship building.
         </p>
         <nav class="tabs center">
-            <ul class="bg-purple colour-complement">
-                <li :class="(active === 0) && 'active bg-white colour-navy'">
+            <ul class="bg-purple colour-complement" role="tablist">
+                <li :class="(active === 0) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 0"
+                    aria-controls="step-1">
                     <a class="" href="#" @click.prevent="active = 0">Initial research</a>
                 </li>
-                <li :class="(active === 1) && 'active bg-white colour-navy'">
+                <li :class="(active === 1) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 1"
+                    aria-controls="step-2">
                     <a class="" href="#" @click.prevent="active = 1">Comprehensive reports</a>
                 </li>
-                <li :class="(active === 2) && 'active bg-white colour-navy'">
+                <li :class="(active === 2) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 2"
+                    aria-controls="step-3">
                     <a class="" href="#" @click.prevent="active = 2">Ongoing support</a>
                 </li>
             </ul>
         </nav>
         <div class="steps">
-            <div class="step" :style="{ display: active === 0 ? null : 'none' }">
+            <div class="step" id="step-1" :style="{ display: active === 0 ? null : 'none' }">
                 <figure>
                     <img src="/static/images/Placeholders/step-smart-search-image.png" class="rectangle-background"
                         alt="Screenshot of smart search platform">
@@ -83,7 +86,7 @@
                     </p>
                 </div>
             </div>
-            <div class="step" :style="{ display: active === 1 ? null : 'none' }">
+            <div class="step" id="step-2" :style="{ display: active === 1 ? null : 'none' }">
                 <figure>
                     <img src="/static/images/Placeholders/step-portfolio-image.png" class="rectangle-background"
                         alt="Screenshot of portfolio dashboard">
@@ -102,7 +105,7 @@
                     </p>
                 </div>
             </div>
-            <div class="step" :style="{ display: active === 2 ? null : 'none' }">
+            <div class="step" id="step-3" :style="{ display: active === 2 ? null : 'none' }">
                 <figure>
                     <img src="/static/images/Placeholders/step-framework-image.png" class="rectangle-background"
                         alt="Screenshot of performance framework report">
