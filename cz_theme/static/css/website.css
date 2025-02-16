@@ -7452,9 +7452,14 @@ main {
   gap: 1.5rem;
   align-items: center;
 }
-.article .prose a,
-.article .prose a:visited {
+.article .prose p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.article .prose a:not(.btn),
+.article .prose a:not(.btn):visited {
   color: var(--colour-jordan);
+  --bg-tint-value: 2;
   text-decoration: underline;
 }
 .article .prose > * {
