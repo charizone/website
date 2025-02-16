@@ -1,16 +1,16 @@
 <a href="{{ article.url|url }}" class="box shadow bg-white resource col-span-1">
     <header>
         {% if article.file.page.meta.featuredimage %}
-        <img src="{{ article.file.page.meta.featuredimage }}" alt="" />
+        <img src="{{ article.file.page.meta.featuredimage }}" role="presentation" alt="">
         {% else %}
-        <img src="{{ images[article_index % images|length] }}" alt="" />
+        <img src="{{ images[article_index % images|length] }}" role="presentation" alt="">
         {% endif %}
     </header>
     <h3>{{ article.file.page.title }}</h3>
     <p>{{ article.file.page.content|striptags|truncate(60) }}</p>
     {% if article.file.page.meta.author or article.file.page.meta.date %}
     <footer class="pill">
-        <img src="/static/images/logo/charizone-icon.svg" class="">
+        <img src="/static/images/logo/charizone-icon.svg" role="presentation" alt="">
         <strong>
             {% if article.file.page.meta.author %}
             {{ article.file.page.meta.author }}

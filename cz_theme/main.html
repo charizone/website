@@ -35,7 +35,7 @@
         <div class="prose">
             {% if page.meta.articleimage %}
             <figure>
-                <img src="{{ page.meta.articleimage }}">
+                <img src="{{ page.meta.articleimage }}" alt="{{ page.meta.articleimagealt }}">
             </figure>
             {% endif %}
             {{ page.content }}

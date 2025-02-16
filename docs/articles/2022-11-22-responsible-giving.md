@@ -11,7 +11,7 @@ Responsible Giving- Sarah Gammoh writes for Charles Stanley’s magazine: Charit
 <a href="/media/InFocus_Charities_Issue10_RGB_SarahGammoh.pdf" class="btn bg-purple color-white">Read the article [PDF]</a>
 
 <figure>
-    <img src="/images/articles/2022-11-22-charles-stanley-article.png">
+    <img src="/images/articles/2022-11-22-charles-stanley-article.png" alt="Screenshot of the original article from the magazine.">
     <figcaption>- <cite>Charities InFocus - Summer 2022</cite></figcaption>
 </figure>
 
