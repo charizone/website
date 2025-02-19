@@ -43,7 +43,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
 
 <ul class="accordian border-bottom b--black-05" style="padding-left: 0;">
     <li class="border-top b--black-05">
-        <details open="">
+        <details open="" name="faqs">
             <summary>Are you a charity?</summary>
             <p>
                 Charizone is not a charity itself.  We are a mission-driven organisation, set up as a limited company, focused on achieving our purpose while ensuring financial sustainability, all while maintaining the highest standards of governance and sustainability.
@@ -54,7 +54,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </details>
     </li>
     <li class="border-top b--black-05">
-        <details open="">
+        <details name="faqs">
             <summary>What data sources do you use?</summary>
             <p>
                 We use a variety of accessible and reliable sources recognised in the sector, all of which need to meet our data standards.
@@ -83,7 +83,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </details>
     </li>
     <li class="border-top b--black-05">
-        <details open="">
+        <details name="faqs">
             <summary>What charities coverage do you have at the moment?</summary>
             <p>
                 At the moment, we're focusing on charities registered with the Charity Commission for England and Wales. This is because the reporting requirements there are more detailed, allowing us to provide you with richer, more comprehensive information.
@@ -94,7 +94,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </details>
     </li>
     <li class="border-top b--black-05">
-        <details open="">
+        <details name="faqs">
             <summary>Do you recommend charities?</summary>
             <p>
                 We don’t make charity recommendations, but we provide comprehensive, reliable data to help you make informed decisions about where to give. By making essential information more accessible, we empower donors and funders to give with confidence.
@@ -105,7 +105,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </details>
     </li>
     <li class="border-top b--black-05">
-        <details open="">
+        <details name="faqs">
             <summary>Are you a grant management software?</summary>
             <p>
                 We support philanthropic efforts by providing data.
@@ -119,7 +119,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </details>
     </li>
     <li class="border-top b--black-05">
-        <details open="">
+        <details name="faqs">
             <summary>What’s the Cost: Subscriptions, Prices, or Free Options?</summary>
             <p>
                 We aim to provide comprehensive solutions tailored to your needs. Pricing depends on the offering you choose—whether it’s a subscription, integration, reports, or a combination of these—and how you plan to use the platform. We avoid publishing specific pricing online to ensure each plan is personalised to your requirements.
@@ -133,7 +133,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </details>
     </li>
     <li class="border-top b--black-05">
-        <details open="">
+        <details name="faqs">
             <summary>How often do you update the data?</summary>
             <p>
                 We aim to use the most accurate and up-to-date data available.
@@ -144,7 +144,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </details>
     </li>
     <li class="border-top b--black-05">
-        <details open="">
+        <details name="faqs">
             <summary>Who is Charizone for?</summary>
             <p>
                 Charizone works with both sides of the funding landscape

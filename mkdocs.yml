@@ -17,7 +17,7 @@ plugins:
       - add_charities.py
 nav:
   - About: "about.md"
-  - Product: "product.md"
+  - Our approach: "approach.md"
   - Resources: "articles.md"
   - Contact: "contact.md"
 watch:

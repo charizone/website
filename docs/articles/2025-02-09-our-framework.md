@@ -19,30 +19,30 @@ Our aim is to bring into focus the effectiveness, the outcome and the inspiratio
 
 ![A donut chart showing the three components of the Charizone Framework: Impact, Governance and Finance](../static/images/Impact_Governance_Finance_Donut.png)
 
-<div class="grid mv5">
-    <div class="column-span-4 mb3">
-        <div class="box tc bg-white color-purple">
+<div class="container grid">
+    <div class="col-span-1">
+        <div class="box shadow">
             <img src="/static/images/brain_small/Brain_Blue.svg" alt="">
-            <h1>Impact</h1>
-            <p>Impact is the positive change that is created by a charity. </p>
-            <p>Charizone expects all charities, regardless of their size, to regularly 
+            <h3>Impact</h3>
+            <p style="margin: 0;">Impact is the positive change that is created by a charity. </p>
+            <p style="margin: 0;">Charizone expects all charities, regardless of their size, to regularly 
             assess their effectiveness in achieving their long-term charitable mission.</p>
         </div>
     </div>
-    <div class="column-span-4 mb3">
-        <div class="box tc bg-white color-purple">
+    <div class="col-span-1">
+        <div class="box shadow">
             <img src="/static/images/brain_small/Brain_Purple.svg" alt="">
-            <h1>Governance</h1>
-            <p>Good governance is reflected in a charity's compliance with the law and relevant regulations along with adherence to best practice guidance.</p>
-            <p>An effective board of trustees is fundamental for the success of a charity and for promoting a safe, open and transparent environment.</p>
+            <h3>Governance</h3>
+            <p style="margin: 0;">Good governance is reflected in a charity's compliance with the law and relevant regulations along with adherence to best practice guidance.</p>
+            <p style="margin: 0;">An effective board of trustees is fundamental for the success of a charity and for promoting a safe, open and transparent environment.</p>
         </div>
     </div>
-    <div class="column-span-4 mb3">
-        <div class="box tc bg-white color-purple">
+    <div class="col-span-1">
+        <div class="box shadow">
             <img src="/static/images/brain_small/Brain_Yellow.svg" alt="">
-            <h1>Finance</h1>
-            <p>The financial health of a charity is necessary for delivering its charitable objectives.</p>
-            <p>Charizone considers key issues common across all charities to assess the financial management, sustainability of their operations and efficiency of their use of resources.</p>
+            <h3>Finance</h3>
+            <p style="margin: 0;">The financial health of a charity is necessary for delivering its charitable objectives.</p>
+            <p style="margin: 0;">Charizone considers key issues common across all charities to assess the financial management, sustainability of their operations and efficiency of their use of resources.</p>
         </div>
     </div>
 </div>
