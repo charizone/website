@@ -6224,7 +6224,7 @@ a.shadow:hover {
 .ring-mask,
 .bg-ring {
   position: relative;
-  z-index: -2;
+  z-index: 1;
   padding: 0;
   --mask-position: center;
   --mask-size: cover;
@@ -6252,13 +6252,14 @@ a.shadow:hover {
   background-color: var(--mask-colour);
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 2;
 }
 .brain-mask > *,
 .bg-brain > *,
 .ring-mask > *,
 .bg-ring > * {
-  z-index: 2;
+  z-index: 5;
+  position: relative;
 }
 
 .brain-mask,
@@ -6957,6 +6958,8 @@ ul.box-list > li > img {
 .box > img.icon {
   max-width: 10rem;
   max-height: 7.25rem;
+  min-height: 90px;
+  align-self: start;
 }
 .box > img.icon.right {
   margin-left: auto;
