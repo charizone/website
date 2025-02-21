@@ -1,11 +1,9 @@
 ---
 colour: methodology
-title: "Our Framework: <br>Inspiring informed <br>decision-making"
+title: "Introducing the Charizone framework"
 author: Sarah Gammoh
 date: 2025-02-09
 ---
-
-# Introducing the Charizone framework
 
 _- Sarah Gammoh, Charizone Founder_
 
