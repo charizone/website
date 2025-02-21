@@ -51,7 +51,7 @@
             We’re here to help you throughout your giving journey, from initial
             research, to due diligence, to ongoing support and relationship building.
         </p>
-        <nav class="tabs center">
+        <nav class="tabs f2 center">
             <ul class="bg-purple colour-complement" role="tablist">
                 <li :class="(active === 0) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 0">
                     <a href="#" class="" aria-controls="step-1" @click.prevent="active = 0">Initial
@@ -129,7 +129,32 @@
         </div>
     </div>
 </section>
-<section class="bg-swoosh">
+<section class="" id="tools">
+    <div class="container ">
+        <h2 class="">Our tools</h2>
+        <p>
+            Learn about how we collect our data, the work that has gone into our Charity
+            Performance reports, and how we’re building a platform designed to save you time.
+        </p>
+        <a class="btn med bg-purple colour-complement" href="/articles/">
+            View all resources
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+    </div>
+    <div class="container grid grid-small">
+        <a href="/articles/2025-02-09-our-framework" class="box ring-mask colour-white col-span-half flex-column"
+            style="background-color: var(--colour-navy-50); --mask-colour: var(--colour-navy);">
+            <h4 class="h1 header-font colour-white no-underline">Charizone Framework Reports</h4>
+            <p class="underline tr colour-white">Read our methodology</p>
+        </a>
+        <a href="#features" class="box brain-mask left colour-white col-span-half flex-column"
+            style="background-color: var(--colour-jordan-50); --mask-colour: var(--colour-jordan);">
+            <h4 class="h1 header-font colour-white no-underline">Atlas: Your data hub</h4>
+            <p class="underline tr colour-white">Explore Atlas</p>
+        </a>
+    </div>
+</section>
+<section class="bg-swoosh" id="features">
     <div class="container ">
         <h2 class="">The features</h2>
         <p>
@@ -339,31 +364,6 @@
             </p>
         </div>
 
-    </div>
-</section>
-<section class="">
-    <div class="container ">
-        <h2 class="">The methodology</h2>
-        <p>
-            Learn about how we collect our data, the work that has gone into our Charity
-            Performance reports, and how we’re building a platform designed to save you time.
-        </p>
-        <a class="btn med bg-purple colour-complement" href="/articles/">
-            View all resources
-            <span class="icon material-icons">arrow_forward</span>
-        </a>
-    </div>
-    <div class="container grid grid-small">
-        <a href="/articles/2025-02-09-our-framework" class="box ring-mask colour-white col-span-half"
-            style="background-color: var(--colour-navy-50); --mask-colour: var(--colour-navy);">
-            <h4 class="h1 header-font colour-white no-underline">Charizone Framework Reports</h4>
-            <p class="underline tr colour-white">Read our methodology</p>
-        </a>
-        <a href="#" class="box brain-mask left colour-white col-span-half"
-            style="background-color: var(--colour-jordan-50); --mask-colour: var(--colour-jordan);">
-            <h4 class="h1 header-font colour-white no-underline">Atlas: Your data hub</h4>
-            <p class="underline tr colour-white">Explore Atlas</p>
-        </a>
     </div>
 </section>
 <section class="">
