@@ -9,117 +9,349 @@
 ] %}
 
 {% block content %}
-{% include 'components/hero.html' %}
-<section class="container ">
-    <div class="grid">
-        <div class="column-span-6 hide-mobile">
-            <img src="/static/images/Home_CharityGraphic_sm.png" style="margin-left: -70px;" alt="Three images showing charity activities: medicine, the environment and training.">
-        </div>
-        <div class="column-span-6">
-            <h2>Here's a question for you</h2>
-            <p>
-                Is it enough to support a charity based on "trust", or should we enhance our decision with data?
-            </p>
-            <p>
-                Even though there are more charities than ever before, we often end up supporting the usual charities - 
-                and struggle to find the new, lean and impactful organisations, who are often using novel ways
-                to promote evolution within the sector.
-            </p>
-            <p>
-                That's why we collate publicly-available charity data and insights into easily-digestible reports - 
-                presenting a narrative to empower your decision to support charities that you really believe in. 
-            </p>
-            <p>
-                By covering three key areas of a charity's performance (the impact of their work, their governance 
-                and their finances) we're here to inspire the philanthropic community to use wealth for good, to 
-                support charities that align with their values, and to work towards a better world.
-            </p>
-            <a href="{{ 'about'|url }}" class="btn bg-finance color-purple">Read more about our story</a>
-        </div>
-    </div>
-</section>
-<section class="dark-brain bg-purple color-white">
-    <div class="container grid">
-        <figure class="column-span-8 column-offset-3 tc mv0">
-            <blockquote class="mb4">"Large marketing campaigns, show-stopping events, and successful fund-raisers don't make a difference to our reports. Instead, our framework enables philanthropists, wealth managers, and other donors to make informed decisions - and be confident that their donation really is contributing to a better world."</blockquote>
-            <figcaption class="mb4 i">- Sarah Gammah, Charizone Founder</figcaption>
-            <a href="{{ 'our-methodology'|url }}" class="btn bg-finance color-purple">View our methodology</a>
-        </figure>
+<section>
+    <div class="container">
+        <h1 class="no-ligatures">Scale your impact</h1>
+        <p>
+            Use Charizone to easily analyse, compare and navigate over
+            <strong>177,000</strong> UK charities - and donate confidently to the
+            causes you believe in.
+        </p>
+        <a class="btn med bg-pink colour-complement appointment-booker" href="{{ config.extra.appointment_booker }}">
+            Book a free trial
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
     </div>
 </section>
 <section class="container">
-    <div class=" grid">
-        <div class="column-span-12 tc">
-            <h1 class="normal">How we can help you</h1>
-        </div>
+    <img src="/static/images/Home_Graphic.svg" style="max-width: 800px; width: 100%;"
+        alt="Graphic showing the range of activities you can do with Charizone products. It starts with a user searching for children's charities in Birmingham of a certain size. From this search flows a dashboard, charts, financial history and a performance report. Charizone can help you analyse and organise 100s of data points, from the most reliable and accessible sources in the sector.">
+</section>
+<section>
+    <div class="container">
+        <h2>Streamline</h2>
+        <p>
+            Charizone helps you to find and analyse charity data in minutes, not months.
+            Wave goodbye to manual spreadsheets and access all the latest charity data and
+            information, from all of the most-used charity data sources, in one place.
+        </p>
     </div>
-    <div class="grid">
-        <div class="column-span-4 column-offset-3 mb3">
-            <div class="box tc">
-                <img src="/static/images/Home_Philanthropists.png" alt="">
-                <h1>Philanthropists and Wealth Managers</h1>
-                <p>Our reports condense a wide array of publicly available information into an easily-digestible format, enabling you to quickly compare different charities against your (or your client's) philanthropic strategy and values.</p>
-                <p>These reports are designed to be used as an aid - to empower you to take your next steps with confidence.</p>
-                <a href="{{ 'request-a-report'|url }}" class="btn bg-coral color-white end-btn">Get an example report</a>
-            </div>
-        </div>
-        <div class="column-span-4 mb3">
-            <div class="box tc">
-                <img src="/static/images/Home_Charities.png" alt="">
-                <h1>Charities</h1>
-                <p>We care deeply about the good work that charities do. 
-                Our vision is to build trust and legitimacy in the sector by promoting sector standards and improving 
-                the data and reporting for all charities- regardless of their size.
+    <ul class="box-list">
+        <li class="shadow">
+            <img src="/static/images/data_sources/oscr.png" alt="Office of the Scottish Charity Regulator">
+        </li>
+        <li class="shadow">
+            <img src="/static/images/data_sources/social.png" alt="Social media profiles">
+        </li>
+        <li class="shadow">
+            <img src="/static/images/data_sources/ccni.png" alt="Charity Commission for Northern Ireland">
+        </li>
+        <li class="shadow">
+            <img src="/static/images/data_sources/fr.png" alt="Fundraising Regulator">
+        </li>
+        <li class="shadow">
+            <img src="/static/images/data_sources/ccew.png" alt="Charity Commission for England and Wales">
+        </li>
+        <li class="shadow">
+            <img src="/static/images/data_sources/coh.png" alt="Companies House">
+        </li>
+    </ul>
+</section>
+<section>
+    <div class="container">
+        <h2>Better giving</h2>
+        <p>
+            Discover new charities, perform background checks, analyse comprehensive data and build a
+            full picture of any charity’s past, present and future.
+        </p>
+        <a class="btn med bg-purple colour-complement" href="/approach/">
+            See it in action
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+        <div class="box-grid">
+            <div class="box shadow">
+                <img src="/static/images/icons/uncover.svg" class="icon" role="presentation" alt=""
+                    style="height: 90px;">
+                <h3>Uncover new charities</h3>
+                <p class="lead">
+                    Want to find sports charities in Bristol, with fewer than 50 staff? Or up-and-coming environmental
+                    charities?
                 </p>
-                <p>Want to find out more? Read more about our future plans.</p>
-                <a href="{{ 'articles/2022-06-13-charizone-for-charities'|url }}" class="btn bg-coral color-white end-btn">Read about our work</a>
+                <p>
+                    Our easy filtering and search capabilities enable you to refine a search based on your unique
+                    criteria - helping you to
+                    discover new charities that you’ll love supporting for the long-term.
+                </p>
+            </div>
+            <div class="box shadow">
+                <img src="/static/images/icons/focus.svg" class="icon" role="presentation" alt="" style="height: 90px;">
+                <h3 @click="open = !open">Focus on relationships</h3>
+                <p class="lead">
+                    Charitable giving isn’t a one and done process. It requires long-term research,
+                    relationship-building and ongoing conversations to make it a success.
+                </p>
+                <p>
+                    Charizone updates daily, giving you the most up-to-date data available.
+                </p>
+                <p>
+                    And with Notifications, you can also track your favourite charities, getting instant alerts when
+                    anything changes - like if they submit their accounts, or if they appear in the news.
+                </p>
+            </div>
+            <div class="box shadow">
+                <img src="/static/images/icons/robust.svg" class="icon" role="presentation" alt=""
+                    style="height: 90px;">
+                <h3>Use a robust framework</h3>
+                <p class="lead">
+                    Not sure what to look out for when it comes to choosing financially sustainable charities?
+                    We’ve done the hard work for you.
+                </p>
+                <p>
+                    Our framework has been evolved over a number of years, and allows you to easily compare charities
+                    based on three core
+                    areas: impact, governance and finance.
+                </p>
+                <p>
+                    <a href="/approach/">Find out more about our methodology</a>.
+                </p>
+            </div>
+            <div class="box shadow">
+                <img src="/static/images/icons/save-time.svg" class="icon" role="presentation" alt=""
+                    style="height: 90px;">
+                <h3>Save time, lots of it</h3>
+                <p class="lead">
+                    Charizone automatically collects hundreds of data points from
+                    all of the most-used charity data sources. That’s time saved already.
+                </p>
+                <p>
+                    Its user-friendly interface and customisable search views enable you to easily compare, analyse and
+                    review that data in
+                    a way that works for you. If you’re currently relying on Google searches and spreadsheets, then be
+                    prepared for your
+                    workflow to be revolutionised.
+                </p>
             </div>
         </div>
     </div>
 </section>
-<section class="big-grid pa0">
-    <div class="column-span-4 bg-finance tc ph5 pv4">
-        <h1 class="centre normal mb3">We love</h1>
-        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_TheBigGive.png" alt="The Big Give">
-            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" style="background-color: #C6C6F2;" class="btn bg-governance color-purple centre mt4">Read more about our work</a>
+<section>
+    <div class="container">
+        <h2>Happy users</h2>
+        <p>
+            Charizone has already helped UK organisations to give with <strong>even more</strong> impact
+        </p>
     </div>
-    <div class="column-span-4 bg-light-grey tc ph5 pv4">
-        <h1 class="centre normal mb3">We love</h1>
-        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/ChampionsForChildren.png" alt="Champions for Children">
-            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" style="background-color: #121B39;" class="btn bg-governance color-white centre mt4">Read more about our work</a>
-    </div>
-    <div class="column-span-4 bg-purple color-white tc ph5 pv4">
-        <h1 class="centre normal mb3">We love</h1>
-        <img class="tc centre mb1" style="max-height: 120px;" src="/static/images/Home_ChildhoodTrust.png" alt="The Childhood Trust">
-            <a href="{{ 'articles/2022-06-22-double-the-impact'|url }}" style="background-color: #C9E3F9;" class="btn bg-governance color-purple centre mt4">Read more about our work</a>
+    <div class="box-grid quotes bg-quote w-100">
+
+        <div class="box shadow bg-white">
+            <img src="/static/images/quotes/eq.png" class="icon right">
+            <blockquote>
+                “Charizone’s rigorous analytical framework really helped us to evaluate the strengths and weaknesses of
+                charities we were considering for funding.”
+            </blockquote>
+            <cite>
+                <p class="author">John Spiers, Founder</p>
+                <p>EQ Foundation</p>
+            </cite>
+        </div>
+
+        <div class="box shadow bg-white">
+            <img src="/static/images/quotes/inthallo.png" class="icon right">
+            <blockquote>
+                “[Charizone’s] Atlas is our go-to for grant-making, saving time daily. It streamlines searches, due
+                diligence, and
+                real-time charity updates—all in one place.”
+            </blockquote>
+            <cite>
+                <p class="author">Eva Klute, Head of Operations & Philanthropy</p>
+                <p>Inthallo</p>
+            </cite>
+        </div>
+
+        <div class="box shadow bg-white">
+            <img src="/static/images/quotes/biggive.png" class="icon right">
+            <blockquote>
+                “Charizone brings more transparency to the charity sector. We would highly recommend them to funders and
+                donors alike to better understand the organisations they are supporting.”
+            </blockquote>
+            <cite>
+                <p class="author">Sahil Shah, Key Partnership Manager</p>
+                <p>The Big Give</p>
+            </cite>
+        </div>
+
+        <div class="box shadow bg-white">
+            <img src="/static/images/quotes/oi.png" class="icon right">
+            <blockquote>
+                “Charizone provided an efficient service with quick delivery. The reports were clear,
+                well-designed, easy to interpret, and highlighted both our strengths and areas for improvement.”
+            </blockquote>
+            <cite>
+                <p class="author">Mary Oakes, Deputy CEO</p>
+                <p>Opportunity International</p>
+            </cite>
+        </div>
+
     </div>
 </section>
-<section class="blue-brain bg-light-blue">
-    <div class="container grid">
-        <div class="column-span-8 column-offset-3 tc">
-            <h1 class="centre normal">We're just getting started</h1>
-            <p>With comprehensive reports on over 200 charities, we're off to a flying start. 
-            But our work doesn't stop there. Want to request a report or recommend a charity?<br><a href="{{ 'contact-us'|url }}" class="link color-purple">Get in touch to recommend a charity</a>.</p>
-            <p class="tc">
-                <a href="{{ 'request-a-report'|url }}" class="btn bg-coral color-white centre mt5 mr4">Request a Report</a>
-                <a href="{{ 'articles/2022-06-13-charizone-for-charities'|url }}" class="btn bg-purple color-white centre mt5">Read about our work</a>
-            </p>
+<section class="steps bg-swoosh offset">
+    <div class="container">
+        <h2>3 steps</h2>
+        <p>
+            Charizone guides you right through the process - from charity discovery, to research, to due diligence.
+            Giving you all the information you need to start the right long-lasting partnerships, with the right
+            charities.
+        </p>
+        <a class="btn med bg-pink colour-complement appointment-booker" href="{{ config.extra.appointment_booker }}">
+            Book a free trial
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+        <div class="steps">
+            <div class="step">
+                <figure>
+                    <img src="/static/images/Placeholders/step-smart-search-image.png" class="rectangle-background"
+                        alt="Screenshot of a search homepage">
+                </figure>
+                <div>
+                    <h3>Search</h3>
+                    <p>
+                        Use the dynamic smart search bar and pre-set filtering functionalities to quickly
+                        create a refined list of charities that align with your specific criteria.
+                    </p>
+                </div>
+            </div>
+            <div class="step">
+                <figure>
+                    <img src="/static/images/Placeholders/step-portfolio-image.png" class="rectangle-background"
+                        alt="Screenshot of a dashboard portfolio">
+                </figure>
+                <div>
+                    <h3>Shortlist</h3>
+                    <p>
+                        Enhance your decision-making with data visualisation tools, offering centralised,
+                        structured and comparable data points from 12 reliable sources.
+                    </p>
+                </div>
+            </div>
+            <div class="step">
+                <figure>
+                    <img src="/static/images/Placeholders/step-framework-image.png" class="rectangle-background"
+                        alt="Screenshot of a framework report">
+                </figure>
+                <div>
+                    <h3>Analyse</h3>
+                    <p>
+                        Use comprehensive Performance Reports to add valuable insight, using our expert-led, in-depth
+                        and
+                        transparent analysis based on sector codes and conducts of best practice.
+                    </p>
+                </div>
+            </div>
+            <div class="step full">
+                <figure>
+                    <img src="/static/images/Placeholders/step-article.svg" class="" alt="Screenshot of a news article">
+                </figure>
+                <div>
+                    <h3>Then keep track</h3>
+                    <p>
+                        Enjoy auto-updating data across the whole system, and use alerts to notify you
+                        of any important changes to the charities you want to keep an eye on.
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-<section class="container">
-    <div class=" grid">
-        <div class="column-span-12 tc">
-            <h1 class="normal">Read our latest insights</h1>
-        </div>
-    </div>
-    <div class="insightboxes">
-        {% for article in articles %}
-        {% if loop.index <= 3 %}
-            {% set article_index = loop.index0 %}
-            {% include 'components/article-stub.html' %}
-        {% endif %}
-        {% endfor %}
+<section>
+    <div class="container">
+        <h2>See it in action</h2>
+        <video class="shadow" controls="" playsinline="" preload="metadata"
+            poster="/static/videos/charizone_atlas_demo_poster.jpg"
+            aria-label="A demonstration of the Charizone Atlas platform.">
+            <source src="/static/videos/charizone_atlas_demo.mp4" type="video/mp4">
+            Your browser doesn't support embedded videos. You can
+            <a href="/static/videos/charizone_atlas_demo.mp4" download="charizone_atlas_demo.mp4">
+                download the MP4
+            </a>
+        </video>
+        <a class="btn med bg-pink colour-complement appointment-booker" href="{{ config.extra.appointment_booker }}">
+            Book a free trial
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+        <ul class="big-numbers">
+            <li>
+                <div>
+                    <span class="number">100+</span>
+                    filter-able and search-able data points collected for every registered UK charity
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span class="number">All</span>
+                    the accessible and reliable data sources in the sector, eg. Charity Commission and 360 Giving
+                </div>
+            </li>
+            <li>
+                <div>
+                    <span class="number">One</span>
+                    user-friendly interface, with customisable search options and data views
+                </div>
+            </li>
+        </ul>
     </div>
 </section>
+<section class="bg-navy-50 colour-complement bg-brain" style="--mask-colour: var(--colour-navy);">
+    <div class="container hero">
+        <h1 class="">Navigate over 177,000 UK charities and scale your impact.</h1>
+        <div class="buttons">
+            <a class="btn med bg-pink colour-complement appointment-booker"
+                href="{{ config.extra.appointment_booker }}">
+                Book free trial
+                <span class="icon material-icons">arrow_forward</span>
+            </a>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2>The mission</h2>
+        <p>
+            Even more insights, even more comprehensive frameworks, and even more features.
+            All so you can give with even more confidence. We’re four years in and just at
+            the beginning of our journey... and we can’t wait for you to join 🚀
+        </p>
+        <a class="btn med bg-purple colour-complement" href="/about">
+            Read more
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+        <div class="figure-grid">
+
+            <figure>
+                <img src="/static/images/people/sarah-g.png" alt="Sarah G photo">
+                <figcaption>
+                    <h3>Sarah G</h3>
+                    <cite>Founder</cite>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="/static/images/people/david-k.png" alt="David K photo">
+                <figcaption>
+                    <h3>David K</h3>
+                    <cite>CTO</cite>
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="/static/images/people/sarah-b.png" alt="Sarah B photo">
+                <figcaption>
+                    <h3>Sarah B</h3>
+                    <cite>Brand and UX</cite>
+                </figcaption>
+            </figure>
+
+        </div>
+    </div>
+</section>
+
 {% endblock %}

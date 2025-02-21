@@ -6,26 +6,25 @@ theme:
 plugins:
   cz_blog:
     footernav:
-      - Read our FAQs: 'articles/2022-06-01-faqs.md'
-      - About Charizone: 'about.md'
-      - Our Methodology: 'our-methodology.md'
+      - About: "about.md"
+      - Resources: "articles.md"
+      - Contact: "contact.md"
     articles_folder: articles
-    privacy: 'privacy.md'
-    terms: 'terms-and-conditions.md'
+    privacy: "privacy.md"
+    terms: "terms-and-conditions.md"
   gen-files:
     scripts:
       - add_charities.py
 nav:
-  - Home: 'index.md'
-  - About: 'about.md'
-  - Our Methodology: 'our-methodology.md'
-  - Articles and Insights: 'articles.md'
-  - Get in touch: '/#getintouch'
-  - Request a report: 'request-a-report.md'
+  - About: "about.md"
+  - Our approach: "approach.md"
+  - Resources: "articles.md"
+  - Contact: "contact.md"
 watch:
   - cz_theme
   - cz_blog
   - add_charities.py
 extra:
+  appointment_booker: https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Rif_CiZSLSMJzbvdhHA7O89AhkuBYkC3L6y36LXc2CutxwzJHDEI8owDrFtI12l92WrZmP0Y5?gv=true
   twitter: https://twitter.com/Charizone_UK
   linkedin: https://www.linkedin.com/company/charizone/

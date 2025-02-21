@@ -1,0 +1,484 @@
+{% extends "_base.html" %}
+
+{% block headscripts %}
+{{ super() }}
+<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<section class="">
+    <div class="container ">
+        <h1 class="no-ligatures">Charizone</h1>
+        <p class="lead">UK charity research, reworked</p>
+        <p>Traditionally, charitable research has been time-consuming, difficult and inefficient.</p>
+        <p>
+            <strong>Not anymore.</strong>
+        </p>
+    </div>
+</section>
+<section class="gradient-primary-90 colour-complement">
+    <div class="container grid">
+        <div class="col-span-1 flex-column center">
+            <img src="/static/images/logo/brand-circle-blue.svg" role="presentation" alt="" />
+            <h2 class="">Quick</h2>
+            <p>
+                This is the first time such comprehensive UK charity data has been
+                available to search, filter and analyse from one place.
+            </p>
+        </div>
+        <div class="col-span-1 flex-column center">
+            <img src="/static/images/logo/brand-circle-jordan.svg" role="presentation" alt="" />
+            <h2 class="">Reliable</h2>
+            <p>
+                We only pool data from official and regulated sources, so you can
+                trust the information you see is correct and up-to-date.
+            </p>
+        </div>
+        <div class="col-span-1 flex-column center">
+            <img src="/static/images/logo/brand-circle-yellow.svg" role="presentation" alt="" />
+            <h2 class="">Efficient</h2>
+            <p>
+                Say no to outdated Excel spreadsheets, long-winded Google searches and
+                settling for ‘good enough’. This is your research workflow, redefined.
+            </p>
+        </div>
+    </div>
+</section>
+<section aria-roledescription="carousel">
+    <div class="container " x-data="{ active: 0 }">
+        <h2 class="">The journey</h2>
+        <p>
+            We’re here to help you throughout your giving journey, from initial
+            research, to due diligence, to ongoing support and relationship building.
+        </p>
+        <nav class="tabs f2 center">
+            <ul class="bg-purple colour-complement" role="tablist">
+                <li :class="(active === 0) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 0">
+                    <a href="#" class="" aria-controls="step-1" @click.prevent="active = 0">Initial
+                        research</a>
+                </li>
+                <li :class="(active === 1) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 1">
+                    <a href="#" class="" aria-controls="step-2" @click.prevent="active = 1">Comprehensive
+                        reports</a>
+                </li>
+                <li :class="(active === 2) && 'active bg-white colour-navy'" role="tab" :aria-selected="active === 2">
+                    <a href="#" class="" aria-controls="step-3" @click.prevent="active = 2">Ongoing
+                        support</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="steps">
+            <div class="step" id="step-1" :style="{ display: active === 0 ? null : 'none' }">
+                <figure>
+                    <img src="/static/images/Placeholders/step-smart-search-image.png" class="rectangle-background"
+                        alt="Screenshot of smart search platform">
+                </figure>
+                <div>
+                    <h3>Initial research</h3>
+                    <p>
+                        Use our search platform to easily compare, analyse and navigate over 177,000 UK charities.
+                        Access 100+ data points
+                        pulled from the most reliable sources used in the sector.
+                    </p>
+                    <p>
+                        Uncover new charities and causes while waving goodbye to manual spreadsheets and Google
+                        searches.
+                    </p>
+                </div>
+            </div>
+            <div class="step" id="step-2" :style="{ display: active === 1 ? null : 'none' }">
+                <figure>
+                    <img src="/static/images/Placeholders/step-framework-image.png" class="rectangle-background"
+                        alt="Screenshot of performance framework report">
+                </figure>
+                <div>
+                    <h3>Comprehensive reports</h3>
+                    <p>
+                        Enhance your decision-making with data visualisation tools, offering centralised, structured and
+                        comparable data points
+                        from the most reliable sources in the sector.
+                    </p>
+                    <p>
+                        Then use comprehensive Charity Performance Reports to add valuable insight, using our
+                        expert-led, in-depth and
+                        transparent analysis based on sector codes and conducts of best practice.
+                    </p>
+                </div>
+            </div>
+            <div class="step" id="step-3" :style="{ display: active === 2 ? null : 'none' }">
+                <figure>
+                    <img src="/static/images/Placeholders/step-portfolio-image.png" class="rectangle-background"
+                        alt="Screenshot of portfolio dashboard">
+                </figure>
+                <div>
+                    <h3>Ongoing support</h3>
+                    <p>
+                        Enjoy auto-updating data across the whole system, making annual reviews a breeze.
+                    </p>
+                    <p>
+                        Get alerted when a charity you follow has updated its accounts, appeared in the news, or made a
+                        change to its board.
+                    </p>
+                    <p>
+                        Let Charizone take care of the legwork, while you spend time building long-lasting and
+                        sustainable relationships with
+                        your charities of choice.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="" id="tools">
+    <div class="container ">
+        <h2 class="">Our tools</h2>
+        <p>
+            Learn about how we collect our data, the work that has gone into our Charity
+            Performance reports, and how we’re building a platform designed to save you time.
+        </p>
+        <a class="btn med bg-purple colour-complement" href="/articles/">
+            View all resources
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+    </div>
+    <div class="container grid grid-small">
+        <a href="/articles/2025-02-09-our-framework" class="box ring-mask colour-white col-span-half flex-column"
+            style="background-color: var(--colour-navy-50); --mask-colour: var(--colour-navy);">
+            <h4 class="h1 header-font colour-white no-underline">Charizone Framework Reports</h4>
+            <p class="underline tr colour-white">Read our methodology</p>
+        </a>
+        <a href="#features" class="box brain-mask left colour-white col-span-half flex-column"
+            style="background-color: var(--colour-jordan-50); --mask-colour: var(--colour-jordan);">
+            <h4 class="h1 header-font colour-white no-underline">Atlas: Your data hub</h4>
+            <p class="underline tr colour-white">Explore Atlas</p>
+        </a>
+    </div>
+</section>
+<section class="bg-swoosh" id="features">
+    <div class="container ">
+        <h2 class="">The features</h2>
+        <p>
+            Everything you need to do your research well. We’re small and agile; which means
+            we’re constantly adding new tools, and building new features based on our users’ requests.
+        </p>
+        <!--
+        <a class="btn med bg-purple colour-complement">
+            See our roadmap
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+        -->
+    </div>
+    <div class="container grid grid-small">
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">home</span>
+                All in one place
+            </strong>
+            <p>
+                100+ data points for every UK charity, across finance, governance and impact.
+            </p>
+            <p>
+                <small>
+                    All searchable, filterable and comparable. The only tool you need for charity research.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">api</span>
+                APIs
+            </strong>
+            <p>
+                We use robust APIs to ensure our data is always up-to-date, reliable and accurate.
+            </p>
+            <p>
+                <small>
+                    Say no to manual spreadsheets, and yes to automatic updates.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">notifications</span>
+                Notifications
+            </strong>
+            <p>
+                Choose your charities, and stay notified whenever there’s a change. As requested by our users.
+            </p>
+            <p>
+                <small>
+                    Whether they’ve appeared in the news, or they’ve updated their accounts.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">favorite</span>
+                Save to portfolio
+            </strong>
+            <p>
+                Save your favourite charities in portfolios to easily compare and analyse your top choices.
+            </p>
+            <p>
+                <small>
+                    Load in existing lists or add your charities manually. This is where the magic happens.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">file_download</span>
+                Download and export data
+            </strong>
+            <p>
+                Easily import your CSV files into your portfolios, or export data out as CSV files.
+            </p>
+            <p>
+                <small>
+                    Sometimes spreadsheets still have a place - easily integrate into your team’s existing workflow.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">account_circle</span>
+                Team logins
+            </strong>
+            <p>
+                With team logins, you can share portfolios and collaborate seamlessly across your team projects.
+            </p>
+            <p>
+                <small>
+                    Charizone is designed for both individuals and teams.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">tune</span>
+                Search and filter
+            </strong>
+            <p>
+                The ultimate charity discovery tool to narrow down your search in minutes, not months.
+            </p>
+            <p>
+                <small>
+                    Search and filter by almost every data point to find the charity that aligns with your unique
+                    criteria.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">blur_on</span>
+                Pulls data from multiple sources
+            </strong>
+            <p>
+                From social media to Companies House, we pull data from the most used sources in the industry.
+            </p>
+            <p>
+                <small>
+                    Have a request? We’re always open to adding more. Just let us know.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">dashboard</span>
+                Dashboards
+            </strong>
+            <p>
+                Organise your data in a way that suits you. Charity data visualisation like you’ve never seen it before.
+            </p>
+            <p>
+                <small>
+                    Dive into financial analytics or compare charities side-by-side.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">compare_arrows</span>
+                Compare
+            </strong>
+            <p>
+                Compare two or more charities side-by-side, across all data points as well as Charity Performance
+                insights.
+            </p>
+            <p>
+                <small>
+                    At-a-glance charity comparison, for seamless research.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">dashboard_customize</span>
+                Customisation
+            </strong>
+            <p>
+                Customise your dashboard to suit your workflow and your needs. Get the information you need at a glance.
+            </p>
+            <p>
+                <small>
+                    Create custom views, add new filters and choose how your data is shown.
+                </small>
+            </p>
+        </div>
+
+        <div class="col-span-1 box shadow bg-white info">
+            <strong class="flex-row left">
+                <span
+                    class="btn bg-jordan colour-complement icon material-icons no-hover no-cursor icon-spin">developer_mode</span>
+                Ongoing development and support
+            </strong>
+            <p>
+                We regularly touch base with all our users to build new features that are useful to you and your team.
+            </p>
+            <p>
+                <small>
+                    All this, and we’re really just at the beginning of our journey.
+                </small>
+            </p>
+        </div>
+
+    </div>
+</section>
+<section class="">
+    <div class="container ">
+        <h2 class="">Our offering</h2>
+        <p>
+            We offer Charizone solutions for teams of all sizes, and our affordable offering is made up of three
+            core components. Talk to us to build a pricing package that works for you.
+        </p>
+        <a class="btn med bg-pink colour-complement" href="/contact/">
+            Contact us
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+    </div>
+    <div class="container grid grid-small">
+        <div class="box shadow col-span-1 bg-white info">
+            <h3>Subscription</h3>
+            <p>
+                Access to the Atlas platform, where you can search, filter, build
+                portfolios and compare charity data points in a single user-friendly interface.
+            </p>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>The core way to streamline and update your workflow</p>
+            </div>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Great for teams of all sizes, built for collaboration</p>
+            </div>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Monthly and annual plans available</p>
+            </div>
+            <a href="/contact" class="btn bg-white colour-complement">
+                <span class="icon material-icons circle bg-pink colour-white">arrow_forward</span>
+                Contact us
+            </a>
+        </div>
+        <div class="box shadow col-span-1 bg-white info">
+            <h3>Integrations</h3>
+            <p>
+                Integrate Atlas data into your systems, such as Salesforce, through our API. Great for enhancing an
+                existing workflow or
+                powering up internal systems.
+            </p>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Connect to the tools you’re already using</p>
+            </div>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Technical support available to help set up</p>
+            </div>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Monthly and annual plans available</p>
+            </div>
+            <a href="/contact" class="btn bg-white colour-complement">
+                <span class="icon material-icons circle bg-pink colour-white">arrow_forward</span>
+                Contact us
+            </a>
+        </div>
+        <div class="box shadow col-span-1 bg-white info">
+            <h3>Reports</h3>
+            <p>
+                Charity Performance Reports combine data with expert analysis to measure a charity’s impact, governance
+                and finances.
+            </p>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Includes all data points, plus analysis by industry experts</p>
+            </div>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Costed on a per-report basis, completed in a timely manner</p>
+            </div>
+            <div class="flex-row">
+                <div>
+                    <span class="btn bg-teal colour-complement icon material-icons no-hover no-cursor">check</span>
+                </div>
+                <p>Gain deeper insights into your shortlisted charities</p>
+            </div>
+            <a href="/contact" class="btn bg-white colour-complement">
+                <span class="icon material-icons circle bg-pink colour-white">arrow_forward</span>
+                Contact us
+            </a>
+        </div>
+    </div>
+</section>
+<section class="bg-navy-50 colour-complement bg-brain" style="--mask-colour: var(--colour-navy);">
+    <div class="container hero">
+        <h1 class="">Navigate over 177,000 UK charities and scale your impact.</h1>
+        <div class="buttons">
+            <a class="btn med bg-pink colour-complement appointment-booker"
+                href="{{ config.extra.appointment_booker }}">
+                Book free trial
+                <span class="icon material-icons">arrow_forward</span>
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}

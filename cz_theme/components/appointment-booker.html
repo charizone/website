@@ -1,0 +1,26 @@
+{% if config.extra.appointment_booker %}
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+    const APPOINTMENT_LINK = {{ config.extra.appointment_booker| tojson }};
+    (function () {
+        window.addEventListener('load', function () {
+            calendar.schedulingButton.load({
+                url: APPOINTMENT_LINK,
+                color: '#039BE5',
+                label: 'Book an appointment',
+                target: document.getElementById('appointment-booker'),
+            });
+
+            document.querySelectorAll(".appointment-booker").forEach(function (el) {
+                el.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    document.querySelector("#appointment-booker-container button").click();
+                });
+            });
+        });
+    })();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+{% endif %}

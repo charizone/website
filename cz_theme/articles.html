@@ -8,17 +8,9 @@
     "/static/images/brain_small/Brain_Yellow.svg",
 ] %}
 
-{% block content %}
-<header class="hero articles {{ page.meta.colour }}">
-    <div class="r-background"></div>
-    <div class="bubble">
-        <h1>
-            Our latest<br> insights, articles<br>and opinion pieces.
-        </h1>
-    </div>
-</header>
-<section class="container ">
-    <div class="insightboxes">
+{% block content %}<section class="bg-swoosh">
+    <div class="container grid">
+        <h2 class="col-span-3 center">Resources</h2>
         {% for article in articles %}
         {% set article_index = loop.index0 %}
         {% include 'components/article-stub.html' %}

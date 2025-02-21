@@ -1,193 +1,416 @@
 {% extends "_base.html" %}
 
 {% block content %}
-<header class="hero articles about">
-    <div class="r-background"></div>
-    <div class="bubble">
-        <h1>This is our team,<br>This is our mission,<br><span class="color-governance">This is our story</span></h1>
-    </div>
-</header>
-<section class="container ">
-    <div class="grid">
-        <div class="column-span-5 column-offset-1">
-            <div class="photobox mb3">
-                <img src="/static/images/Sarah_Circle.png" alt="Sarah Gammoh">
-                <i>Sarah Gammoh</i>
-            </div>
-            <div class="photobox mb3">
-                <img src="/static/images/David_Circle.png" alt="David Kane">
-                <i>David Kane</i>
-            </div>
-        </div>
-        <div class="column-span-6 column-offset-7">
-            <h2>Why we started Charizone</h2>
-            <p> - Sarah Gammoh, Charizone Founder</p>
-            <p>
-               The idea for Charizone came out of a long frustration about my own charitable giving.
-               I have always donated to charities but had become increasingly discouraged by the scarcity 
-               of information and tools that existed to help me navigate these important decisions. 
-            </p>
-            <p>
-               The ability to undertake diligent research to find the 'right charity' is dependent on the 
-               availability of useful and reliable data in the public domain. It is not too hard to prove 
-               that information regarding a charity's effectiveness and sustainability is not readily 
-               available; often either hidden within many pages of a glossy report or too difficult to access.
-                In fact, such evidence is often too expensive for charities themselves to produce and too 
-                complex to understand.
-            </p>
-            <p>
-                With a background in environmental, social and governance (ESG) reporting in the corporate sector, 
-                I asked myself: could we apply the data analysis methods used in the ESG world to help gain an
-                 understanding of a charity's performance? What answers would reassure us that we are supporting 
-                 a "good" charity that aligns with our values? Would an ESG type framework be helpful to the charities
-                 themselves?
-            </p>
-            <p>
-                I got in touch with charity data guru, David Kane... and after four years of hard work, countless
-                 meetings and so, so much coffee, Charizone was born. It's expanding exponentially day-by-day;
-                  connecting charities and philanthropists, and making the world a better place - and we're so
-                excited to see what comes next.
-            </p>
+<section class="gradient-primary-45 colour-white">
+    <div class=" bg-circles">
+        <div class="container header left">
+            <p>Hi, we’re Charizone</p>
+            <h2>
+                We help funders and donors to
+                <span class="colour-yellow">scale their impact</span>,
+                and give with even more confidence.
+            </h2>
+            <p>By making charitable research better, easier, quicker and more accessible.</p>
         </div>
     </div>
 </section>
-<section class="dark-brain bg-purple color-white">
+<section>
     <div class="container grid">
-        <figure class="column-span-8 column-offset-3 tc mb0">
-            <blockquote class="mb4">
-                "Individuals in the UK give more than &pound;10 billion every year and yet there are surprisingly few
-                 resources out there to support us in our philanthropic giving. Charizone is here to change that."</blockquote>
-            <a href="{{ '/our-methodology'|url }}" class="btn bg-governance color-white">View our methodology</a>
-        </figure>
-    </div>
-</section>
-<section class="container ">
-    <div class="grid">
-        <div class="column-span-12">
-            <h2>What we're here to achieve</h2>
-            <p> - David Kane, CTO</p>
+        <h2 class="col-span-3">Our journey so far</h2>
+        <p class="col-span-2">
+            From our humble beginnings in 2020, to all the users benefitting from our platform today.
+        </p>
+        <div class="col-span-1">
+            <!--
+            <a class="btn med bg-pink colour-complement">
+                Read how we met
+                <span class="icon material-icons">arrow_forward</span>
+            </a>
+        -->
         </div>
-        <div class="column-span-6">
+        <div class="col-span-1 flex-column">
+            <h3 class="f1">The problem</h3>
             <p>
-                Together, Sarah and I reflected on the fact that we live in the day and age where we have the technology,
-                the knowledge, and the resources to solve the world's greatest challenges. But, as a society, we aren't
-                allocating those resources effectively.
+                We understand the challenges you face—fragmented, unstructured charity data and no clear standards to
+                guide decision-making, with over 177,000 charities to choose from and manual processes slowing you down.
             </p>
             <p>
-                Data and information isn't always available; sometimes it's too hard to find, other times it's
-                difficult to understand or scattered across various sources.
+                The result is a time-consuming, insular, and difficult-to-scale approach that lacks clarity and
+                confidence.
+            </p>
+        </div>
+        <div class="col-span-1 flex-column">
+            <h3 class="f1">The solution</h3>
+            <p>
+                Our innovative platform, Atlas, helps navigate the vast number of charities registered in the UK,
+                aggregates extensive
+                data from various sources into a user-friendly dashboard and offers deeper analysis using our Charizone
+                Charity
+                Performance Framework which defines what a good charity looks like based on existing sector codes and
+                standards.
             </p>
             <p>
-                In order to truly change the world, we realised we needed to first transform the sector with data.
-                We've worked closely with experts in the charity sector who brought their experience and passion to
-                guide our analysis.
+                This allows users to source and check new charities, save time and stay up to date with the charities
+                they care about.
+            </p>
+        </div>
+        <div class="col-span-1 flex-column">
+            <h3 class="f1">The team</h3>
+            <p>
+                With expertise in both the private and charity sectors, our small team is committed to making a huge
+                difference.
             </p>
             <p>
-                We are aware that starting something completely new is difficult, but our combined skill set is 
-                fundamental and the time is right: we are talking about "impact" now more than ever. Younger donors 
-                especially are more likely to look for information about charities' effectiveness and understand 
-                that overhead ratios don't mean anything. 
+                Sarah Gammoh, our founder, brings her entrepreneurial passion and extensive experience in Finance and
+                ESG to the charity
+                sector. David Kane, our CTO, is a leading expert in UK charity data and Sarah Barradell, our creative
+                mastermind, leads
+                our brand development and UX.
             </p>
-            <p>
-                If we can help move even a small percentage of the &pound;10bn donated each year away from low-performing 
-                non-profits to the most effective non-profits, we'll transform the sector and have an enormous impact. 
-                Charizone: the zone for charity information and inspiration.
-            </p>
-        </div>
-        <div class="column-span-5 column-offset-8">
-            <img src="/static/images/Home_DonutGraphic.png" class="" alt="A chart showing the three stages of the Charizone process: We collate, assess and present charity information into one insightful report; empowering you to take your next steps with confidence and enabling you to become a responsible and engaged donor.">
-        </div>
-    </div>
-</section>
-<section class="bg-governance color-white">
-    <div class="container grid">
-        <div class="column-span-12 tc">
-            <h1 class="normal">We have four core values:</h1>
-        </div>
-    </div>
-    <div class="container grid">
-        <div class="column-span-3 mb3">
-            <div class="box tc bg-white color-purple">
-                <img src="/static/images/brain_small/Brain_Navy.svg" alt="">
-                <h1>We genuinely care</h1>
-                <p>We want to build a more generous world. We care about our team, our clients, the sector and our environment.
-                We will do the right thing even if when it's hard. We want to leave a positive impact in everything we do.</p>
-                <p> We love kindness.</p>
-            </div>
-        </div>
-        <div class="column-span-3 mb3">
-            <div class="box tc bg-white color-purple">
-                <img src="/static/images/brain_small/Brain_Blue.svg" alt="">
-                <h1>We constantly learn</h1>
-                <p>We are always looking to improve. We do this by understanding others, listening openly to feedback and working 
-                together for shared success. This is how we remain relevant, innovative and positive. </p>
-                <p>We stay humble.</p>
-            </div>
-        </div>
-        <div class="column-span-3 mb3">
-            <div class="box tc bg-white color-purple">
-                <img src="/static/images/brain_small/Brain_Coral.svg" alt="">
-                <h1>We build<br>trust</h1>
-                <p>We build trust through transparent and open communication. We want to boost collaboration. 
-                We support, celebrate and invest in each other, working together to achieve the change we dream of.</p>
-                <p> We win together.</p>
-            </div>
-        </div>
-        <div class="column-span-3 mb3">
-            <div class="box tc bg-white color-purple">
-                <img src="/static/images/brain_small/Brain_Purple.svg" alt="">
-                <h1 class="ph0" style="max-width: 100%;">We hold ourselves accountable</h1>
-                <p>We understand how important our work is to our clients and to our charities - which is why everything we 
-                do is based on diligent research. We work hard and rely on data to stay focused on our long-term vision. </p>
-                <p>We are objective.</p>
-            </div>
         </div>
     </div>
 </section>
-<section class="container">
-    <div class="grid">
-        <div class="column-span-12 tc">
-            <h1 class="normal">Meet the team</h1>
-        </div>
-    </div>
-    <div class="grid">
-        <div class="column-span-4 column-offset-3 mb3">
-            <div class="ph4">
-                <img src="/static/images/Sarah_Square.png" class="mb3" alt="Sarah Gammoh">
-                <h2>Sarah Gammoh<br>Founder & CEO</h2>
-                <hr>
-                <p>Sarah draws from over 20 years' experience in the business sector; after starting her career in banking, 
-                she transitioned into social and responsible finance in various roles as a business consultant working with 
-                Impact FinTech, ESG and corporate governance and charities. She sits on the Board of Directors
-                of the UK Sustainable Investment and Finance Association(UKSIF).
+<section class="bg-swoosh">
+    <div class="container">
+        <h2>Who we help</h2>
+        <p>
+            We work with the philanthropic community to address the challenge of selecting and engaging
+            with the right charities. While also supporting charities to deliver lasting impact.
+        </p>
+        <a class="btn med bg-purple colour-complement" href="/approach/">
+            See it in action
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+        <div class="box-grid">
+            <div class="box shadow bg-white">
+                <img src="/static/images/icons/uncover.svg" class="icon" role="presentation" alt=""
+                    style="height: 90px;">
+                <h3>Trusts and Foundations</h3>
+                <p class="lead">
+                    Funders regularly search for, screen, and support charities that align with their values and
+                    priorities, all while
+                    fostering long-term relationships and keeping open dialogue.
                 </p>
                 <p>
-                Driven by passion and supported by a comprehensive and unique skill-set, Sarah now dedicates her work life 
-                to evolving Charizone into an organisation like no other; supporting UK philanthropists and charities 
-                to work together towards a better world.</p>
-                <a href="https://www.linkedin.com/in/sarahgammoh/" class="btn bg-governance color-white centre mt3">Connect on LinkedIn</a>
-            </div>
-        </div>
-        <div class="column-span-4 mb3">
-            <div class="ph4">
-                <img src="/static/images/David_Square.png" class="mb3" alt="David Kane">
-                <h2>David Kane<br>CTO</h2>
-                <hr>
-                <p>With over 10 years' experience working with charity data (having worked for NCVO, CAST and the 
-                Greater London Authority), David is now a Data Scientist and Researcher, specialising in data for, 
-                by and about charities and wider civil society.
+                    Our platform streamlines due diligence, identifies high-impact opportunities, and keeps trusts and
+                    foundations updated
+                    with notifications. A portfolio view allows them to track and monitor their impact.
                 </p>
                 <p>
-                His talents lie in turning messy, raw data into actionable intelligence - aimed at answering the 
-                questions you're asking.
+                    This enhances transparency, improves efficiency, and reduces manual work, supporting more effective,
+                    data-driven
+                    grantmaking, while freeing time to build relationships with charities.
+                </p>
+            </div>
+            <div class="box shadow bg-white">
+                <img src="/static/images/icons/robust.svg" class="icon" role="presentation" alt=""
+                    style="height: 90px;">
+                <h3>Philanthropic advisors</h3>
+                <p class="lead">
+                    Philanthropic advisors aim to expand their knowledge of charities and conduct focused searches for
+                    programmes that align
+                    with specific causes
                 </p>
                 <p>
-                David maintains the comprehensive database of registered charities and other organisations in the 
-                UK that the Charizone framework is built upon - and would love to help you to access this data for your work.
+                    Charizone makes this process easier by offering precise, cause-based search tools. Advisors can
+                    quickly explore and
+                    compare opportunities to find the best fit for their donors’ priorities and existing portfolios.
                 </p>
-                <a href="https://www.linkedin.com/in/david-kane/" class="btn bg-governance color-white centre mt3">Connect on LinkedIn</a>
+                <p>
+                    This helps advisors make more targeted recommendations, saves time on research, and allows them to
+                    offer more
+                    personalised, impactful advice.
+                </p>
+            </div>
+            <div class="box shadow bg-white">
+                <img src="/static/images/icons/save-time.svg" class="icon" role="presentation" alt=""
+                    style="height: 90px;">
+                <h3>Charities</h3>
+                <p class="lead">
+                    Charities benefit from our Charity Performance Framework report, which provides an independent
+                    overview of their
+                    performance based on sector codes and guidelines.
+                </p>
+                <p>
+                    The report offers a transparent and detailed overview of a charity’s impact, governance, and
+                    finances, designed to
+                    support continuous improvement and strategic growth.
+                </p>
+                <p>
+                    These reports improve communication with philanthropists and funders through clear, consistent
+                    insights. They also
+                    support internal dialogues, helping leadership teams and boards stay aligned.
+                </p>
             </div>
         </div>
+    </div>
+</section>
+<section class="">
+    <div class="container border-bottom b--jordan">
+        <h2>Meet the team</h2>
+        <p>
+            We work with the philanthropic community to address the challenge of selecting and engaging
+            with the right charities. While also supporting charities to deliver lasting impact.
+        </p>
+        <a class="btn med bg-purple colour-complement" href="/approach/">
+            See it in action
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
+        <div class="box person border-top b--jordan">
+            <img src="/static/images/people/sarah-g.png" alt="Sarah G">
+            <header>
+                <a class="btn med bg-navy colour-complement icon circle"
+                    href="https://www.linkedin.com/in/sarahgammoh/">
+                    <img src="/static/images/social/linkedin-outline.svg" alt="View LinkedIn Profile">
+                </a>
+                <h3>Sarah G</h3>
+                <p>Founder &amp; CEO</p>
+            </header>
+            <ul class="accordian border-bottom b--black-05">
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>What’s your Charizone story?</summary>
+                        <p>
+                            My Charizone story comes from a genuine passion for the charity sector, my love of data, and
+                            a relentless,
+                            solution-focused mindset.
+                        </p>
+                        <p>
+                            After years of supporting causes that I cared about, I kept running into the same issue:
+                            there was simply no clear,
+                            accessible information to help me make confident decisions. It was frustrating. I wanted to
+                            get a better sense of the
+                            mission, vision, and work behind the charities I was supporting, but instead, I found myself
+                            relying too heavily on
+                            brand and marketing. It was difficult to find tools or resources that could guide me through
+                            the process.
+                        </p>
+                        <p>
+                            With my background in numbers and data, I began to wonder if there was a way to bring
+                            data-driven insights into the
+                            charity world in a simpler, more effective way. I realised that by pooling together data and
+                            defining clear standards,
+                            we could begin to tell stories about charities in a more consistent, transparent way.
+                        </p>
+                        <p>
+                            That’s when Charizone was born. Teaming up with David Kane, a top expert in charity data, we
+                            set out to build something
+                            that could change the game. It wasn’t easy—there were plenty of challenges along the way—but
+                            the idea kept driving us
+                            forward. Now, Charizone is growing, connecting charities and philanthropists, and making the
+                            process of giving much more
+                            straightforward. And we’re just getting started!
+                        </p>
+                    </details>
+                </li>
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>Where do I know you from?</summary>
+                        <p>
+                            My journey to get here has been shaped by a mix of experiences that have all led me to this
+                            point.
+                        </p>
+                        <p>
+                            I studied Business and Economics at the University of Edinburgh after spending my school
+                            years in Jordan, and from
+                            there, I built a twelve-year career in banking, developing a strong business and financial
+                            foundation. Over time,
+                            though, I found myself drawn toward work that could drive meaningful change.
+                        </p>
+                        <p>
+                            That pull led me into Impact Finance, taking on roles in FinTech and later ESG within the
+                            private sector. Alongside
+                            this, I’ve been fortunate to work with both local and international charities, ensuring
+                            purpose has always remained
+                            central to what I do. Today, I’m proud to serve as Treasurer on the Board of the UK
+                            Sustainable Investment & Finance
+                            Association, staying closely involved with efforts to shape a more sustainable future.
+                        </p>
+                        <p>
+                            These days, I live in London, where I enjoy spending time with my family and escaping to the
+                            outdoors whenever I can.
+                            And when I’m not working? You’ll likely find me on a Pilates mat or enjoying a good coffee
+                            somewhere in the city.
+                        </p>
+                    </details>
+                </li>
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>What are you excited about?</summary>
+                        <p>
+                            We’re set to transform the charity sector. Charizone is creating tools that prioritise
+                            trust, transparency, and real
+                            impact, making giving smarter, simpler and more rewarding than ever.
+                        </p>
+                        <p>
+                            I’m inspired by how we can scale the incredible work of philanthropists, helping them
+                            support causes that align with
+                            their values while building deeper engagement with donors. Charizone makes generosity more
+                            informed and intentional.
+                        </p>
+                        <p>
+                            It’s fantastic to see how we’re helping charities showcase their true value, building a
+                            stronger, more credible sector.
+                            We’re not just helping charities attract more support for their mission—we’re empowering
+                            them to thrive.
+                        </p>
+                        <p>
+                            At its core, Charizone harnesses the power of data and technology for good, ensuring every
+                            pound given is more
+                            impactful.
+                        </p>
+                    </details>
+                </li>
+            </ul>
+        </div>
+        <div class="box person border-top b--jordan">
+            <img src="/static/images/people/david-k.png" alt="David K">
+            <header>
+                <a class="btn med bg-navy colour-complement icon circle" href="https://www.linkedin.com/in/david-kane/">
+                    <img src="/static/images/social/linkedin-outline.svg" alt="View LinkedIn Profile">
+                </a>
+                <h3>David K</h3>
+                <p>Chief Technical Officer</p>
+            </header>
+            <ul class="accordian border-bottom b--black-05">
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>What’s your Charizone story?</summary>
+                        <p>
+                            When I first met Sarah G I'd been working on charity sector data for
+                            more than 10 years. I'd seen the value that better data can provide to
+                            the work the sector does and the people that support it. But I'd also seen
+                            the frustration that comes from not being able to access that data in easy ways.
+                        </p>
+                        <p>
+                            Since then, I've been excited to build tools and resources that help
+                            anyone make the most out of this data, and connect the often abstract
+                            figures in spreadsheets and databases into actionable intelligence.
+                        </p>
+                    </details>
+                </li>
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>Where do I know you from?</summary>
+                        <p>
+                            I've been a data professional working in and with the charity sector
+                            for over fifteen years. I spent ten years at a large national charity
+                            helping produce the statistics that help understand and explore the sector.
+                        </p>
+                        <p>
+                            Since then I've worked as an independent data scientist, using the latest
+                            technology to help charities and others make the most of the opportunities
+                            that data can provide.
+                        </p>
+                    </details>
+                </li>
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>What are you excited about?</summary>
+                        <p>
+                            I'm excited about the value that good data and intelligence can bring
+                            to the charity sector and philanthropy.
+                        </p>
+                        <p>
+                            I'm also passionate about open data and open source software for
+                            solving the big problems that face the world.
+                        </p>
+                    </details>
+                </li>
+            </ul>
+        </div>
+        <div class="box person border-top b--jordan">
+            <img src="/static/images/people/sarah-b.png" alt="Sarah B">
+            <header>
+                <a class="btn med bg-navy colour-complement icon circle"
+                    href="https://www.linkedin.com/in/sarahbarradell/">
+                    <img src="/static/images/social/linkedin-outline.svg" alt="View LinkedIn Profile">
+                </a>
+                <h3>Sarah B</h3>
+                <p>Chief Brand Officer</p>
+            </header>
+            <ul class="accordian border-bottom b--black-05">
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>What’s your Charizone story?</summary>
+                        <p>
+                            At Charizone, we’re constantly evolving, growing and developing our ideas - and I’ve loved
+                            being part of the journey
+                            since 2021. Sarah G initially contacted me to help design a report template… and boy, did
+                            things snowball from there!
+                        </p>
+                        <p>
+                            The report design quickly turned into a full brand review… which then turned into the UX/UI
+                            design for Atlas… which then
+                            turned into the fun and varied role I have today. I’m now the Chief Brand Officer for
+                            Charizone, supporting with every
+                            touchpoint across the business, and I love every second of it. Whether it’s designing new
+                            features for our users or
+                            elevating the Atlas UI, if it’s Charizone-branded, I’m probably behind it!
+                        </p>
+                    </details>
+                </li>
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>Where do I know you from?</summary>
+                        <p>
+                            All over the place! I’ve spent a lot of time working on creative projects for recognisable
+                            brands such as EY, AVIVA, UK
+                            Government and Google DeepMind… as well as tiny startups, such as BEEN London, YODOMO, At
+                            Home Fitness and Tech City
+                            Teams.
+                        </p>
+                        <p>
+                            With a varied background covering copywriting, graphic design, marketing, workflow
+                            management and creative direction,
+                            I’m definitely a ‘wear lots of hats’ kinda gal! The last few years have seen me focus my
+                            work on partnering with
+                            organisations who are genuinely helping to make the world a better place, usually helping
+                            small-but-mighty teams to lay
+                            their creative foundations. Charizone, of course, falling firmly within that category.
+                        </p>
+                        <p>
+                            When I’m not getting my creative juices flowing, you’ll probably find me either exploring
+                            the outdoors (camera in hand)
+                            or donning my DIY gear for the house renovation project that doesn’t seem to end.
+                        </p>
+                    </details>
+                </li>
+                <li class="border-top b--black-05">
+                    <details>
+                        <summary>What are you excited about?</summary>
+                        <p>
+                            From the very first call with Sarah G, I knew Charizone was something special… and I’m just
+                            excited for even more people
+                            to see how useful, data-driven and time-saving Charizone really is. We’re just at the
+                            beginning of our journey, and
+                            already our users are spending hours every week using Charizone… and saving many more hours
+                            in the process.
+                        </p>
+                        <p>
+                            If we get 100,000 users streamlining their workflows, uncovering new charities and saving
+                            precious human hours (so they
+                            can get more done AND love their work/life balance), then I’ll be extremely happy!
+                        </p>
+                    </details>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="bg-white colour-complement bg-brain top"
+    style="--mask-colour: var(--colour-navy); pointer-events: none;">
+    <div class="container hero colour-white big-margin">
+        <h1 class="">What’s next?</h1>
+        <p>
+            Even more insights, even more comprehensive frameworks, and even more features.
+            All so you can give with even more confidence. We’re four years in and just at
+            the beginning of our journey... and we can’t wait for you to join 🚀
+        </p>
+        <a class="btn med bg-purple colour-complement" href="/approach/" style="pointer-events: all;">
+            See it in action
+            <span class="icon material-icons">arrow_forward</span>
+        </a>
     </div>
 </section>
 {% endblock %}

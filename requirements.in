@@ -1,5 +1,4 @@
 mkdocs
 -e file:./cz_blog
-black
-isort
+ruff
 mkdocs-gen-files
