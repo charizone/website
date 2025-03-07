@@ -48,6 +48,7 @@
   {% block prefooter %}
   {% endblock %}
   {% include 'components/footer.html' %}
+  {% block bodyscripts %}
   {% include 'components/analytics.html' %}
   <script>
     document.querySelector('.hamburger').addEventListener('click', function () {
@@ -58,6 +59,7 @@
   <div style="visibility: hidden; display: none;" id="appointment-booker-container">
     <div style="" id="appointment-booker"></div>
   </div>
+  {% endblock %}
 </body>
 
 </html>

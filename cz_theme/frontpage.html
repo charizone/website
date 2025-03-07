@@ -8,6 +8,18 @@
     "/static/images/brain_small/Brain_Yellow.svg",
 ] %}
 
+{% block bodyscripts %}
+{{ super() }}
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const video = document.querySelector("#charizone-atlas-demo-video");
+        video.addEventListener("play", (event) => {
+            sa_event("play_demo_video");
+        });
+    });
+</script>
+{% endblock %}
+
 {% block content %}
 <section>
     <div class="container">
@@ -265,7 +277,7 @@
 <section>
     <div class="container">
         <h2>See it in action</h2>
-        <video class="shadow" controls="" playsinline="" preload="metadata"
+        <video class="shadow" controls="" playsinline="" preload="metadata" id="charizone-atlas-demo-video"
             poster="/static/videos/charizone_atlas_demo_poster.jpg"
             aria-label="A demonstration of the Charizone Atlas platform.">
             <source src="/static/videos/charizone_atlas_demo.mp4" type="video/mp4">
