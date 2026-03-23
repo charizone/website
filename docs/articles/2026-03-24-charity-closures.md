@@ -10,7 +10,7 @@ featuredimage: "/images/articles/2026-03-24-charity-closures.png"
 
 We’ve been digging into charity closure data recently.
 
-### **Headline:** roughly 300 charities are removed from the register each month.
+#### **Headline:** roughly 300 charities are removed from the register each month.
 That’s just over **3,600 in 2025.**
 
 The graph reflects closures. That might be due to financial difficulty (failure?), or an organisation reaching a natural end (success?).
@@ -27,8 +27,6 @@ Which raises a challenging question: Are we trying to preserve individual charit
 
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/28188351"><noscript><img src="https://public.flourish.studio/visualisation/28188351/thumbnail" width="100%" alt="A line chart showing number of charity closures over time. The line stays steady between 2016-2020 at roughly 360 per month, and then is disrupted in 2020 and stabilises at a new level of 300 per month from 2021-2026." /></noscript></div>
-
-
 
 #### A few caveats on the data:
 
