@@ -30,7 +30,7 @@ Which raises a challenging question: Are we trying to preserve individual charit
 
 
 
-A few caveats on the data:
+#### A few caveats on the data:
 
 - Charity Commission data records removals from the register, which can include closures as well as mergers and re-registrations.
 - We’ve tried to exclude cases where charities have re-registered or merged, but these aren’t always clearly recorded, so some will still be included. According to our records, **16%** of removals relate to re-registration.
@@ -77,16 +77,19 @@ Not just individual circumstances, but how charities operate, how they are funde
 If that’s the case, it raises some practical questions.
 
 ### **For charities**
+
 - Some smaller charities appear able to operate for many years without becoming truly sustainable
 - Models that work at a small scale may become harder to sustain as costs rise or demands change
 - At what point does continuing become harder than adapting, collaborating, or changing form?
 
 ### **For funders**
+
 - Funding can keep charities going year to year, without always helping them become more sustainable
 - Is funding paired with support that helps charities develop and adapt, not just deliver services?
 - Do funding decisions look beyond individual charities, to how activity is spread across the sector?
 
 ### **For the sector**
+
 - How easy is it in practice for charities to collaborate, merge, or transition activity when needed?
 - Do some closures reflect activity continuing elsewhere, rather than being lost?
 - How much visibility is there of where capacity sits across the sector, and where it may be building up or dropping away over time?
