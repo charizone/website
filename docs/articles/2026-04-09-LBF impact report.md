@@ -11,22 +11,23 @@ featuredimage: "/images/articles/2026-04-10-funders-impact.png"
 
 Independent funders play a central role in shaping the charity sector. But understanding the difference their support actually makes, and how it can be strengthened, remains a challenge.
 
-Much of what exists today is based on reporting from funded organisations and individual examples. These offer valuable insight, but they do not show xxx
+Much of what exists today is based on reporting from funded organisations and individual examples. These offer valuable insight, they tend to focus on outputs and individual cases, rather than the wider impact or what would have happened without support.
 
 Working with Lloyds Bank Foundation for England and Wales, Charizone looked at a decade of investment in community-led charities through a more comparative, data-led lens. 
 
 ## The approach: Moving from stories to evidence
 
-At the heart of this work is a simple question: "what would have happened without the intervention".
+At the heart of this work is a simple question: what would have happened without the support?
 
-This is based on top methods in mediceince (randomised control group) which is top form of evidence. this method in the sector was pioneered by The Fore, 
+This approach is widely used in fields like medicine, where randomised controlled trials are widely considered one of the strongest form of evidence. In the charity sector, similar comparison-based approaches have been pioneered by [The Fore](https://www.thefore.org).
 
-Charities receiving funding and development support were matched with similar organisations that did not receive that support, and tracked over time.
+To explore this, we compared charities that received funding and support with similar organisations that did not, and tracked what happened over time.
 
-We combined quantitative analysis of organisational trajectories with qualitative insight from charities and funders, to understand not just what changes, but how and why.
+We combined data analysis with insights from charities to understand not just what changed, but how and why.
 
-The aim is to provide a more reliable basis for understanding how funding and development support translate into outcomes in practice.
-As with any evaluation, there are limits. Matches are not exact, and wider factors also shape outcomes. Bringing these approaches together provides a more balanced and reliable understanding than any single method alone.
+The aim is simple: to get a clearer, more reliable picture of how funding and support make a difference in practice.
+
+As with any evaluation, there are limitations. The matches are not exact, and wider factors also affect outcomes. But bringing these approaches together gives a more balanced and reliable picture than any single method alone.
 
 ## What this shows
 
