@@ -57,5 +57,7 @@ This analysis draws on a decade of funding and support from [Lloyds Bank Foundat
 
 It represents one of the first large-scale applications of a comparative, data-led approach to understanding how funding and development support shape outcomes in practice.
 
-👉 [Download the full report](/docs/media/Charizone_LBF_Report2025_11a.pdf)
+<a href="/media/Charizone_LBF_Report2025_11a.pdf" class="btn bg-purple colour-white">
+  👉 Download the full report
+</a>
 
