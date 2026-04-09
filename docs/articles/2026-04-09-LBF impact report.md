@@ -9,39 +9,39 @@ featuredimage: "/images/articles/2026-04-10-funders-impact.png"
 
 
 
-Independent funders play a central role in shaping the charity sector. But understanding the difference their support actually makes, and how it can be strengthened, remains a challenge.
+**Independent funders play a central role in shaping the charity sector. But understanding the difference their support actually makes, and how it can be strengthened, remains a challenge.**
 
-Much of what exists today is based on reporting from funded organisations and individual examples. These offer valuable insight, they tend to focus on outputs and individual cases, rather than the wider impact or what would have happened without support.
+Much of what exists today is based on reporting from funded organisations and individual case studies. While these offer valuable insights, they tend to focus on outputs and specific examples, rather than broader impact or what might have happened without support (often referred to as the “counterfactual”).
 
-Working with Lloyds Bank Foundation for England and Wales, Charizone looked at a decade of investment in community-led charities through a more comparative, data-led lens. 
+Working with [Lloyds Bank Foundation for England and Wales](https://www.lloydsbankfoundation.org.uk), Charizone looked at a decade of investment in local charities through a more comparative, data-led lens. 
 
-## The approach: Moving from stories to evidence
+## From stories to evidence: the approach
 
-At the heart of this work is a simple question: what would have happened without the support?
+At the heart of this work is a simple question: *what would have happened without the support?*
 
-This approach is widely used in fields like medicine, where randomised controlled trials are widely considered one of the strongest form of evidence. In the charity sector, similar comparison-based approaches have been pioneered by [The Fore](https://www.thefore.org).
+This type of question is central to robust impact evaluation. In fields such as medicine, methods like randomised controlled trials (RCTs) are widely considered among the strongest forms of evidence for establishing causality. In the charity sector, similar comparison-based approaches have been pioneered by [The Fore](https://www.thefore.org).
 
-To explore this, we compared charities that received funding and support with similar organisations that did not, and tracked what happened over time.
+To apply this thinking, we compared charities that received funding and support with similar organisations that did not, and tracked their outcomes over time.
 
-We combined data analysis with insights from charities to understand not just what changed, but how and why.
+We combined quantitative analysis with insights from charities themselves to understand not just what changed, but also *how and why* those changes occurred.
 
-The aim is simple: to get a clearer, more reliable picture of how funding and support make a difference in practice.
+The aim was to build a clearer, more reliable picture of how funding and support influence organisational outcomes in practice.
 
-As with any evaluation, there are limitations. The matches are not exact, and wider factors also affect outcomes. But bringing these approaches together gives a more balanced and reliable picture than any single method alone.
+As with any evaluation, there are limitations. Comparison groups are never perfectly matched, and external factors such as economic conditions or policy changes also affect outcomes. However, combining data analysis with qualitative insight provides a more balanced and credible picture than relying on any single method alone.
 
-## What this shows
+## What the evidence shows
 
 A clear story emerges.
 
 - Funding is associated with stronger growth, but on its own it does not explain the full picture.
-- Where funding is combined with development support, outcomes are more consistent and sustained over time, with stronger growth and resilience. Skills based volunteering was evident. 
-- What stands out most is that there is no single formula. Outcomes depend less on organisational characteristics, and more on leadership, adaptability, and how support is used in practice.
+- Where funding is combined with development support, outcomes are more consistent and sustained over time, with stronger growth and resilience. Skills-based volunteering is associated with the strongest results.
+- What stands out most is that there is no single formula. Outcomes depend less on organisational characteristics and more on leadership, adaptability, and how support is used in practice.
 
 Taken together, this points to the importance of flexible, tailored support and strong partnerships, rather than one-size-fits-all approaches.
 
-## Implications for founders and the sector
+## Implications for funders, the sector and policymakers
 
-This points to a more integrated view of how impact is created.
+These findings support a more integrated view of how impact is understood.
 
 Funding and development support are most effective when designed and delivered together, particularly at key moments in an organisation’s journey. Flexible, tailored support, grounded in strong relationships and trust, appears to play a critical role in how outcomes are realised.
 
@@ -49,12 +49,13 @@ It also highlights the importance of clarity and intentionality in programme des
 
 More broadly, this signals a shift for the sector. Towards approaches that combine funding with capability-building, strengthen collaboration between funders, and place greater emphasis on learning from evidence rather than relying on reporting alone.
 
+For policymakers, these findings provide further evidence that independent funders are not just a source of funding, but a vital mechanism for building resilience, innovation, and capacity in local charities. Sustained investment in this part of the sector can generate long-term social value—particularly when combined with development support.
+
 ## About the report
 
-This analysis draws on a decade of funding by Lloyds Bank Foundation for England and Wales, covering over 1,800 charities.
+This analysis draws on a decade of funding and support from [Lloyds Bank Foundation for England and Wales](https://www.lloydsbankfoundation.org.uk), covering over 1,800 charities.
 
 It represents one of the first large-scale applications of a comparative, data-led approach to understanding how funding and development support shape outcomes in practice.
 
-👉 Download the full report
+👉 download the full report
 
-<script src="https://public.flourish.studio/resources/embed.js"></script>
