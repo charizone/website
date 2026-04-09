@@ -3,7 +3,7 @@ colour: methodology
 title: "From funding to impact: how can funders understand what really changes?"
 author: Sarah Gammoh
 date: 2026-04-10
-featuredimage: "/images/articles/2026-04-10-funders-impact.png"
+featuredimage: "/images/articles/Charizone Lloyds bank foundation impact report.png"
 ---
 
 
@@ -57,5 +57,5 @@ This analysis draws on a decade of funding and support from [Lloyds Bank Foundat
 
 It represents one of the first large-scale applications of a comparative, data-led approach to understanding how funding and development support shape outcomes in practice.
 
-👉 download the full report
+👉 [Download the full report](/assets/reports/Charizone_LBF_Report2025_11a.pdf)
 
