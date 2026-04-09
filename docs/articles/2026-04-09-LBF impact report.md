@@ -6,7 +6,8 @@ date: 2026-04-10
 featuredimage: "/images/articles/2026-04-10-funders-impact.png"
 ---
 
-## What does it take to understand funders’ impact?
+
+
 
 Independent funders play a central role in shaping the charity sector. But understanding the difference their support actually makes, and how it can be strengthened, remains a challenge.
 
