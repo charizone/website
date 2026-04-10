@@ -53,9 +53,11 @@ For policymakers, these findings provide further evidence that independent funde
 
 ## About the report
 
-This analysis draws on a decade of funding and support from [Lloyds Bank Foundation for England and Wales](https://www.lloydsbankfoundation.org.uk), covering over 1,800 charities.
+This is an independent report, commissioned by Lloyds Bank Foundation for England and Wales and conducted by Charizone, titled ['Delivering lasting impact: over a decade of investment in local charities'](https://www.lloydsbankfoundation.org.uk/our-impact/research/delivering-lasting-impact-over-a-decade-of-investment-in-local-charities/). 
+
+The analysis draws on more than a decade of funding and support provided by the Foundation. It covers over 1,800 charities, which collectively received around 3,000 grants, totaling more than £157 million.
 
 It represents one of the first large-scale applications of a comparative, data-led approach to understanding how funding and development support shape outcomes in practice.
 
-👉 [Download the full report](../media/Charizone_LBF_Report2025_11a.pdf)
+👉 [Download the full report](../media/Charizone_LBF_Report2025_Final.pdf) 
 
