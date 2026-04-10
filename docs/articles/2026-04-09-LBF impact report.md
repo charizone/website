@@ -36,7 +36,7 @@ The aim was to build a clearer, more reliable picture of how funding and support
 As with any evaluation, there are limitations. Comparison groups are never perfectly matched, and external factors such as economic conditions or policy changes also affect outcomes. However, combining data analysis with qualitative insight provides a more balanced and credible picture than relying on any single method alone.
 
 <img src="/images/articles/2026-04-10 Charizone LBF Report sector feedback.png" 
-     alt="LBF testimonial" 
+     alt="LBF sector feedback" 
      width="470" 
      align="right" 
      style="margin: 30px 30px 40px 40px;">
