@@ -17,6 +17,12 @@ Working with [Lloyds Bank Foundation for England and Wales](https://www.lloydsba
 
 ## From stories to evidence: the approach
 
+<img src="../images/articles/2026-04-10%20Charizone%20LBF%20Report%20testimonial.png" 
+     alt="Sector commentary on LBF analysis" 
+     width="470" 
+     align="right" 
+     style="margin: 40px 100px 400px 40px;">
+
 At the heart of this work is a simple question: *what would have happened without the support?*
 
 This type of question is central to robust impact evaluation. In fields such as medicine, methods like randomised controlled trials (RCTs) are widely considered among the strongest forms of evidence for establishing causality. In the charity sector, similar comparison-based approaches have been pioneered by [The Fore](https://www.thefore.org).
@@ -28,6 +34,8 @@ We combined quantitative analysis with insights from charities themselves to und
 The aim was to build a clearer, more reliable picture of how funding and support influence organisational outcomes in practice.
 
 As with any evaluation, there are limitations. Comparison groups are never perfectly matched, and external factors such as economic conditions or policy changes also affect outcomes. However, combining data analysis with qualitative insight provides a more balanced and credible picture than relying on any single method alone.
+
+
 
 ## What the evidence shows
 
