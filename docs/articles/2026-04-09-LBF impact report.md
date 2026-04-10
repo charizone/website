@@ -21,7 +21,7 @@ Working with [Lloyds Bank Foundation for England and Wales](https://www.lloydsba
      alt="LBF testimonial" 
      width="470" 
      align="right" 
-     style="margin: 40px 100px 400px 40px;">
+     style="margin: 40px 40px 40px 40px;">
 
 At the heart of this work is a simple question: *what would have happened without the support?*
 
