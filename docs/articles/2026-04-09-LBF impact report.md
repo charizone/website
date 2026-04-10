@@ -17,7 +17,7 @@ Working with [Lloyds Bank Foundation for England and Wales](https://www.lloydsba
 
 ## From stories to evidence: the approach
 
-<img src="../images/articles/2026-04-10%20Charizone%20LBF%20Report%20testimonial.png" 
+<img src="../images/articles/2026-04-10 Charizone LBF Report testimonial.png" 
      alt="Sector commentary on LBF analysis" 
      width="470" 
      align="right" 
