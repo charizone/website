@@ -35,11 +35,6 @@ The aim was to build a clearer, more reliable picture of how funding and support
 
 As with any evaluation, there are limitations. Comparison groups are never perfectly matched, and external factors such as economic conditions or policy changes also affect outcomes. However, combining data analysis with qualitative insight provides a more balanced and credible picture than relying on any single method alone.
 
-<img src="/images/articles/2026-04-10 Charizone LBF Report sector feedback.png" 
-     alt="LBF sector feedback" 
-     width="470" 
-     align="right" 
-     style="margin: 30px 30px 40px 40px;">
 
 ## What the evidence shows
 
@@ -52,6 +47,11 @@ A clear story emerges.
 Taken together, this points to the importance of flexible, tailored support and strong partnerships, rather than one-size-fits-all approaches.
 
 ## Implications for funders, the sector and policymakers
+<img src="/images/articles/2026-04-10 Charizone LBF Report sector feedback.png" 
+     alt="LBF sector feedback" 
+     width="470" 
+     align="right" 
+     style="margin: 30px 30px 40px 40px;">
 
 These findings support a more integrated view of how impact is understood.
 
@@ -62,6 +62,8 @@ It also highlights the importance of clarity and intentionality in programme des
 More broadly, this signals a shift for the sector. Towards approaches that combine funding with capability-building, strengthen collaboration between funders, and place greater emphasis on learning from evidence rather than relying on reporting alone.
 
 For policymakers, these findings provide further evidence that independent funders are not just a source of funding, but a vital mechanism for building resilience, innovation, and capacity in local charities. Sustained investment in this part of the sector can generate long-term social value—particularly when combined with development support.
+
+
 
 ## About the report
 
