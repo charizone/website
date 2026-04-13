@@ -26,7 +26,7 @@ Which raises a challenging question: Are we trying to preserve individual charit
 
 
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/28188351"><noscript><img src="https://public.flourish.studio/visualisation/28188351/thumbnail" width="100%" alt="A line chart showing number of charity closures over time. The line stays steady between 2016-2020 at roughly 360 per month, and then is disrupted in 2020 and stabilises at a new level of 300 per month from 2021-2026." /></noscript></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/28188351"><noscript><img src="https://public.flourish.studio/visualisation/28188351/thumbnail" width="70%" alt="A line chart showing number of charity closures over time. The line stays steady between 2016-2020 at roughly 360 per month, and then is disrupted in 2020 and stabilises at a new level of 300 per month from 2021-2026." /></noscript></div>
 
 #### A few caveats on the data:
 
@@ -55,7 +55,7 @@ So this isn’t mainly about early-stage failure. Many charities run for years b
 
 **Together, this suggests that closures are often smaller, established organisations reaching a limit over time.**
 
-<div class="flourish-embed flourish-chart" data-src="visualisation/28189308"><noscript><img src="https://public.flourish.studio/visualisation/28189308/thumbnail" width="100%" alt="A set of bar charts showing change in charity closures by the age and size of charities. The charts show that most closures are in charities that are over 10 years old, and with income in the 3 years prior to closure of under £10,000. All the charts show a steady trend over time with no significant changes in composition." /></noscript></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/28189308"><noscript><img src="https://public.flourish.studio/visualisation/28189308/thumbnail" width="70%" alt="A set of bar charts showing change in charity closures by the age and size of charities. The charts show that most closures are in charities that are over 10 years old, and with income in the 3 years prior to closure of under £10,000. All the charts show a steady trend over time with no significant changes in composition." /></noscript></div>
 
 
 
