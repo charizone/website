@@ -19,9 +19,9 @@ Working with [Lloyds Bank Foundation for England and Wales](https://www.lloydsba
 
 <img src="/images/articles/2026-04-10 Charizone LBF Report testimonial.png" 
      alt="LBF testimonial" 
-     width="470" 
+     width="570" 
      align="right" 
-     style="margin: 30px 30px 40px 40px;">
+     style="margin: 10px 10px 10px 10px;">
 
 At the heart of this work is a simple question: *what would have happened without the support?*
 
@@ -49,9 +49,9 @@ Taken together, this points to the importance of flexible, tailored support and 
 ## Implications for funders, the sector and policymakers
 <img src="/images/articles/2026-04-10 Charizone LBF Report sector feedback.png" 
      alt="LBF sector feedback" 
-     width="470" 
+     width="570" 
      align="right" 
-     style="margin: 30px 30px 40px 40px;">
+     style="margin: 10px 10px 10px 10px;">
 
 These findings support a more integrated view of how impact is understood.
 
