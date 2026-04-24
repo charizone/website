@@ -14,7 +14,7 @@ As a nation, we give so much to charities every year and yet there are surprisin
         </strong>
         <p>
             Catch up with our friendly team.<br>
-            <a href="mailto:hello@charizone.co.uk">hello@charizone.co.uk</a>
+            <a href="mailto:info@charizone.co.uk">info@charizone.co.uk</a>
         </p>
     </div>
     <div class="col-span-1 box shadow bg-white info">
