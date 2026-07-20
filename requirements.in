@@ -2,3 +2,4 @@ mkdocs
 -e file:./cz_blog
 ruff
 mkdocs-gen-files
+mkdocs-markdownextradata-plugin

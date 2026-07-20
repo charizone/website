@@ -15,6 +15,7 @@ plugins:
   gen-files:
     scripts:
       - add_charities.py
+  markdownextradata: {}
 nav:
   - About: "about.md"
   - Our approach: "approach.md"
