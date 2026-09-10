@@ -3,7 +3,7 @@ colour: methodology
 title: "Beyond the grant: how do funders know what’s really working?"
 author: Sarah Gammoh
 date: 2026-09-10
-featuredimage: docs/images/articles/Charizone_TheFore_Report2026.png
+featuredimage: "/images/articles/Charizone_TheFore_Report2026.png"
 ---
 
 Funders make important choices every day: who to fund, how to fund them and what support to offer alongside the grant.
@@ -56,4 +56,4 @@ We want to make this kind of independent, data-led evaluation more accessible to
 
 *Evaluating The Fore’s model: The Fore’s approach to identifying and growing high-potential organisations* is an independent evaluation conducted by Charizone, covering The Fore’s approach from 2012 to 2026.
 
-**👉 [Download the full report](/docs/media/CharizoneReport_TheFore_September2026.pdf)**
+**👉 [Download the full report](../media/CharizoneReport_TheFore_September2026.pdf)**
