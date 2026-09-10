@@ -56,4 +56,4 @@ We want to make this kind of independent, data-led evaluation more accessible to
 
 *Evaluating The Fore’s model: The Fore’s approach to identifying and growing high-potential organisations* is an independent evaluation conducted by Charizone, covering The Fore’s approach from 2012 to 2026.
 
-**👉 [Download the full report](REPORT-LINK)**
+**👉 [Download the full report](/docs/media/CharizoneReport_TheFore_September2026.pdf)**
