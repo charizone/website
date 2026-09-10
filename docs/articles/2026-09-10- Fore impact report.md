@@ -3,7 +3,7 @@ colour: methodology
 title: "Beyond the grant: how do funders know what’s really working?"
 author: Sarah Gammoh
 date: 2026-09-10
-featuredimage: "/images/articles/Charizone_TheFore_Report2026.png"
+featuredimage: "/images/articles/Charizone_TheFore_Report2026_image.png"
 ---
 
 Funders make important choices every day: who to fund, how to fund them and what support to offer alongside the grant.
