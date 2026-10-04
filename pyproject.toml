@@ -1,0 +1,15 @@
+[project]
+name = "cz-website"
+version = "2.0.0"
+description = "Charizone main website"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cz-blog",
+    "mkdocs",
+    "mkdocs-gen-files",
+    "mkdocs-markdownextradata-plugin",
+]
+
+[tool.uv.sources]
+cz-blog = { path = "cz_blog" }
