@@ -4,8 +4,8 @@ author: Sarah Barradell
 date: 2023-09-21
 title: Gaining a competitive edge with Opportunity International UK
 Featured: true
-featuredimage: "/static/images/banners/Charizone_OIUKGraphics_WebsiteHeader-sm.png"
-articleimage: "/static/images/banners/Charizone_OIUKGraphics_WebsiteHeader.png"
+image: "static/images/banners/Charizone_OIUKGraphics_WebsiteHeader-sm.png"
+articleimage: "static/images/banners/Charizone_OIUKGraphics_WebsiteHeader.png"
 ---
 
 [Opportunity International](https://www.opportunity.org.uk/) provides life-changing financial training and services to some of the poorest communities in the world.  Financial training and services equips people to build sustainable businesses that enable them to work their own way out of poverty and provide a better future for their family and communities.

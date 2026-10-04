@@ -24,6 +24,12 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.url }}" />
   <meta property="og:image" content="{{ config.site_url or '/' }}static/images/CharizoneIcon.png" />
+  {% if "rss" in config.plugins %}
+  <link rel="alternate" type="application/rss+xml" title="RSS feed of created content"
+    href="{{ config.plugins.rss.feed_created.rss_url | url }}">
+  <link rel="alternate" type="application/feed+json" title="JSON feed"
+    href="{{ config.plugins.rss.feed_created.json_url | url }}" />
+  {% endif %}
   <style>
     /*
     a:not([href]),

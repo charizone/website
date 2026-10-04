@@ -1,7 +1,7 @@
 <a href="{{ article.url|url }}" class="box shadow bg-white resource col-span-1">
     <header>
-        {% if article.file.page.meta.featuredimage %}
-        <img src="{{ article.file.page.meta.featuredimage }}" role="presentation" alt="">
+        {% if article.file.page.meta.image %}
+        <img src="{{ article.file.page.meta.image|url }}" role="presentation" alt="">
         {% else %}
         <img src="{{ images[article_index % images|length] }}" role="presentation" alt="">
         {% endif %}

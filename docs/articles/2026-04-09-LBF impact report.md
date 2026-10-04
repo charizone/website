@@ -3,7 +3,7 @@ colour: methodology
 title: "From funding to impact: how can funders understand what really changes?"
 author: Sarah Gammoh
 date: 2026-04-10
-featuredimage: "/images/articles/Charizone Lloyds bank foundation impact report.png"
+image: "images/articles/Charizone Lloyds bank foundation impact report.png"
 ---
 
 

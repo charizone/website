@@ -9,6 +9,7 @@ dependencies = [
     "mkdocs",
     "mkdocs-gen-files",
     "mkdocs-markdownextradata-plugin",
+    "mkdocs-rss-plugin>=1.19.0",
 ]
 
 [tool.uv.sources]

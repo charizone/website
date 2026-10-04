@@ -3,7 +3,7 @@ colour: methodology
 title: "Charity Closures"
 author: Sarah Gammoh
 date: 2026-03-24
-featuredimage: "/images/articles/2026-03-24-charity-closures.png"
+image: "images/articles/2026-03-24-charity-closures.png"
 ---
 
 ## What the data actually shows

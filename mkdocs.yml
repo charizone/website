@@ -1,8 +1,11 @@
 site_name: Charizone
 site_url: !ENV DEPLOY_PRIME_URL
+site_description: We help funders and donors to scale their impact, and give with even more confidence.
+site_author: Charizone
 theme:
   name: null
   custom_dir: cz_theme
+  locale: en
 plugins:
   cz_blog:
     footernav:
@@ -12,6 +15,15 @@ plugins:
     articles_folder: articles
     privacy: "privacy.md"
     terms: "terms-and-conditions.md"
+  rss:
+    enabled: true
+    match_path: "articles/.*"
+    pretty_print: false
+    feeds_filenames:
+      json_created: feed.json
+      json_updated: feed-updated.json
+      rss_created: rss.xml
+      rss_updated: rss-updated.xml
   gen-files:
     scripts:
       - add_charities.py
