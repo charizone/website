@@ -1,12 +1,14 @@
 # Charizone website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f81af660-64d4-434b-9276-50f2bd34bcb9/deploy-status)](https://app.netlify.com/projects/charizone/deploys)
+
 ## Installation
 
 Using [uv](https://docs.astral.sh/uv/):
 
 ```
 uv venv
-uv pip sync requirements.txt
+uv sync
 ```
 
 ## To run
@@ -14,8 +16,6 @@ uv pip sync requirements.txt
 ```
 mkdocs serve
 ```
-
-# Welcome to MkDocs
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
