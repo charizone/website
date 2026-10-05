@@ -7,8 +7,8 @@ requires-python = ">=3.13"
 dependencies = [
     "cz-blog",
     "mkdocs",
-    "mkdocs-gen-files",
     "mkdocs-markdownextradata-plugin",
+    "mkdocs-redirects>=1.2.3",
     "mkdocs-rss-plugin>=1.19.0",
 ]
 

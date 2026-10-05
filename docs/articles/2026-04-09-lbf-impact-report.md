@@ -3,7 +3,7 @@ colour: methodology
 title: "From funding to impact: how can funders understand what really changes?"
 author: Sarah Gammoh
 date: 2026-04-10
-image: "images/articles/Charizone Lloyds bank foundation impact report.png"
+image: "images/articles/charizone-lloyds-bank-foundation-impact-report.png"
 ---
 
 
@@ -17,7 +17,7 @@ Working with [Lloyds Bank Foundation for England and Wales](https://www.lloydsba
 
 ## From stories to evidence: the approach
 
-<img src="/images/articles/2026-04-10 Charizone LBF Report testimonial.png" 
+<img src="/images/articles/2026-04-10-charizone-lbf-report-testimonial.png" 
      alt="LBF testimonial" 
      width="570" 
      align="right" 
@@ -47,7 +47,7 @@ A clear story emerges.
 Taken together, this points to the importance of flexible, tailored support and strong partnerships, rather than one-size-fits-all approaches.
 
 ## Implications for funders, the sector and policymakers
-<img src="/images/articles/2026-04-10 Charizone LBF Report sector feedback.png" 
+<img src="/images/articles/2026-04-10-charizone-lbf-report-sector-feedback.png" 
      alt="LBF sector feedback" 
      width="570" 
      align="right" 
