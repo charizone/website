@@ -43,7 +43,6 @@ nav:
 watch:
   - cz_theme
   - cz_blog
-  - add_charities.py
 extra:
   appointment_booker: https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Rif_CiZSLSMJzbvdhHA7O89AhkuBYkC3L6y36LXc2CutxwzJHDEI8owDrFtI12l92WrZmP0Y5?gv=true
   twitter: https://twitter.com/Charizone_UK
